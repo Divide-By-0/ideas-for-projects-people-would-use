@@ -5,9 +5,11 @@
 1. [All Software](#all-software)
 
 Inspired by https://github.com/joereynolds/what-to-code.
+
 If you make any of these, let me know and I can credit you in contributors!
-If you make them and they're open source, I will help post to relevant communities if you'd like!
+If you make them and they're open source, I can help brainstorm relevant communities or users.
 Stay tuned -- this list will reach at least 100 ideas, as I have over 400 in my list (the majority of them patently riduculous).
+Feel free to use these for a hackathon, side project, or hacklodge project -- I'd love to see them get built!
 
 ## Contribution & pull requests
 
@@ -17,7 +19,7 @@ the project's heading and your repo's url to
 
 <a name="all-software"></a>
 
-### All Software
+## All Software
 
 - A command line music theory program
 - A collection of all large scale health studies for foods, ranked on a single number line of toxicity with error bars. Can scrape correlation/p values and error bars directly from papers.
