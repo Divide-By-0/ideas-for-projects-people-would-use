@@ -1,16 +1,8 @@
-# app-ideas-people-would-use
+# App/Webapp/Extension Software Ideas People Would Actually Use
 
 ## Index
 
-1. [Command line](#command-line)
-2. [Local, non-interactive tools](#non-interactive)
-3. [Desktop apps](#desktop)
-4. [Games](#games)
-5. [Improvements/Features](#improvements) - Most of these are pull requests that could be made to improve various thing I like
-6. [Re-implementations](#reimplementation)- These ideas already exist but they're fun anyway
-7. [Vim](#vim) - Various functions I would quite like to have in Vim
-8. [Websites](#websites) - Original website ideas that I'll never get around to doing :(
-9. [Service](#service) - ???
+1. [All Software](#all-software)
 
 Inspired by https://github.com/joereynolds/what-to-code.
 If you make any of these, let me know and I can credit you in contributors!
@@ -23,9 +15,9 @@ Want to be added to the list of people that have completed a project? Just add
 the project's heading and your repo's url to
 [CONTRIBUTORS.md](./CONTRIBUTORS.md) as a PR!
 
-<a name="command-line"></a>
+<a name="all-software"></a>
 
-### Command line
+### All Software
 
 - A command line music theory program
 - A collection of all large scale health studies for foods, ranked on a single number line of toxicity with error bars. Can scrape correlation/p values and error bars directly from papers.
@@ -54,4 +46,3 @@ the project's heading and your repo's url to
 - Take a pic of a wine stand and recommend wines by rating to price ratio.
 - A chrome extension that goes through an Instacart/Amazon Fresh cart and finds them on an ingredient website and scraps the ingredients, and flags foods with bad ingredients like hydrogenated oils (preferably, I would see all foods flagged in Deep Nutrition by Cate Shanahan, and I'm sure she would blast your app to her 13K+ twitter followers).
 - Nerve (like the movie) but to avoid the horror scenarios, all submitted new dares must be moderated for safety. Alternatively mix and match a reasonable list of locations and actions.
--
