@@ -1,4 +1,4 @@
-# App/Webapp/Extension Software Ideas People Would Actually Use
+# Software Ideas People Would Actually Use
 
 ## Index
 
@@ -9,7 +9,7 @@ Inspired by https://github.com/joereynolds/what-to-code.
 If you make any of these, let me know and I can credit you in contributors!
 If you make them and they're open source, I can help brainstorm relevant communities or users.
 Stay tuned -- this list will reach at least 100 ideas, as I have over 400 in my list (the majority of them patently riduculous).
-Feel free to use these for a hackathon, side project, or hacklodge project -- I'd love to see them get built!
+Feel free to use these for a hackathon, side project, or hacklodge project -- I'd love to see them get built! They include apps, webapps, and chrome extensions.
 
 ## Contribution & pull requests
 
@@ -21,9 +21,8 @@ the project's heading and your repo's url to
 
 ## All Software
 
-- A command line music theory program
 - A collection of all large scale health studies for foods, ranked on a single number line of toxicity with error bars. Can scrape correlation/p values and error bars directly from papers.
-- Resulting graphic should look like: https://cdn.vox-cdn.com/uploads/chorus_asset/file/3523382/Medical_studies-05.0.png
+  - Resulting graphic should look like: https://cdn.vox-cdn.com/uploads/chorus_asset/file/3523382/Medical_studies-05.0.png
 - Remotely control your grandparents computer/phone with one link click that you can send them.
 - Automatic haircut chooser -- input a picture, and based on aligning you to a celebrity with similar facial features, overlay celebrity hair on top of yours to find a new style or to show your barber.
 - A creative startup name finder powered by baby names. Find meanings for baby babes, and make a site where you can input keywords your startup is about, and it will print resulting baby names with meanings with the highest keyword overlap (or min distance in the word embedding space).
