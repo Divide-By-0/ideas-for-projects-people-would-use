@@ -18,3 +18,8 @@ Aayush Gupta (me)
 
 Link: https://autolatex.com <br>
 Press: [Nature](https://www.nature.com/articles/d41586-019-01796-1)
+
+## A program that takes your spotify playlist and converts it to a clean version with the same songs and removes it if it can't find any. Used to be able to listen to my playlists in the car with my parents
+
+Arman Rafati
+Link: https://github.com/code-arman/Cleanify
