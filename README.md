@@ -11,7 +11,7 @@ These ideas, as far as I know, don't exist yet (or have done a poor job with SEO
 If you make any of these, let me know and I can credit you in contributors!
 If you make them and they're open source, I can help brainstorm relevant communities or users.
 Stay tuned -- this list will reach at least 100 ideas, as I have several hundred in my list (the majority of them patently riduculous and not a good use of anyone's time to read).
-Feel free to use these for a hackathon, side project, or hacklodge project -- I'd love to see them get built! They include apps, webapps, and chrome extensions.
+Feel free to use these for a hackathon, side project, or hacklodge project -- I'd love to see them get built! They include apps, webapps, and chrome extensions. Would appreciate idea credit to Divide-By-0/linking back to this repo!
 
 ## Contribution & pull requests
 
