@@ -3,15 +3,15 @@
 ## Index
 
 [All Software](#all-software)
-   [Music](### Music)
-   [Health](### Health)
-   [Infra](### Infra)
-   [Family](### Family)
-   [Politics](### Politics)
-   [Image Processing](### Image Processing)
-   [Research](### Research)
-   [Text Processing/NLP](### Text Processing/NLP)
-   [Fun](### Fun)
+- [Music](#Music)
+- [Health](#Health)
+- [Infra](#Infra)
+- [Family](#Family)
+- [Politics](#Politics)
+- [Image Processing](#Image-Processing)
+- [Research](#Research)
+- [Text Processing/NLP](#Text-Processing)
+- [Fun](#Fun)
 
 Inspired by https://github.com/joereynolds/what-to-code.
 
@@ -35,6 +35,7 @@ the project's heading and your repo's url to
 
 ## All Software
 
+<a name="Music"></a>
 ### Music
 - A program where you can put in a song or artist, and it finds friends who have listened to that artist/song (by # of occurrences in their public playlists).
    - This is surprisingly highly requested, see [thread 1](https://community.spotify.com/t5/Closed-Ideas/Social-See-Friends-who-also-listen-to-an-Artist/idi-p/4397516), [thread 2](https://community.spotify.com/t5/Closed-Ideas/Sort-By-Friends-Who-Listen-To-the-Same-Artists/idi-p/72047), and [thread 3](https://community.spotify.com/t5/Closed-Ideas/Social-Listenalike-but-for-friends/idi-p/5041383). 
@@ -48,6 +49,7 @@ the project's heading and your repo's url to
 - An audio recorder where you can tap to add a flag at any time -- you can attach a note if you want, but the purpose is that later you can quickly skip to that time and know something important is there.
   - Can do this for a timer app/song player also, not just an audio recorder.
  
+<a name="Health"></a>
 ### Health
 - A collection of all large scale health studies for foods, ranked on a single number line of toxicity with error bars. Can scrape correlation/p values and error bars directly from papers.
    - Resulting graphic should look like: https://cdn.vox-cdn.com/uploads/chorus_asset/file/3523382/Medical_studies-05.0.png
@@ -57,17 +59,21 @@ the project's heading and your repo's url to
 - A spoon/other device that emits sweet odors without having sugar in the food, to inspire kids to eat more of their food without being unhealthy. 
   - [This paper](http://scholar.google.com/scholar_lookup?&title=The%20handbook%20of%20multisensory%20processing&pages=69-83&publication_year=2004&author=Stevenson%2CRJ&author=Boakes%2CRA)  says "certain olfactory stimuli, such as vanilla, caramel, or strawberry aromas for those in the west, can also modulate, or perhaps even give rise to, the perception of sweetness in an otherwise tasteless solution puts pressure on the definition of taste. ([source](https://flavourjournal.biomedcentral.com/articles/10.1186/s13411-015-0040-2)) "
 
+<a name="Infra"></a>
 ### Infra
 - A lightweight create-react-app for ML apps. This starter app would compile on first clone and run React, Tornado, and SQLAlchemy (easiest to do with Parcel). Would be nice to have a 'yarn deploy' or something that does a one click deploy to GCP/AWS as well. Would be cool if starter apps were just email collectors, commonly the first stage of hype in a startup anyways.
 
+<a name="Family"></a>
 ### Family
 - Remotely control your grandparents computer/phone with one link click that you can send them.
 
+<a name="Politics"></a>
 ### Politics
 - Rate your own affinity towards topics and get a ranked list of candidates that most aligned based on the wiki grid, like a buzzfeed quiz for local candidates.
   - Prefer to make this automated by building a scraping service for all candidates on ballotpedia comparing state senators etc. and scraping their beliefs from their speeches on youtube transcripts or personal links or twitter etc. Can also train on the wikipedia grid of candidate beliefs/policy votes. Perhaps this is not enough info on local leaders -- might require an embedding/LDA type approach to analyzing their public profile.
   - Existing solutions are lacking: isidewith (only for presidential race), voteredge (ugly), ballotpedia (no side by side or issues grid).
  
+<a name="Image-Processing"></a>
 ### Image Processing
 - An actually good online red eye fixer.
 - Automatically make photos look good by aligning edge detection with rule of thirds. Perhaps as a Chrome extension that runs when you hit crop on a google photos image link?
@@ -78,10 +84,12 @@ the project's heading and your repo's url to
 - Auto Analyze Game Footage: A drone above a sports game keeps track of all the footage and then you infer the plays the opponent is making based on similarity of movement, so you can get the strategies of an arbitrary team. Can also do with phone cameras possibly.
 - Make app/Chrome extension/background integration to autotag google photos images with ongoing calendar events, so I can search for the event and see the photos from that. Useful for class notes (if all your classes are on your calendar) and generally increasing searchability of photos.
 
+<a name="Research"></a>
 ### Research
 - An extension where you could double click a citation # in a paper and it would automatically open the pdf from jstor or other 👀 sources.
 - Make app that embeds paperswithcode.com implementations directly to test (not generally, but a select cool few ones).
 
+<a name="###Text-Processing"></a>
 ### Text Processing/NLP
 - A creative startup name finder powered by baby names. Find meanings for baby babes, and make a site where you can input keywords your startup is about, and it will print resulting baby names with meanings with the highest keyword overlap (or min distance in the word embedding space).
    - Inpsired by https://www.joinleelo.com/blog/how-we-came-up-with-the-name-leelo
@@ -89,6 +97,7 @@ the project's heading and your repo's url to
 - Convert chat in messenger to lowercase automatically (for speech to text or bad autocorrect).
 - Keyboard shortcut for automatically fixing spelling in Google Docs+.
 
+<a name="Fun"></a>
 ### Fun
 - Automatic haircut chooser -- input a picture, and based on aligning you to a celebrity with similar facial features, overlay celebrity hair on top of yours to find a new style or to show your barber.
 - Wiki game with subreddits and sidebars.
