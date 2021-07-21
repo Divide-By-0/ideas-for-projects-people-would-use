@@ -2,7 +2,16 @@
 
 ## Index
 
-1. [All Software](#all-software)
+[All Software](#all-software)
+   [Music](### Music)
+   [Health](### Health)
+   [Infra](### Infra)
+   [Family](### Family)
+   [Politics](### Politics)
+   [Image Processing](### Image Processing)
+   [Research](### Research)
+   [Text Processing/NLP](### Text Processing/NLP)
+   [Fun](### Fun)
 
 Inspired by https://github.com/joereynolds/what-to-code.
 
