@@ -1,5 +1,14 @@
 # Software Ideas People Would Actually Use
 
+Inspired by https://github.com/joereynolds/what-to-code.
+
+These ideas, as far as I know, don't exist yet (or have done a poor job with SEO on Google). These are also ideas I desperately wish I could have tried at least once, meaning many others probably have as well. It's difficult to stay motivated coding or on a side project when you don't know if people will use it, or if your end goal is solving a solved problem. This list aims to fix that.
+
+If you make any of these, let me know and I can credit you in contributors!
+If you make them and they're open source, I can help brainstorm relevant communities or users.
+Stay tuned -- this list will reach at least 100 ideas, as I have several hundred in my list (the majority of them patently riduculous and not a good use of anyone's time to read).
+Feel free to use these for a hackathon, side project, or hacklodge project -- I'd love to see them get built! They include apps, webapps, and chrome extensions. Would appreciate idea credit to Divide-By-0/linking back to this repo!
+
 ## Index
 
 [All Software](#all-software)
@@ -12,15 +21,6 @@
 - [Research](#Research)
 - [Text Processing/NLP](#Text-Processing)
 - [Fun](#Fun)
-
-Inspired by https://github.com/joereynolds/what-to-code.
-
-These ideas, as far as I know, don't exist yet (or have done a poor job with SEO on Google). These are also ideas I desperately wish I could have tried at least once, meaning many others probably have as well. It's difficult to stay motivated coding or on a side project when you don't know if people will use it, or if your end goal is solving a solved problem. This list aims to fix that.
-
-If you make any of these, let me know and I can credit you in contributors!
-If you make them and they're open source, I can help brainstorm relevant communities or users.
-Stay tuned -- this list will reach at least 100 ideas, as I have several hundred in my list (the majority of them patently riduculous and not a good use of anyone's time to read).
-Feel free to use these for a hackathon, side project, or hacklodge project -- I'd love to see them get built! They include apps, webapps, and chrome extensions. Would appreciate idea credit to Divide-By-0/linking back to this repo!
 
 ## Funding
 If you are inspired by this list to build a listed its, feel free to email aayushg@mit.edu for funding+hosting for the project. 
