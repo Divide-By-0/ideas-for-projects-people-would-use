@@ -86,9 +86,10 @@ the project's heading and your repo's url to
 - Make app/Chrome extension/background integration to autotag google photos images with ongoing calendar events, so I can search for the event and see the photos from that. Useful for class notes (if all your classes are on your calendar) and generally increasing searchability of photos.
 
 <a name="Research"></a>
-### Research
+### Research/School
 - An extension where you could double click a citation # in a paper and it would automatically open the pdf from jstor or other 👀 sources.
 - Make app that embeds paperswithcode.com implementations directly to test (not generally, but a select cool few ones).
+- Tunemeet for classes: It's known that cohort based learning is powerful. An extension students can get that drops a chat box in their window if they're watching the same video (class zoom recordings or OCW content to start) as another student at the same time.
 
 <a name="###Text-Processing"></a>
 ### Text Processing/NLP
@@ -110,4 +111,4 @@ the project's heading and your repo's url to
 - A twitter bot that tweets the opposite of what a Twitter thought leader influencer says, and is therefore just as insightful
 - AI for deep sea mining: Recently there's been a lot of new deep sea mapping data, and there's a wealth of minerals/new species to be found but I don't think anyones done the ML to do it
 - A bidding platform for radio ads, where people put their ads and you play the highest paying ones over a transmission and give them the time and station and location, and the website verifies it with audio matching from tune-in or something. Basically transfers revenue from radio station to radio hosts
-  - I think college radio stations would really like thjs
+  - I think college radio stations would really like this
