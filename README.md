@@ -60,8 +60,9 @@ the project's heading and your repo's url to
   - [This paper](http://scholar.google.com/scholar_lookup?&title=The%20handbook%20of%20multisensory%20processing&pages=69-83&publication_year=2004&author=Stevenson%2CRJ&author=Boakes%2CRA)  says "certain olfactory stimuli, such as vanilla, caramel, or strawberry aromas for those in the west, can also modulate, or perhaps even give rise to, the perception of sweetness in an otherwise tasteless solution puts pressure on the definition of taste. ([source](https://flavourjournal.biomedcentral.com/articles/10.1186/s13411-015-0040-2)) "
 
 <a name="Infra"></a>
-### Infra
+### Coding
 - A lightweight create-react-app for ML apps. This starter app would compile on first clone and run React, Tornado, and SQLAlchemy (easiest to do with Parcel). Would be nice to have a 'yarn deploy' or something that does a one click deploy to GCP/AWS as well. Would be cool if starter apps were just email collectors, commonly the first stage of hype in a startup anyways.
+- A debugger to catch bugs like: two functions being the same and differing in inconsistent ways
 
 <a name="Family"></a>
 ### Family
@@ -96,6 +97,7 @@ the project's heading and your repo's url to
 - Another startup name generator - input 2+ keywords, then try all reasonable pairwise ship names till you reach an untaken name .com/.ai/.io/other top TLD
 - Convert chat in messenger to lowercase automatically (for speech to text or bad autocorrect).
 - Keyboard shortcut for automatically fixing spelling in Google Docs+.
+- A chrome extension that adds the per ounce/unit price to Instacart the same way Amazon does
 
 <a name="Fun"></a>
 ### Fun
@@ -105,4 +107,7 @@ the project's heading and your repo's url to
 - An actually good Chrome extension to keep you off Facebook etc. Tracks how long you spend on degenerate sites, then when you go to Facebook etc, it says "On average, you think you'll spend 16 minutes, but you end up spending 31 minutes on this tab. How many minutes do you think you'll spend this time?" And at the end of that # of minutes, it makes the page black and white so you can continue to browse but it'll be slightly uncomfortable.
   - Can also do for apps on phone.
 - Windows automatic unzipper. When something is downlaoded, unzip it to its own folder then delete the original zip file (Macs do this already, but not Windows).
+- A twitter bot that tweets the opposite of what a Twitter thought leader influencer says, and is therefore just as insightful
 - AI for deep sea mining: Recently there's been a lot of new deep sea mapping data, and there's a wealth of minerals/new species to be found but I don't think anyones done the ML to do it
+- A bidding platform for radio ads, where people put their ads and you play the highest paying ones over a transmission and give them the time and station and location, and the website verifies it with audio matching from tune-in or something. Basically transfers revenue from radio station to radio hosts
+  - I think college radio stations would really like thjs
