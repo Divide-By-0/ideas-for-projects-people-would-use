@@ -23,7 +23,7 @@ Feel free to use these for a hackathon, side project, or hacklodge project -- I'
 - [Fun](#Fun)
 
 ## Funding
-If you are inspired by this list to build a listed its, feel free to email aayushg@mit.edu for funding+hosting for the project. 
+If you are inspired by this list to build a listed idea, feel free to email aayushg@mit.edu for funding+hosting for the project. 
 
 ## Contribution & pull requests
 
