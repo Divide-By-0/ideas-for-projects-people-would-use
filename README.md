@@ -18,6 +18,7 @@ Feel free to use these for a hackathon, side project, or hacklodge project -- I'
 - [Family/Roommates](#Family-Roommates)
 - [Politics](#Politics)
 - [Image Processing](#Image-Processing)
+- [Video Processing](#Video-Processing)
 - [Research/School](#Research)
 - [Text Processing/NLP](#Text-Processing)
 - [Fun](#Fun)
@@ -81,22 +82,29 @@ the project's heading and your repo's url to
 <a name="Politics"></a>
 ### Politics
 - Rate your own affinity towards topics and get a ranked list of candidates that most aligned based on the wiki grid, like a buzzfeed quiz for local candidates.
-  - Prefer to make this automated by building a scraping service for all candidates on ballotpedia comparing state senators etc. and scraping their beliefs from their speeches on youtube transcripts or personal links or twitter etc. Can also train on the wikipedia grid of candidate beliefs/policy votes. Perhaps this is not enough info on local leaders -- might require an embedding/LDA type approach to analyzing their public profile.
+  - Prefer to make this automated by building a scraping service for all candidates on ballotpedia comparing state senators etc. and scraping their beliefs from their speeches on youtube transcripts or personal links or twitter etc. Can also train on the wikipedia grid of candidate beliefs/policy votes. 
   - Existing solutions are lacking: isidewith (only for presidential race), voteredge (ugly), ballotpedia (no side by side or issues grid).
+- Given a county, it automatically scrapes candidates running for local office and analyzes their social medias/public statements to infer possible political stances. If this is not enough info on local leaders, it might require an embedding/LDA type approach to analyze their public profile.
  
 <a name="Image-Processing"></a>
 ### Image Processing
-- Convert any youtube video to the trapezoid holographic projection (like [this](https://www.instructables.com/3D-Holograms-Using-Phone/)) by running depth perception AI on the video, and changing the depths that different pixels are at on different screens, so you see a depth modulated image on top of your screen, holographically, for any video!
-- A dashcam that alerts you if someone is giving you a parking ticket when you're away. Bonus points if it tells the cop that you'll be back in just a minute.
 - Automatically make photos look good by aligning edge detection with the rule of thirds. Perhaps as a Chrome extension that runs when you hit crop on a google photos image link?
-- Take a pic of a wine stand and recommend wines by rating to price ratio.
+- Take a picture of a wine stand, and recommend wines by rating to price ratio.
+- An actually good online red eye fixer.
+- Make app/Chrome extension/background integration to autotag Google Photos images with ongoing calendar events, so I can search for the event and see the photos from that. Useful for class notes (if all your classes are on your calendar) and generally increasing searchability of photos.
+
+<a name="Video-Processing"></a>
+### Video Processing
+- Convert any youtube video to the trapezoid holographic projection (like [this](https://www.instructables.com/3D-Holograms-Using-Phone/)) by running depth perception AI on the video, and changing the depths that different pixels are at on different screens, so you see a depth modulated image on top of your screen, holographically, for any video!
 - Animation Generator: AI labels each frame in a video with the contents in text (representation learning), then based on given labels, generate missing labels/coherent story, then generate an animation based on all those labels. as inspired by eden bensaid, can deepfake style transfer all images to be the same style.
+- A dashcam that alerts you if someone is giving you a parking ticket when you're away. Bonus points if it tells the cop that you'll be back in just a minute.
+- Auto Analyze Game Footage: A drone above a sports game keeps track of all the footage and then you infer the plays the opponent is making based on similarity of movement, so you can get the strategies of an arbitrary team. Can also do with phone cameras possibly.
+- A hidden camera on a lapel that lets you record all poker hands at a casino then analyses them for you.
 - Trippy Video Generator: A superresolution/style transfer model runs on each frame of a video independently, leading to a very raw flipbook-style animation. Perhaps generate a trippy video from a regular video. For instance, upresolutioning every frame, or recoloring each frame (or any other transformation) independently with an imperfect generative adversarial network to have disconnected images but a connected idea.
    - Note: This got built! See https://aimlabs.mit.edu/ > Stylish Videos!
-- An actually good online red eye fixer.
-- Auto Analyze Game Footage: A drone above a sports game keeps track of all the footage and then you infer the plays the opponent is making based on similarity of movement, so you can get the strategies of an arbitrary team. Can also do with phone cameras possibly.
-- Make app/Chrome extension/background integration to autotag google photos images with ongoing calendar events, so I can search for the event and see the photos from that. Useful for class notes (if all your classes are on your calendar) and generally increasing searchability of photos.
 - Fill in people's videos when their cameras are off. By using the speech to face paper in a browser extension, fill in other's inactive google hangouts/zoom logos with low bitrate moving bitmojis, and send yours as that when your camera is off. Cool research done at 5.3 (https://arxiv.org/pdf/1905.09773.pdf).
+- Given a (lecture) video, edit it so that automatically speeds up during times where no actual lecture content is delivered (ex. an instructor talking about their dog), and slow down when content is dense (ex. slide full of equations which the lecturer is going through). Use both visual info (slides) and audio (what the lecturer is saying). Example use case: a student wants to watch a recorded lecture video in an optimal manner that maximizes learning in a shorter amount of time. 
+
 
 <a name="Research"></a>
 ### Research/School
