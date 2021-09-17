@@ -15,12 +15,14 @@ Feel free to use these for a hackathon, side project, or hacklodge project -- I'
 - [Music](#Music)
 - [Health](#Health)
 - [Infra](#Infra)
-- [Family](#Family)
+- [Family/Roommates](#Family-Roommates)
 - [Politics](#Politics)
 - [Image Processing](#Image-Processing)
-- [Research](#Research)
+- [Research/School](#Research)
 - [Text Processing/NLP](#Text-Processing)
 - [Fun](#Fun)
+- [Shopping](#Shopping)
+- [Crypto](#Crypto)
 
 ## Funding
 If you are inspired by this list to build a listed idea, feel free to email aayushg@mit.edu for funding+hosting for the project. 
@@ -48,14 +50,21 @@ the project's heading and your repo's url to
 - Automatically nightcore songs and post them as YouTube compilations
 - An audio recorder where you can tap to add a flag at any time -- you can attach a note if you want, but the purpose is that later you can quickly skip to that time and know something important is there.
   - Can do this for a timer app/song player also, not just an audio recorder.
- 
+- Kaggle for music production -- the site provides samples and teaches the general structure to layer them, then has a periodic competition to layer them to create the best beat [Note: Kenny Beats runs a similar competition but without the lessons].
+- A plugin that just takes a piano melody and adds corresopnding drums and reverb and a beat and a chorus and everything just off those notes (like the [harmony7](https://mitadmissions.org/blogs/entry/we-made-a-website/) MIT web.lab app).
+- Scrape a karaoke or music video from YouTube, matches the pitch to notes (FFT?), then makes bars at those pitches for you to hit, and overlays your current singing on top of it. Allows you to quickly train pitch like Yousician or Riyaz, but for any song. Can be used for live singing, singing covers at home, or singing lessons.
+- Website that takes a movie name, looks up sound track, and converts to a Spotify playlist automatically.
+- Little dancer: Use echo nest labs and FFT to sync a bunch of clips to a specific BPM or sequence of beats. Using some beat detector (likely also FFT), have a mini cheerleader or dancing figure synced to the beat in the bottom corner of your laptop.
+
 <a name="Health"></a>
 ### Health
+- Sleep tracker app that detects when you fall asleep. It then turns off your sleep podcast/asmr and makes sure you get as close to 8 hours as possible, and wakes you up in a light sleep state. Note that existing sleep cycle apps force a wakeup time, but time-to-sleep is often so inconsistent that chances are you won't be getting 8 hours.
+- Patient radiology in your own hands: An app that lets you take your physicians radiology image (or a picture of it), generate the hotspots of bilaterally asymmetric places or ML-determined anomalies, then patient can ask them to double check those spots and comment on what it is. Inspired since radiologists eyes pause at the place where people have tumors, according to some studies -- being more intentional about this could be pretty innovative.
 - A collection of all large scale health studies for foods, ranked on a single number line of toxicity with error bars. Can scrape correlation/p values and error bars directly from papers.
    - Resulting graphic should look like: https://cdn.vox-cdn.com/uploads/chorus_asset/file/3523382/Medical_studies-05.0.png
 - Search portal where you put in a dish and it says what percent of online recipes of that dish have nuts, maybe by country too. Done by scraping recipes with country of origin to determine what to avoid when allergic people eat that cuisine, and create an intuition about what allergens and dishes to avoid for a certain culture of restraunt.
-- A chrome extension that goes through an Instacart/Amazon Fresh cart and finds them on an ingredient website and scraps the ingredients, and flags foods with bad ingredients like hydrogenated oils
-   - There are a number of pop science-y nutrition authors who would absolutely blast this to thousands of moms on Twitter
+- A chrome extension that goes through an Instacart/Amazon Fresh cart and finds them on an ingredient website and scrapes the ingredients, and flags foods with bad ingredients like hydrogenated seed oils
+   - There are a number of nutrition authors (even pop-sciencey ones) who would absolutely blast this to thousands of moms on Twitter
 - A spoon/other device that emits sweet odors without having sugar in the food, to inspire kids to eat more of their food without being unhealthy. 
   - [This paper](http://scholar.google.com/scholar_lookup?&title=The%20handbook%20of%20multisensory%20processing&pages=69-83&publication_year=2004&author=Stevenson%2CRJ&author=Boakes%2CRA)  says "certain olfactory stimuli, such as vanilla, caramel, or strawberry aromas for those in the west, can also modulate, or perhaps even give rise to, the perception of sweetness in an otherwise tasteless solution puts pressure on the definition of taste. ([source](https://flavourjournal.biomedcentral.com/articles/10.1186/s13411-015-0040-2)) "
 
@@ -64,9 +73,10 @@ the project's heading and your repo's url to
 - A lightweight create-react-app for ML apps. This starter app would compile on first clone and run React, Tornado, and SQLAlchemy (easiest to do with Parcel). Would be nice to have a 'yarn deploy' or something that does a one click deploy to GCP/AWS as well. Would be cool if starter apps were just email collectors, commonly the first stage of hype in a startup anyways.
 - A debugger to catch bugs like: two functions being the same and differing in inconsistent ways
 
-<a name="Family"></a>
-### Family
+<a name="Family-Roommates"></a>
+### Family/Roommates
 - Remotely control your grandparents computer/phone with one link click that you can send them.
+- Make an algorithm for a mounted camera that sends SMS notifications (perhaps if your roommate leaves dirty dishes?) based off  this [similar one](https://medium.com/@ageitgey/snagging-parking-spaces-with-mask-r-cnn-and-python-955f2231c400) for parking spaces.
 
 <a name="Politics"></a>
 ### Politics
@@ -76,20 +86,24 @@ the project's heading and your repo's url to
  
 <a name="Image-Processing"></a>
 ### Image Processing
-- An actually good online red eye fixer.
-- Automatically make photos look good by aligning edge detection with rule of thirds. Perhaps as a Chrome extension that runs when you hit crop on a google photos image link?
+- Convert any youtube video to the trapezoid holographic projection (like [this](https://www.instructables.com/3D-Holograms-Using-Phone/)) by running depth perception AI on the video, and changing the depths that different pixels are at on different screens, so you see a depth modulated image on top of your screen, holographically, for any video!
+- A dashcam that alerts you if someone is giving you a parking ticket when you're away. Bonus points if it tells the cop that you'll be back in just a minute.
+- Automatically make photos look good by aligning edge detection with the rule of thirds. Perhaps as a Chrome extension that runs when you hit crop on a google photos image link?
 - Take a pic of a wine stand and recommend wines by rating to price ratio.
 - Animation Generator: AI labels each frame in a video with the contents in text (representation learning), then based on given labels, generate missing labels/coherent story, then generate an animation based on all those labels. as inspired by eden bensaid, can deepfake style transfer all images to be the same style.
 - Trippy Video Generator: A superresolution/style transfer model runs on each frame of a video independently, leading to a very raw flipbook-style animation. Perhaps generate a trippy video from a regular video. For instance, upresolutioning every frame, or recoloring each frame (or any other transformation) independently with an imperfect generative adversarial network to have disconnected images but a connected idea.
    - Note: This got built! See https://aimlabs.mit.edu/ > Stylish Videos!
+- An actually good online red eye fixer.
 - Auto Analyze Game Footage: A drone above a sports game keeps track of all the footage and then you infer the plays the opponent is making based on similarity of movement, so you can get the strategies of an arbitrary team. Can also do with phone cameras possibly.
 - Make app/Chrome extension/background integration to autotag google photos images with ongoing calendar events, so I can search for the event and see the photos from that. Useful for class notes (if all your classes are on your calendar) and generally increasing searchability of photos.
+- Fill in people's videos when their cameras are off. By using the speech to face paper in a browser extension, fill in other's inactive google hangouts/zoom logos with low bitrate moving bitmojis, and send yours as that when your camera is off. Cool research done at 5.3 (https://arxiv.org/pdf/1905.09773.pdf).
 
 <a name="Research"></a>
 ### Research/School
 - An extension where you could double click a citation # in a paper and it would automatically open the pdf from jstor or other 👀 sources.
 - Make app that embeds paperswithcode.com implementations directly to test (not generally, but a select cool few ones).
 - Tunemeet for classes: It's known that cohort based learning is powerful. An extension students can get that drops a chat box in their window if they're watching the same video (class zoom recordings or OCW content to start) as another student at the same time.
+- A script to apply to all companies on Glassdoor with just your LinkedIn, and doublechecking its autogenerated answers to all questions with the user, before it batch autosubmits all of it. Will likely require some Selenium in Python.
 
 <a name="###Text-Processing"></a>
 ### Text Processing/NLP
@@ -99,16 +113,30 @@ the project's heading and your repo's url to
 - Convert chat in messenger to lowercase automatically (for speech to text or bad autocorrect).
 - Keyboard shortcut for automatically fixing spelling in Google Docs+.
 - A chrome extension that adds the per ounce/unit price to Instacart the same way Amazon does
+- App that finds old messenger chats you left on read or unread, or unfinished threads, so you can respond to them. Requires probably mapping the last few texts to a score of how likely it was to be the end of a conversation.
+- Talk to an 'painting' and have it talk back. Speech-to-text on your voice, gpt-3 for conversation, tokkingheads/other deepfakes for the response. Like Harry Potter paintings.
 
 <a name="Fun"></a>
 ### Fun
+- A better smart time-based phone password lock. For instance, if the current time is AB:CD, the user can set their password as say, (A+B), (|C-D|), (A * B % 10), (D) or a general user-coded function, so it changes every minute. Existing solutions only allow rudimentary functions.
 - Automatic haircut chooser -- input a picture, and based on aligning you to a celebrity with similar facial features, overlay celebrity hair on top of yours to find a new style or to show your barber.
+- Automatically take a picture of your face and take cross ratios and edge detection/curve detection to determine best sunglasses based on face shape or similar celebrities, customized sunglasses.
 - Wiki game with subreddits and sidebars.
 - Nerve (like the movie) but to avoid the horror scenarios, all submitted new dares must be moderated for safety. Alternatively mix and match a reasonable list of locations and actions.
 - An actually good Chrome extension to keep you off Facebook etc. Tracks how long you spend on degenerate sites, then when you go to Facebook etc, it says "On average, you think you'll spend 16 minutes, but you end up spending 31 minutes on this tab. How many minutes do you think you'll spend this time?" And at the end of that # of minutes, it makes the page black and white so you can continue to browse but it'll be slightly uncomfortable.
   - Can also do for apps on phone.
-- Windows automatic unzipper. When something is downlaoded, unzip it to its own folder then delete the original zip file (Macs do this already, but not Windows).
-- A twitter bot that tweets the opposite of what a Twitter thought leader influencer says, and is therefore just as insightful
+- Windows automatic unzipper. When something is downloaded, unzip it to its own folder then delete the original zip file (Macs do this already, but not Windows).
+- Intersite with a live count of how many people are watching. OG Silicon Valley watchers will know what this means.
 - AI for deep sea mining: Recently there's been a lot of new deep sea mapping data, and there's a wealth of minerals/new species to be found but I don't think anyones done the ML to do it
-- A bidding platform for radio ads, where people put their ads and you play the highest paying ones over a transmission and give them the time and station and location, and the website verifies it with audio matching from tune-in or something. Basically transfers revenue from radio station to radio hosts
-  - I think college radio stations would really like this
+- A bidding platform for radio ads, where corporations/clubs/people put their ads, and radio hosts play the highest paying ones and post the time and station and location. Once the site auto-verifies it with audio matching from tune-in + shazam type system. Basically transfers revenue from radio station to radio hosts.
+  - I think college radio stations like WMBR would really like this
+- A Twitter bot that tweets the opposite of what a Twitter thought leader influencer says, and is therefore just as insightful.
+- Run analysis on which dance teams placed in what rank, in order to see correlation with show order that they performed in, at shows like the Desi Dance Network.
+
+<a name="Shopping"></a>
+### Shopping
+- An Amazon per ounce/count calculation that actually works all the time, and the equivalent for Instacart, Walmart, etc
+
+<a name="Crypto"></a>
+### Crypto
+- Add an actually nice frontend to https://github.com/nulven/zk-polling and have the first proof-of-concept anonymous group posting app powered by zero knowledge proofs
