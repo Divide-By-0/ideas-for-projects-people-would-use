@@ -47,7 +47,7 @@ the project's heading and your repo's url to
 ### Music
 - A Chrome extension where you can put in a song or artist, and it finds friends who have listened to that artist/song (by # of occurrences in their public playlists).
    - This is surprisingly highly requested, see [thread 1](https://community.spotify.com/t5/Closed-Ideas/Social-See-Friends-who-also-listen-to-an-Artist/idi-p/4397516), [thread 2](https://community.spotify.com/t5/Closed-Ideas/Sort-By-Friends-Who-Listen-To-the-Same-Artists/idi-p/72047), and [thread 3](https://community.spotify.com/t5/Closed-Ideas/Social-Listenalike-but-for-friends/idi-p/5041383). 
-   - As [@alexgurr](https://twitter.com/alexgurr) points out, you need a Chrome extension or Facebook login to hit the friends API endpoint
+   - As [@alexgurr](https://twitter.com/alexgurr) points out, you'll need a Chrome extension to hit the friends API endpoint on Spotify web, or Facebook login to use FaceBook friends
 - A program that takes your spotify playlist and converts it to another one of remixes of the same songs, to get some variety. [DONE: See contributors.md]
 - A program that takes your spotify playlist and converts it to a clean version with the same songs, and removes it if it can't find any. Used to be able to listen to my playlists in the car with my parents. [DONE: See contributors.md]
 - A tinder for songs -- plays the most commented 10 seconds of a song on soundcloud, and adds it to a playlist if you like it. Inspired by Soundsieve (https://github.com/wilzh40/SoundSieve) which is unfortunately dead.
