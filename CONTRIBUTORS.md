@@ -1,5 +1,12 @@
 # Contributors
 
+## A program that takes your spotify playlist and converts it to another one of remixes of the same songs, to get some variety.
+**mixmello** - create remixed versions of your favourite playlists. Free and open source!
+
+Link: [mixmello.com](https://www.mixmello.com)
+
+GitHub: [alexgurr](https://github.com/alexgurr/mixmello)
+
 ## The bruh button, but for damn daniel
 
 Daniel Bessonov, Patrick Li
