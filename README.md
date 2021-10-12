@@ -12,7 +12,7 @@ If I particularly like a certain quality of implementation and you fully deploy 
 
 Stay tuned -- this list will reach at least 100 ideas, as I have several hundred in my list (the majority of them patently ridiculous and not a good use of anyone's time to read).
 
-Feel free to use these for a hackathon, side project, or hacklodge project -- I'd love to see them get built! They include apps, webapps, and chrome extensions. Would appreciate idea credit to Divide-By-0 and linking back to this repo if possible!
+Feel free to use these for a hackathon, side project, or hacklodge project -- I'd love to see them get built! They include apps, webapps, and chrome extensions. All I ask for is idea credit to Aayush/Divide-By-0 and linking back to this repo somewhere :)
 
 ## Index
 
