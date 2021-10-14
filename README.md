@@ -60,10 +60,11 @@ the project's heading and your repo's url to
 - Kaggle for music production -- the site provides samples and teaches the general structure to layer them, then has a periodic competition to layer them to create the best beat [Note: Kenny Beats runs a similar competition but without the lessons].
 - A plugin that just takes a piano melody and adds corresopnding drums and reverb and a beat and a chorus and everything just off those notes (like the [harmony7](https://mitadmissions.org/blogs/entry/we-made-a-website/) MIT web.lab app).
 - Scrape a karaoke or music video from YouTube, matches the pitch to notes (FFT?), then makes bars at those pitches for you to hit, and overlays your current singing on top of it. Allows you to quickly train pitch like Yousician or Riyaz, but for any song. Can be used for live singing, singing covers at home, or singing lessons.
-- Website that takes a movie name, looks up sound track, and converts to a Spotify playlist automatically.
+- Website that takes a video or movie, Shazam's all the songs or looks up sound tracks if they're public, and converts it to a Spotify playlist automatically.
 - Little dancer: Use echo nest labs and FFT to sync a bunch of clips to a specific BPM or sequence of beats. Using some beat detector (likely also FFT), have a mini cheerleader or dancing figure synced to the beat in the bottom corner of your laptop.
 - An app that chooses songs of a specific BPM from all your spotify liked and playlisted songs, for workouts
 - An app that plays hype beats or just a simple beat behind a podcast, so when you run you can listen and stay on pace
+- A better rap lyrics generator than basic [MCMC/RNN methods](https://www.reddit.com/r/hiphopheads/comments/acwky9/original_python_program_that_writes/); use GPT-Neo to generate reasonable distributions over next words, then re-weight GPT-3 probabilities over next words by hard-coded poetic heuristics, such as amount of internal rhyming to same syllable count on the previous line, alliteration, etc. 
 
 <a name="Health"></a>
 ### Health
