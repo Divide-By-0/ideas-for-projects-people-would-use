@@ -19,7 +19,7 @@ Feel free to use these for a hackathon, side project, or hacklodge project -- I'
 [All Software](#all-software)
 - [Music](#Music)
 - [Health](#Health)
-- [Infra](#Infra)
+- [Programming Tools](#Coding)
 - [Family/Roommates](#Family-Roommates)
 - [Politics](#Politics)
 - [Image Processing](#Image-Processing)
@@ -78,10 +78,11 @@ the project's heading and your repo's url to
 - A spoon/other device that emits sweet odors without having sugar in the food, to inspire kids to eat more of their food without being unhealthy. 
   - [This paper](http://scholar.google.com/scholar_lookup?&title=The%20handbook%20of%20multisensory%20processing&pages=69-83&publication_year=2004&author=Stevenson%2CRJ&author=Boakes%2CRA)  says "certain olfactory stimuli, such as vanilla, caramel, or strawberry aromas for those in the west, can also modulate, or perhaps even give rise to, the perception of sweetness in an otherwise tasteless solution puts pressure on the definition of taste. ([source](https://flavourjournal.biomedcentral.com/articles/10.1186/s13411-015-0040-2)) "
 
-<a name="Infra"></a>
-### Coding
+<a name="Coding"></a>
+### Programming Tools
 - A lightweight create-react-app for ML apps. This starter app would compile on first clone and run React, Tornado, and SQLAlchemy (easiest to do with Parcel). Would be nice to have a 'yarn deploy' or something that does a one click deploy to GCP/AWS as well. Would be cool if starter apps were just email collectors, commonly the first stage of hype in a startup anyways.
 - A debugger to catch bugs like: two functions being the same and differing in inconsistent ways
+- Automatically track all the keyboard shortcuts/clicks you do within an editor, and suggest/generate keybindings and commands for your most inefficient workflows (an interactive way to practice forgotten yet useful vim shortcuts, for instance)
 
 <a name="Family-Roommates"></a>
 ### Family/Roommates
