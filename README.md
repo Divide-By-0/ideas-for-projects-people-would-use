@@ -82,7 +82,7 @@ If you want to be added to the list of people that have completed a project, Req
 
 <a name="Family-Roommates"></a>
 ### Family/Roommates
-- Remotely control your grandparents computer/phone with one link click that you can send them.
+- Remotely control your grandparents computer/phone with one link click that you can send them. It should be one-time and only work for a few minutes, so hackers can't exploit it in the future. Chrome Remote Desktop requires Google sign-in from the same account in both places, which is harder to pull off for 2 different people.
 - Make an algorithm for a mounted camera that sends SMS notifications (perhaps if your roommate leaves dirty dishes?) based off  this [similar one](https://medium.com/@ageitgey/snagging-parking-spaces-with-mask-r-cnn-and-python-955f2231c400) for parking spaces.
 
 <a name="Politics"></a>
@@ -102,7 +102,7 @@ If you want to be added to the list of people that have completed a project, Req
 <a name="Video-Processing"></a>
 ### Video Processing
 - Convert any youtube video to the trapezoid holographic projection (like [this](https://www.instructables.com/3D-Holograms-Using-Phone/)) by running depth perception AI on the video, and changing the depths that different pixels are at on different screens, so you see a depth modulated image on top of your screen, holographically, for any video!
-- Animation Generator: AI labels each frame in a video with the contents in text (representation learning), then based on given labels, generate missing labels/coherent story, then generate an animation based on all those labels. as inspired by eden bensaid, can deepfake style transfer all images to be the same style.
+- Animation Generator: AI labels each frame in a video with the contents in text (representation learning), then based on given labels, generate missing labels/coherent story, then generate an animation based on all those labels. Can deepfake style transfer all images to be the same style (idea inspired by Eden Bensaid).
 - A dashcam that alerts you if someone is giving you a parking ticket when you're away. Bonus points if it tells the cop that you'll be back in just a minute.
 - Auto Analyze Game Footage: A drone above a sports game keeps track of all the footage and then you infer the plays the opponent is making based on similarity of movement, so you can get the strategies of an arbitrary team. Can also do with phone cameras possibly.
 - A hidden camera on a lapel that lets you record all poker hands at a casino then analyses them for you.
