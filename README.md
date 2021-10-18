@@ -4,13 +4,21 @@ Inspired by https://github.com/joereynolds/what-to-code.
 
 These ideas, as far as I know, don't exist yet (or have done a poor job with SEO on Google). These are also ideas I desperately wish I could have tried at least once, meaning many others probably have as well. It's difficult to stay motivated coding or on a side project when you don't know if people will use it, or if your end goal is solving a solved problem. This list aims to fix that.
 
-If you make any of them, please make them open source! Request a PR adding yourself to contributors and edit the README to mark them done. I can help brainstorm relevant communities, and send the site through a marketing flywheel that should hopefully get you your first users (still in beta though).
-
-If I particularly like a certain quality of implementation and you fully deploy the project publicly, I can award free hosting and small cash prizes ($100). This is at my discretion so people don't "game" the system or feel cheated; the point is to build the project for the learning and self-satisfaction, not the grant -- the money is mostly just so it can continue to exist :). Total bounties given counter: 1. 
-
-Stay tuned -- this list will reach at least 100 ideas, as I have several hundred in my list (the majority of them patently ridiculous and not a good use of anyone's time to read).
+This list is already over 50 ideas, and will reach 100 by 2022. Stay tuned, as I have several hundred in my list (the majority of them patently ridiculous and not a good use of anyone's time to read).
 
 Feel free to use these for a hackathon, side project, or hacklodge project -- I'd love to see them get built! They include apps, webapps, and chrome extensions. All I ask for is they are open source, credit is given to Aayush or Divide-By-0, and your repo + site link back to this list :)
+
+## Funding
+
+If I particularly like a certain quality of implementation and you fully deploy the project publicly, I can award free hosting and small cash prizes ($100). This is at my discretion so people don't game the system or feel cheated; the point is to build the project for the learning and self-satisfaction, not the grant -- the money is mostly just so it can continue to exist :). Total bounties given counter: 1. 
+
+viaprize.com has generously agreed to gaurantee this funding ($100) for 10 of these ideas -- feel free to check their website for which specific ones.
+
+## Contribution & pull requests
+
+If you make any of these, please make them open source! 
+
+If you want to be added to the list of people that have completed a project, Request a PR adding the project idea, your project's URL, and your repo's url to [CONTRIBUTORS.md](./CONTRIBUTORS.md), and edit the README to mark them done. I can help brainstorm relevant communities, and send the site through a small marketing flywheel that should hopefully get you your first users (still in beta though).
 
 ## Index
 
@@ -27,16 +35,7 @@ Feel free to use these for a hackathon, side project, or hacklodge project -- I'
 - [Fun](#Fun)
 - [Shopping](#Shopping)
 - [Crypto](#Crypto)
-
-## Funding
-If you are inspired by this list to build a listed idea, feel free to email aayushg@mit.edu for funding+hosting for the project. 
-
-## Contribution & pull requests
-
-Want to be added to the list of people that have completed a project? Just add
-the project's heading and your repo's url to
-[CONTRIBUTORS.md](./CONTRIBUTORS.md) as a PR!
-
+- 
 <a name="all-software"></a>
 
 ## All Software
