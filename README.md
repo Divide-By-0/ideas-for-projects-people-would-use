@@ -139,7 +139,7 @@ If you want to be added to the list of people that have completed a project, Req
 - Nerve (like the movie) but to avoid the horror scenarios, all submitted new dares must be moderated for safety. Alternatively mix and match a reasonable list of locations and actions.
 - An actually good Chrome extension to keep you off Facebook etc. Tracks how long you spend on degenerate sites, then when you go to Facebook etc, it says "On average, you think you'll spend 16 minutes, but you end up spending 31 minutes on this tab. How many minutes do you think you'll spend this time?" And at the end of that # of minutes, it makes the page black and white so you can continue to browse but it'll be slightly uncomfortable.
   - Can also do for apps on phone.
-- Windows automatic unzipper. When something is downloaded, unzip it to its own folder then delete the original zip file (Macs do this already, but not Windows).
+- Windows automatic unzipper. When something is downloaded, unzip it to its own folder then delete the original zip file (Macs do this already, but not Windows). [DONE: See contributors.md]
 - Intersite with a live count of how many people are watching. OG Silicon Valley watchers will know what this means.
 - AI for deep sea mining: Recently there's been a lot of new deep sea mapping data, and there's a wealth of minerals/new species to be found but I don't think anyones done the ML to do it
 - A bidding platform for radio ads, where corporations/clubs/people put their ads, and radio hosts play the highest paying ones and post the time and station and location. Once the site auto-verifies it with audio matching from tune-in + shazam type system. Basically transfers revenue from radio station to radio hosts.
