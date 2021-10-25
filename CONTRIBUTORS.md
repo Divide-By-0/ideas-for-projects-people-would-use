@@ -30,3 +30,8 @@ Press: [Nature](https://www.nature.com/articles/d41586-019-01796-1)
 
 Arman Rafati
 Link: https://github.com/code-arman/Cleanify
+
+## Windows automatic unzipper. When something is downloaded, unzip it to its own folder then delete the original zip file
+
+Aiden Magrath
+Link: https://github.com/aidenmagrath/Windows-Auto-Unzipper
