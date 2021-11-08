@@ -30,3 +30,9 @@ Press: [Nature](https://www.nature.com/articles/d41586-019-01796-1)
 
 Arman Rafati
 Link: https://github.com/code-arman/Cleanify
+
+## Trippy Videos: Upsample each frame in a video independently with a GAN, creating an entirely style-transfered universe that moves from frame to frame in a slightly jarring and hypnotic way.
+
+Milo Cress, David Wu, Alice Chen, Vincent Huang
+Demo: [30 second Video](https://streamable.com/e/dow82b)
+Repo: [Github](https://github.com/zephyrys/stylish-flask-backend)
