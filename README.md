@@ -153,4 +153,4 @@ If you want to be added to the list of people that have completed a project, Req
 
 <a name="Crypto"></a>
 ### Crypto
-- Add an actually nice frontend to https://github.com/nulven/zk-polling and have the first proof-of-concept anonymous group posting app powered by zero knowledge proofs
+- Add an actually nice frontend to https://github.com/nulven/zk-message-board and have the first proof-of-concept anonymous group posting app powered by zero knowledge proofs
