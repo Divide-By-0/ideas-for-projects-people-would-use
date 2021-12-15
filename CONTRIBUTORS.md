@@ -1,5 +1,10 @@
 # Contributors
 
+## Another program that takes your spotify playlist and converts it to another one of remixes of the same songs, to get some variety.
+scarecow
+
+Link: [Mixify](https://mixify.rocks)
+
 ## A program that takes your spotify playlist and converts it to another one of remixes of the same songs, to get some variety.
 **mixmello** - create remixed versions of your favourite playlists. Free and open source!
 
