@@ -156,3 +156,4 @@ If you want to be added to the list of people that have completed a project, Req
 <a name="Crypto"></a>
 ### Crypto
 - Add an actually nice frontend to https://github.com/nulven/zk-message-board and have the first proof-of-concept anonymous group posting app powered by zero knowledge proofs
+- [Not my ideas, but still excellent] The four ideas at the bottom of https://bitcoinmirror.org/ have not been created yet and are not technocally impossible, but could be the first trustless applications of Bitcoin on Ethereum!
