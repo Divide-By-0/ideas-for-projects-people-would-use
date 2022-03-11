@@ -72,12 +72,12 @@ If you want to be added to the list of people that have completed a project, Req
 - Search portal where you put in a dish and it says what percent of online recipes of that dish have nuts, maybe by country too. Done by scraping recipes with country of origin to determine what to avoid when allergic people eat that cuisine, and create an intuition about what allergens and dishes to avoid for a certain culture of restraunt.
 - A chrome extension that goes through an Instacart/Amazon Fresh cart and finds them on an ingredient website and scrapes the ingredients, and flags foods with user-specified bad ingredients: whether its nut allergies, seed oil aversion, or high frustose corn syrup. Various nutrition authors would certainly help market this, especially on Twitter.
 - A spoon/other device that emits sweet odors without having sugar in the food, to inspire kids to eat more of their food without being unhealthy. Can be done via diffuser instead of spoon perhaps, or just via miracle berries every meal.
-  - [This paper](http://scholar.google.com/scholar_lookup?&title=The%20handbook%20of%20multisensory%20processing&pages=69-83&publication_year=2004&author=Stevenson%2CRJ&author=Boakes%2CRA)  says "certain olfactory stimuli, such as vanilla, caramel, or strawberry aromas for those in the west, can also modulate, or perhaps even give rise to, the perception of sweetness in an otherwise tasteless solution. ([source](https://flavourjournal.biomedcentral.com/articles/10.1186/s13411-015-0040-2)) "
+  - [This paper](http://scholar.google.com/scholar_lookup?&title=The%20handbook%20of%20multisensory%20processing&pages=69-83&publication_year=2004&author=Stevenson%2CRJ&author=Boakes%2CRA)  says "certain olfactory stimuli, such as vanilla, caramel, or strawberry aromas [can] give rise to the perception of sweetness in an otherwise tasteless solution. ([source](https://flavourjournal.biomedcentral.com/articles/10.1186/s13411-015-0040-2))".
 
 <a name="Coding"></a>
 ### Programming Tools
 - A lightweight create-react-app for ML apps. This starter app would compile on first clone and run React, Tornado, and SQLAlchemy (easiest to do with Parcel). Would be nice to have a 'yarn deploy' or something that does a one click deploy to GCP/AWS as well. Would be cool if starter apps were just email collectors, commonly the first stage of hype in a startup anyways.
-- A debugger to catch bugs like: two functions being the same and differing in inconsistent ways
+- A debugger to catch bugs like two functions being the same and differing in inconsistent ways.
 - Automatically track all the keyboard shortcuts/clicks you do within an editor, and suggest/generate keybindings and commands for your most inefficient workflows (an interactive way to practice forgotten yet useful vim shortcuts, for instance)
 
 <a name="Family-Roommates"></a>
@@ -143,15 +143,15 @@ If you want to be added to the list of people that have completed a project, Req
   - Can also do for apps on phone.
 - Windows automatic unzipper. When something is downloaded, unzip it to its own folder then delete the original zip file (Macs do this already, but not Windows). [DONE: See contributors.md]
 - Intersite with a live count of how many people are watching. OG Silicon Valley watchers will know what this means.
-- AI for deep sea mining: Recently there's been a lot of new deep sea mapping data, and there's a wealth of minerals/new species to be found but I don't think anyones done the ML to do it
-- A bidding platform for radio ads, where corporations/clubs/people put their ads, and radio hosts play the highest paying ones and post the time and station and location. Once the site auto-verifies it with audio matching from tune-in + shazam type system. Basically transfers revenue from radio station to radio hosts.
-  - I think college radio stations like WMBR would really like this
+- AI for deep sea mining. Recently there's been a lot of new deep sea mapping data, and there's a wealth of minerals/new species to be found. Map a list of all existing known underwater species to location discovered, and then search to find the deepest parts of the ocean where nothing has been discovered yet.
+- A bidding platform for radio ads, where corporations/clubs/people put their ads, and radio hosts play the highest paying ones and post the time and station and location. Once the site auto-verifies it with audio matching from tune-in + shazam type system, it automatically transfers revenue from radio station to radio hosts (can be done easily via crypto).
+  - I think college radio stations (like MIT WMBR) would really like this and probably use it!
 - A Twitter bot that tweets the opposite of what a Twitter thought leader influencer says, and is therefore just as insightful.
 - Run analysis on which dance teams placed in what rank, in order to see correlation with show order that they performed in, at shows like the Desi Dance Network.
 
 <a name="Shopping"></a>
 ### Shopping
-- An Amazon per ounce/count calculation that actually works all the time, and the equivalent for Instacart, Walmart, etc
+- An Amazon price per ounce/count calculation that actually works all the time, and the equivalent for Instacart, Walmart, etc
 
 <a name="Crypto"></a>
 ### Crypto
