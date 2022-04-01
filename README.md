@@ -6,7 +6,7 @@ These ideas, as far as I know, don't exist yet (or have done a poor job with SEO
 
 This list is already over 50 ideas, and will reach 100 by 2022. Stay tuned, as I have several hundred in my list (the majority of them patently ridiculous and not a good use of anyone's time to read).
 
-Feel free to use these for a hackathon, side project, or hacklodge project -- I'd love to see them get built! They include apps, webapps, and chrome extensions. All I ask for is they are open source, credit is given to Aayush or Divide-By-0, and your repo + site link back to this list :)
+Feel free to use these for a hackathon, side project, or hacklodge project -- I'd love to see them get built! If you're curious about an idea but don't know where to start, just reach out to me at aayushg@mit.edu; I'd be happy to give pointers on the frameworks I'd use, the high level design, and/or the best way to learn how to build them. Ideas include apps, webapps, and chrome extensions. All I ask for is they are open source, credit is given to Aayush or Divide-By-0, and your repo + site link back to this list :)
 
 ## Funding
 
@@ -134,6 +134,7 @@ If you want to be added to the list of people that have completed a project, Req
 
 <a name="Fun"></a>
 ### Fun
+- Create a nice frontend for DeepSaber, a way to AI generate beatsaber maps for any youtube video. Currently it's just a [colab notebook](https://colab.research.google.com/drive/11v-ztHOUXLXFHmH4QIuXGXtTvD-3r7oP#scrollTo=mocWjd1-oatL), but it's one step away from having a nice frontend and being popular. BeatSage is a similar AI mapper that's generally regarded as having an inferior algorithm, and they hit 100K downloads in a few months.
 - A better smart time-based phone password lock. For instance, if the current time is AB:CD, the user can set their password as say, (A+B), (|C-D|), (A * B % 10), (D) or a general user-coded function, so it changes every minute. Existing solutions only allow rudimentary functions.
 - Automatic haircut chooser -- input a picture, and based on aligning you to a celebrity with similar facial features, overlay celebrity hair on top of yours to find a new style or to show your barber.
 - Automatically take a picture of your face and take cross ratios and edge detection/curve detection to determine best sunglasses based on face shape or similar celebrities, customized sunglasses.
