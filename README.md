@@ -18,7 +18,7 @@ viaprize.com has generously agreed to gaurantee this funding ($100) for 10 of th
 
 If you make any of these, please make them open source! 
 
-If you want to be added to the list of people that have completed a project, Request a PR adding the project idea, your project's URL, and your repo's url to [CONTRIBUTORS.md](./CONTRIBUTORS.md), and edit the README to mark them done. I can help brainstorm relevant communities, and send the site through a small marketing flywheel that should hopefully get you your first users (still in beta though).
+If you want to be added to the list of people that have completed a project, Request a PR adding the project idea, your project's URL, and your repo's url to [CONTRIBUTORS.md](./CONTRIBUTORS.md), and edit the README to mark them done. I can help brainstorm relevant communities, and recommend marketing ideas to help get your first few hundred users.
 
 ## Index
 
