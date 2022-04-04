@@ -70,8 +70,6 @@ If you want to be added to the list of people that have completed a project, Req
    - Resulting graphic should look like: https://cdn.vox-cdn.com/uploads/chorus_asset/file/3523382/Medical_studies-05.0.png
 - Search portal where you put in a dish and it says what percent of online recipes of that dish have nuts, maybe by country too. Done by scraping recipes with country of origin to determine what to avoid when allergic people eat that cuisine, and create an intuition about what allergens and dishes to avoid for a certain culture of restraunt.
 - A chrome extension that goes through an Instacart/Amazon Fresh cart and finds them on an ingredient website and scrapes the ingredients, and flags foods with user-specified bad ingredients: whether its nut allergies, seed oil aversion, or high frustose corn syrup. Various nutrition authors would certainly help market this, especially on Twitter.
-- A spoon/other device that emits sweet odors without having sugar in the food, to inspire kids to eat more of their food without being unhealthy. Can be done via diffuser instead of spoon perhaps, or just via miracle berries every meal.
-  - [This paper](http://scholar.google.com/scholar_lookup?&title=The%20handbook%20of%20multisensory%20processing&pages=69-83&publication_year=2004&author=Stevenson%2CRJ&author=Boakes%2CRA)  says "certain olfactory stimuli, such as vanilla, caramel, or strawberry aromas [can] give rise to the perception of sweetness in an otherwise tasteless solution. ([source](https://flavourjournal.biomedcentral.com/articles/10.1186/s13411-015-0040-2))".
 
 <a name="Coding"></a>
 ### Programming Tools
@@ -134,11 +132,11 @@ If you want to be added to the list of people that have completed a project, Req
 
 <a name="Fun"></a>
 ### Fun
-- Create a nice frontend for DeepSaber, a way to AI generate beatsaber maps for any youtube video. Currently it's just a [colab notebook](https://colab.research.google.com/drive/11v-ztHOUXLXFHmH4QIuXGXtTvD-3r7oP#scrollTo=mocWjd1-oatL), but it's one step away from having a nice frontend and being popular. BeatSage is a similar AI mapper that's generally regarded as having an inferior algorithm, and they hit 100K downloads in a few months.
+- Create a nice frontend for DeepSaber, a way to AI generate beatsaber maps for any youtube video. Currently it's just a [colab notebook](https://colab.research.google.com/drive/11v-ztHOUXLXFHmH4QIuXGXtTvD-3r7oP#scrollTo=mocWjd1-oatL), but it's [a few short steps away](https://gist.github.com/Divide-By-0/0fd38b7b8b0102b21b4f11bf8dd7d707) from having a nice frontend. BeatSage is a similar AI mapper that's generally regarded as having an inferior algorithm, and they hit 100K uses in a few months.
 - A better smart time-based phone password lock. For instance, if the current time is AB:CD, the user can set their password as say, (A+B), (|C-D|), (A * B % 10), (D) or a general user-coded function, so it changes every minute. Existing solutions only allow rudimentary functions.
-- Automatic haircut chooser -- input a picture, and based on aligning you to a celebrity with similar facial features, overlay celebrity hair on top of yours to find a new style or to show your barber.
-- Automatically take a picture of your face and take cross ratios and edge detection/curve detection to determine best sunglasses based on face shape or similar celebrities, customized sunglasses.
-- Wiki game with subreddits and sidebars.
+- Automatic haircut chooser -- input a picture, and based on aligning your face to a celebrity with similar facial features (via keypoint matching or AI facial recognition %), then overlay celebrity hair on top of yours to preview the style, or directly show that celebrity's hair to your barber.
+- Automatically take a picture of your face and take cross ratios and edge detection/curve detection to determine best sunglasses based on face shape. Training data can be celebrities with similar face shapes, and you can even have a whole startup ship and send you completely custom sized sunglasses.
+- The [Wiki game](https://www.thewikigame.com/), but instead of wikipedia pages, you have to naviate to a target subreddit only via clicking other subreddits in sidebars, wikis, and pinned posts.
 - Nerve (like the movie) but to avoid the horror scenarios, all submitted new dares must be moderated for safety. Alternatively mix and match a reasonable list of locations and actions.
 - An actually good Chrome extension to keep you off Facebook etc. Tracks how long you spend on degenerate sites, then when you go to Facebook etc, it says "On average, you think you'll spend 16 minutes, but you end up spending 31 minutes on this tab. How many minutes do you think you'll spend this time?" And at the end of that # of minutes, it makes the page black and white so you can continue to browse but it'll be slightly uncomfortable.
   - Can also do for apps on phone.
