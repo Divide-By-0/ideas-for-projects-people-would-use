@@ -155,4 +155,5 @@ If you want to be added to the list of people that have completed a project, Req
 <a name="Crypto"></a>
 ### Crypto
 - Add an actually nice frontend to https://github.com/nulven/zk-message-board and have the first proof-of-concept anonymous group posting app powered by zero knowledge proofs
+- Create an easy frontend for the [weth contract](https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2#code) with just three buttons: connect to web3, wrap, and withdraw. Ideally, units of Eth and an <all> option would also be nice. Currently, you have to directly interact with the contract on Etherscan, and people have [lost a lot of money](https://www.reddit.com/r/ethereum/comments/sfz4kw/did_i_just_lose_half_a_million_dollars_by_sending/). I think this can be huge for NFT traders who need WETH to buy many assets on Opensea, and I would certainly use it regularly. Some services offer this but take too big a haircut off the top.
 - [Not my ideas, but still excellent] The four ideas at the bottom of https://bitcoinmirror.org/ have not been created yet and are not technocally impossible, but could be the first trustless applications of Bitcoin on Ethereum!
