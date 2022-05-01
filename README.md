@@ -128,7 +128,8 @@ If you want to be added to the list of people that have completed a project, Req
 - Keyboard shortcut for automatically fixing spelling in Google Docs+.
 - A chrome extension that adds the per ounce/unit price to Instacart the same way Amazon does
 - App that finds old messenger chats you left on read or unread, or unfinished threads, so you can respond to them. Requires probably mapping the last few texts to a score of how likely it was to be the end of a conversation.
-- Talk to an 'painting' and have it talk back. Speech-to-text on your voice, gpt-3 for conversation, tokkingheads/other deepfakes for the response. Like Harry Potter paintings.
+- Talk to an 'painting' and have it talk back, like Harry Potter paintings. Speech-to-text on your voice, gpt-3-type-model for conversation, tokkingheads/other deepfakes to have a face emulate the response.
+- Create a simple scraper that searches Google for [specific bot websites](https://twitter.com/gregegansf/status/1363978958841155585) and reports/blocks them. This is more a way to get to talk to/help Greg Egan, than it is a real problem. 
 
 <a name="Fun"></a>
 ### Fun
