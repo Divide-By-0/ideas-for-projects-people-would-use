@@ -77,6 +77,8 @@ If you want to be added to the list of people that have completed a project, Req
 - A lightweight create-react-app for ML apps. This starter app would compile on first clone and run React, Tornado, and SQLAlchemy (easiest to do with Parcel). Would be nice to have a 'yarn deploy' or something that does a one click deploy to GCP/AWS as well. Would be cool if starter apps were just email collectors, commonly the first stage of hype in a startup anyways.
 - A debugger to catch bugs like two functions being the same and differing in inconsistent ways.
 - Automatically track all the keyboard shortcuts/clicks you do within an editor, and suggest/generate keybindings and commands for your most inefficient workflows (an interactive way to practice forgotten yet useful vim shortcuts, for instance)
+- A greasemonkey/tampermonkey script to automatically in the background, backup all visited pages and their hyperlinks to Internet Archive. I used to have a naiive script, but a faster script would only do the hyperlink scanning and API calls after the full page loads.
+- A greasemonkey/tampermonkey script to, when detecting a page that says "404" and "Not Found" on it, display a link to go to that page in the Internet Archive.
 
 <a name="Family-Roommates"></a>
 ### Family/Roommates
