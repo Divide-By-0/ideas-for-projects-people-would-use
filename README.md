@@ -10,7 +10,7 @@ Feel free to use these for a hackathon, side project, or hacklodge project -- I'
 
 ## Funding
 
-If I particularly like a certain quality of implementation and you fully deploy the project publicly, I can award free hosting and small cash prizes ($100). This is at my discretion so people don't game the system or feel cheated; the point is to build the project for the learning and self-satisfaction, not the grant -- the money is mostly just so it can continue to exist :). Total bounties given counter: 2. 
+If I particularly like a certain quality of implementation and you fully deploy the project publicly, I can award free hosting and small cash prizes ($100). This is at my discretion so people don't game the system or feel cheated; the point is to build the project for the learning and self-satisfaction, not the grant -- the money is mostly just so it can continue to exist :). Total bounties given counter: 3. 
 
 viaprize.com has generously agreed to gaurantee this funding ($100) for 10 of these ideas -- feel free to check their website for which specific ones.
 
@@ -41,10 +41,10 @@ If you want to be added to the list of people that have completed a project, Req
 
 <a name="Music"></a>
 ### Music
-- A Chrome extension where you can put in a song or artist, and it finds friends who have listened to that artist/song (by # of occurrences in their public playlists).
+- A Chrome extension that tracks if you're on a certain song or artist on Spotify, and it finds friends who have listened to that artist/song (by # of occurrences in their public playlists). Useful to find concert buddies/people with similar music taste.
    - This is surprisingly highly requested, see [thread 1](https://community.spotify.com/t5/Closed-Ideas/Social-See-Friends-who-also-listen-to-an-Artist/idi-p/4397516), [thread 2](https://community.spotify.com/t5/Closed-Ideas/Sort-By-Friends-Who-Listen-To-the-Same-Artists/idi-p/72047), and [thread 3](https://community.spotify.com/t5/Closed-Ideas/Social-Listenalike-but-for-friends/idi-p/5041383). 
-   - As [@alexgurr](https://twitter.com/alexgurr) points out, you'll need a Chrome extension to hit the friends API endpoint on Spotify web, or Facebook login to use FaceBook friends
-- A program that takes your spotify playlist and converts it to another one of remixes of the same songs, to get some variety. [DONE: See contributors.md]
+   - As [@alexgurr](https://twitter.com/alexgurr) points out, you'll need a Chrome extension to hit the friends API endpoint on Spotify web, or Facebook login to use Facebook friends
+- A program that takes your spotify playlist and converts it to another one of remixes of the same songs, to get some variety. [DONE: See contributors.md, project at https://www.mixmello.com/]
 - A program that takes your spotify playlist and converts it to a clean version with the same songs, and removes it if it can't find any. Used to be able to listen to my playlists in the car with my parents. [DONE: See contributors.md, project at https://www.cleanify.app/]
 - A tinder for songs -- plays the most commented 10 seconds of a song on soundcloud, and adds it to a playlist if you like it. Inspired by Soundsieve (https://github.com/wilzh40/SoundSieve) which is unfortunately dead.
 - Connect your spotify and visualize spotify data insights as plots. Existing apps show tables or list, but it's a small jump to display eyecandy plots instead, and will help with virality.
@@ -74,7 +74,7 @@ If you want to be added to the list of people that have completed a project, Req
 
 <a name="Coding"></a>
 ### Programming Tools
-- A lightweight create-react-app for ML apps. This starter app would compile on first clone and run React, Tornado, and SQLAlchemy (easiest to do with Parcel). Would be nice to have a 'yarn deploy' or something that does a one click deploy to GCP/AWS as well. Would be cool if starter apps were just email collectors, commonly the first stage of hype in a startup anyways.
+- A lightweight create-react-app for ML apps. This starter app would compile on first clone and run React, Tornado, and SQLAlchemy (easiest to do with Parcel). Would be nice to have a 'yarn deploy' or something that does a one click deploy to GCP/AWS as well. Would be cool if the default frontend was a presetup email collectors, usually the first stage of hype in a startup anyways.
 - A debugger to catch bugs like two functions being the same and differing in inconsistent ways.
 - Automatically track all the keyboard shortcuts/clicks you do within an editor, and suggest/generate keybindings and commands for your most inefficient workflows (an interactive way to practice forgotten yet useful vim shortcuts, for instance)
 - A greasemonkey/tampermonkey script to automatically in the background, backup all visited pages and their hyperlinks to Internet Archive. I used to have a naiive script, but a faster script would only do the hyperlink scanning and API calls after the full page loads.
@@ -144,7 +144,7 @@ If you want to be added to the list of people that have completed a project, Req
 - Nerve (like the movie) but to avoid the horror scenarios, all submitted new dares must be moderated for safety. Alternatively mix and match a reasonable list of locations and actions.
 - An actually good Chrome extension to keep you off Facebook etc. Tracks how long you spend on degenerate sites, then when you go to Facebook etc, it says "On average, you think you'll spend 16 minutes, but you end up spending 31 minutes on this tab. How many minutes do you think you'll spend this time?" And at the end of that # of minutes, it makes the page black and white so you can continue to browse but it'll be slightly uncomfortable.
   - Can also do for apps on phone.
-- Windows automatic unzipper. When something is downloaded, unzip it to its own folder then delete the original zip file (Macs do this already, but not Windows). [DONE: See contributors.md]
+- Windows automatic unzipper. When something is downloaded, unzip it to its own folder then delete the original zip file (Macs do this already, but not Windows). [DONE: See contributors.md, site at https://autounzipper.com/]
 - Intersite with a live count of how many people are watching. OG Silicon Valley watchers will know what this means.
 - AI for deep sea mining. Recently there's been a lot of new deep sea mapping data, and there's a wealth of minerals/new species to be found. Map a list of all existing known underwater species to location discovered, and then search to find the deepest parts of the ocean where nothing has been discovered yet.
 - A bidding platform for radio ads, where corporations/clubs/people put their ads, and radio hosts play the highest paying ones and post the time and station and location. Once the site auto-verifies it with audio matching from tune-in + shazam type system, it automatically transfers revenue from radio station to radio hosts (can be done easily via crypto).
@@ -160,7 +160,7 @@ If you want to be added to the list of people that have completed a project, Req
 ### Crypto
 - Add an actually nice frontend to https://github.com/nulven/zk-message-board and have the first proof-of-concept anonymous group posting app powered by zero knowledge proofs. Would likely quality for Gitcoin grant for much more funding.
 - Create an easy frontend for the [weth contract](https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2#code) with just three buttons: connect to web3, wrap, and withdraw. Ideally, units of Eth and an <all> option would also be nice. Currently, you have to directly interact with the contract on Etherscan, and people have [lost a lot of money](https://www.reddit.com/r/ethereum/comments/sfz4kw/did_i_just_lose_half_a_million_dollars_by_sending/). WETH is the only way to buy most assets on Opensea for instance, and most NFT traders there (and I) would certainly use it regularly. Some services offer this but take too big a haircut off the top.
-   - Edit: Just discovered https://wrapeth.com/, it seems the domain's been registered for 2ish years. Regardless, could be cool to have an open source version.
+   - Edit: Just discovered https://wrapeth.com/, existed for 2+ years. Regardless, still cool to have an open source version!
 - [Not my ideas, but still excellent] The four ideas at the bottom of https://bitcoinmirror.org/ have not been created yet and are actually technically feasible for a somewhat beginner, and could be the first trustless applications of Bitcoin on Ethereum! They haven't been built yet because this was only possible as of a few months ago, and isn't marketed very widely. Would likely quality for Gitcoin/Eth Uni grant for much more funding. WBTC uses a centralized minting system with a 10B$ marketcap and can definitely be replaced by this.
 - Run automated static analysis and formal verification tools on all existing and new smart contracts: I have a more [fleshed out proposal here](https://docs.google.com/document/d/1D9extlCKq0qbroTjv6FD-JHstpAulRylVM0hpOuZsyM/edit). Can add bespoke checks like seeing if code calls unsafe oracles like [keep3rV2Feed.current](https://kyrianalex.substack.com/p/the-inverse-finance-hack?s=r).
 - ed25519 encryption in a ZK SNARK (using circom). Metamask's [encrypt](https://github.com/MetaMask/eth-sig-util/blob/main/src/encryption.ts#L94) function on chain would be new, and save people from having to use MIMC as an encryption function.
@@ -169,6 +169,6 @@ If you want to be added to the list of people that have completed a project, Req
 - A Vitalik-style blog post on accumulators. Explaining the difference between RSA accumulator, merkle trees, hashed prefix tries, etc along with time and space complexity for set inclusion and set exclusion, with and without ZK. Might also inspire a new idea for a ZK friendly accumulator (although Merkle trees are already quite efficient).
 - Put the [Mao card game](https://en.wikipedia.org/wiki/Mao_(card_game) ) on chain, with a rule like any new rule must be < 20 characters of code. This game would be perfect to demo both programability of blockchains, and provide a fun twist to one of my favorite card games. Can also be off-chain tbh.
 - Gas station network v2 mainnet frontend, even for simple ERC20 sends. Would allow people to send transactions to the chain without any eth in their wallet; there are no live mainnet frontends right now.
-- Integrate Plonky2/Nova into circom, with a Solidity verifier
+- Integrate Plonky2/Nova as proving backends in circom, with Solidity verifiers
 - A very simple browser extension that detects if a website that claims to be ZK is sending any information to a server, or is really clientside only
 - Create a GitHub org for non-censored DeFi frontends, as suggested [here](https://twitter.com/smsunarto/status/1560897907405901824). Host them under an uncensorable domain as well.
