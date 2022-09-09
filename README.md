@@ -158,6 +158,7 @@ If you want to be added to the list of people that have completed a project, Req
 
 <a name="Crypto"></a>
 ### Crypto
+- Actually build the first futarchy on chain (prediction markets for governance), like [MerkleDao](http://www.ralphmerkle.com/papers/DAOdemocracyDraft.pdf)'s plan. Add features like also betting reputation points proporitonal to money, where higher reputation leads to higher investment limits, which will help institutional players to be long-term aligned with the project instead of financial manipulators.
 - Add an actually nice frontend to https://github.com/nulven/zk-message-board and have the first proof-of-concept anonymous group posting app powered by zero knowledge proofs. Would likely quality for Gitcoin grant for much more funding.
 - Create an easy frontend for the [weth contract](https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2#code) with just three buttons: connect to web3, wrap, and withdraw. Ideally, units of Eth and an <all> option would also be nice. Currently, you have to directly interact with the contract on Etherscan, and people have [lost a lot of money](https://www.reddit.com/r/ethereum/comments/sfz4kw/did_i_just_lose_half_a_million_dollars_by_sending/). WETH is the only way to buy most assets on Opensea for instance, and most NFT traders there (and I) would certainly use it regularly. Some services offer this but take too big a haircut off the top.
    - Edit: Just discovered https://wrapeth.com/, existed for 2+ years. Regardless, still cool to have an open source version!
