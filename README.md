@@ -10,9 +10,9 @@ Feel free to use these for a hackathon, side project, or hacklodge project -- I'
 
 ## Funding
 
-If I particularly like a certain quality of implementation and you fully deploy the project publicly, I can award free hosting and small cash prizes ($100). This is at my discretion so people don't game the system or feel cheated; the point is to build the project for learning and self-satisfaction, not the grant -- the money is mostly just so it can continue to exist :). Total bounties given counter: 3. 
+If I particularly like a certain quality of implementation and you fully deploy the project publicly, I can award free hosting and small cash prizes ($200). This is at my discretion so people don't game the system or feel cheated; the point is to build the project for learning and self-satisfaction, not the grant -- the money is mostly just so it can continue to exist :). Total bounties given counter: 3. 
 
-viaprize.com has generously agreed to guarantee this funding ($100) for 10 of these ideas -- feel free to check their website for which specific ones.
+viaprize.com has generously agreed to guarantee some of the funding ($100) for 10 of these ideas -- feel free to check their website for which specific ones.
 
 ## Contribution & pull requests
 
