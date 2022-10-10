@@ -177,3 +177,4 @@ If you want to be added to the list of people that have completed a project, Req
 - A very simple browser extension that detects if a website that claims to be ZK is sending any information to a server, or is clientside only
 - Create a GitHub org for non-censored DeFi frontends, as suggested [here](https://twitter.com/smsunarto/status/1560897907405901824). Host them under an uncensorable domain as well.
 - A stablecoin for basket-of-goods price index, which adjusts the interest rates of its vaults to create this peg i.e. (us dollar / inflation). It maintains surplus in the Treasury by issuing gas options, allowing a simple on chain derivates framework to generate actual income in other cryptocurrencies allowing it to deviate from the dollar.
+- A developer-friendly ERC721 on testnets i.e. Goerli, that lets you send Eth to the contract and will auto-mint you back 100 dev NFTs to experiment with, so super easy to test with during hackathons
