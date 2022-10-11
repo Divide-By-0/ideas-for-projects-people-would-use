@@ -10,7 +10,7 @@ Feel free to use these for a hackathon, side project, or hacklodge project -- I'
 
 ## Funding
 
-If I particularly like a certain quality of implementation and you fully deploy the project publicly, I can award free hosting and small cash prizes ($200). This is at my discretion so people don't game the system or feel cheated; the point is to build the project for learning and self-satisfaction, not the grant -- the money is mostly just so it can continue to exist :). Total bounties given counter: 3. 
+If I particularly like a certain quality of implementation and you fully deploy the project publicly, I can award free hosting and small cash prizes ($200, $400 for crypto ideas). This is at my discretion so people don't game the system or feel cheated; the point is to build the project for learning and self-satisfaction, not the grant -- the money is mostly just so it can continue to exist :). Total bounties given counter: 3. 
 
 viaprize.com has generously agreed to guarantee some of the funding ($100) for 10 of these ideas -- feel free to check their website for which specific ones.
 
@@ -33,7 +33,6 @@ If you want to be added to the list of people that have completed a project, Req
 - [Edtech/Research](#Edtech)
 - [Text Processing/NLP](#Text-Processing)
 - [Fun](#Fun)
-- [Shopping](#Shopping)
 - [Crypto](#Crypto)
 <a name="all-software"></a>
 
@@ -56,8 +55,8 @@ If you want to be added to the list of people that have completed a project, Req
 - Kaggle for music production -- the site provides samples and teaches the general structure to layer them, then has a periodic competition to layer them to create the best beat [Note: Kenny Beats runs a similar competition but without the lessons].
 - A plugin that just takes a piano melody and adds corresponding drums and reverb and a beat and a chorus and everything just off those notes (like the [harmony7](https://mitadmissions.org/blogs/entry/we-made-a-website/) MIT web.lab app).
 - Scrape a karaoke or music video from YouTube, match the pitch to notes (FFT?), then make bars at those pitches for you to hit, and overlay your current singing on top of it. Allows you to quickly train pitch like Yousician or Riyaz, but for any song. Can be used for live singing, singing covers at home, or singing lessons.
-- Website that takes a video or movie, Shazam's all the songs or looks up soundtracks if they're public, and converts it to a Spotify playlist automatically.
-- Little dancer: Use echo nest labs and FFT to sync a bunch of clips to a specific BPM or sequence of beats. Using some beat detector (likely also FFT), have a mini cheerleader or dancing figure synced to the beat in the bottom corner of your laptop.
+- Website that takes a video or movie, Shazam's all the songs or looks up soundtracks if they're public, and converts it to a Spotify playlist automatically. This might already be commonplace for mainstream movies, but doesn't exist for uncommon ones. 
+- Little dancer: Use echo nest labs and FFT to sync a bunch of clips to a specific BPM or sequence of beats. Using some beat detector (likely also FFT), have a mini cheerleader or dancing figure synced to the beat in the bottom corner of your laptop. Can be based off of [stable diffusion dancing](https://metaphysic.ai/creating-authentic-human-motion-synthesis-via-diffusion/) to enable custom dancing.
 - An app that chooses songs of a specific BPM from all your Spotify liked and playlisted songs, for workouts
 - An app that plays hype beats or just a simple beat behind a podcast, so when you run you can listen and stay on pace
 - A better rap lyrics generator than basic [MCMC/RNN methods](https://www.reddit.com/r/hiphopheads/comments/acwky9/original_python_program_that_writes/); use GPT-Neo to generate reasonable distributions over the next words, then re-weight GPT-3 probabilities over next words by hard-coded poetic heuristics, such as the amount of internal rhyming to same syllable count on the previous line, alliteration, etc. 
@@ -75,6 +74,7 @@ If you want to be added to the list of people that have completed a project, Req
 <a name="Coding"></a>
 ### Programming Tools
 - A lightweight create-react app for ML apps. This starter app would compile on first clone and run React, Tornado, and SQLAlchemy (easiest to do with Parcel). Would be nice to have a 'yarn deploy' or something that does a one-click deploy to GCP/AWS as well. Would be cool if the default frontend was a presetup email collector, usually the first stage of hype in a startup anyways.
+   - Edit: I now think this should use React and [Modal](http://modal.com) instead.
 - A debugger to catch bugs like two functions being the same and different in inconsistent ways.
 - Automatically track all the keyboard shortcuts/clicks you do within an editor, and suggest/generate keybindings and commands for your most inefficient workflows (an interactive way to practice forgotten yet useful vim shortcuts, for instance)
 - A greasemonkey/tampermonkey script to automatically in the background, backup all visited pages and their hyperlinks to Internet Archive. I used to have a naiive script, but a faster script would only do the hyperlink scanning and API calls after the full page loads.
@@ -94,9 +94,9 @@ If you want to be added to the list of people that have completed a project, Req
  
 <a name="Image-Processing"></a>
 ### Image Processing
-- Automatically make photos look good by aligning edge detection with the rule of thirds. Perhaps as a Chrome extension that runs when you hit crop on a google photos image link?
-- Take a picture of a wine stand, and recommend wines by rating to price ratio.
-- A good online red-eye fixer.
+- Automatically make photos look good by aligning edge detection with the rule of thirds. Perhaps as a Chrome extension that runs when you hit crop on a Google Photos image link?
+- Take a picture of a wine stand, and recommend wines by the best rating to price ratio.
+- A good online red-eye fixer. Surprisingly, the first few on Google all sucked.
 - Make app/Chrome extension/background integration to auto tag Google Photos images with ongoing calendar events, so I can search for the event and see the photos from that. Useful for class notes (if all your classes are on your calendar) and generally increasing the searchability of photos.
 
 <a name="Video-Processing"></a>
@@ -127,9 +127,9 @@ If you want to be added to the list of people that have completed a project, Req
 - A creative startup name finder powered by baby names. Find meanings for baby babes, and make a site where you can input keywords your startup is about, and it will print resulting baby names with meanings with the highest keyword overlap (or min distance in the word embedding space).
    - Inspired by https://www.joinleelo.com/blog/how-we-came-up-with-the-name-leelo
 - Another startup name generator - input 2+ keywords, then try all reasonable pairwise ship names till you reach an untaken name .com/.ai/.io/other top TLD
-- Convert chat in messenger to lowercase automatically (for speech to text or bad autocorrect).
+- Convert all text in messenger apps to lowercase automatically (for speech to text or bad autocorrect).
 - Keyboard shortcut for automatically fixing spelling in Google Docs+.
-- A chrome extension that adds the per ounce/unit price to Instacart the same way Amazon does
+- A chrome extension that adds the per ounce/unit price to Instacart the same way Amazon does.
 - App that finds old messenger chats you left on read or unread, or unfinished threads, so you can respond to them. Requires probably mapping the last few texts to a score of how likely it was to be the end of a conversation.
 - Talk to a 'painting' and have it talk back, like Harry Potter paintings. Speech-to-text on your voice, gpt-3-type-model for conversation, tokkingheads/other deepfakes to have a face emulate the response.
 - Create a simple scraper that searches Google for [specific bot websites](https://twitter.com/gregegansf/status/1363978958841155585) and reports/blocks them. This is more a way to get to talk to/help Greg Egan, than it is a real problem. 
@@ -151,30 +151,29 @@ If you want to be added to the list of people that have completed a project, Req
   - I think college radio stations (like MIT WMBR) would really like this and probably use it!
 - A Twitter bot that tweets the opposite of what a Twitter thought leader influencer says and is therefore just as insightful.
 - Run analysis on which dance teams placed in what rank, to see the correlation with show order that they performed in, at shows like the Desi Dance Network.
-
-<a name="Shopping"></a>
-### Shopping
 - An Amazon price per ounce/count calculation that works all the time, and the equivalent for Instacart, Walmart, etc
 
 <a name="Crypto"></a>
-### Crypto
+### Crypto (Note that these are all matched 2x of mentorship and $ by [@smsunarto](https://twitter.com/smsunarto), $400 each)
 - Truly random NFT drops. The problem is that you can predict randomness and mint the best NFTs by simulating the chain. Some solutions [exist](https://www.paradigm.xyz/2021/10/a-guide-to-designing-effective-nft-launches#phase-4-metadata-reveal). However, a better way to do this is, on mint, you generate a 24+ second (2+ block) VRF seeded by the previous blockhash. Minters pay gas upfront for anyone to send a second reveal transaction. MEV searchers calculate the VDF and send the result to the chain for that gas money + a small bonus, in return for updating the NFT values on chain first.
-- Build the first futarchy on chain (prediction markets for governance), like [MerkleDao](http://www.ralphmerkle.com/papers/DAOdemocracyDraft.pdf)'s plan. Add features like also betting reputation points proportional to money, where higher reputation leads to higher investment limits, which will help institutional players to be long-term aligned with the project instead of financial manipulators.
-- Add a nice frontend to https://github.com/nulven/zk-message-board and have the first proof-of-concept anonymous group posting app powered by zero-knowledge proofs. Would likely quality for Gitcoin grant for much more funding.
-- Create an easy frontend for the [weth contract](https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2#code) with just three buttons: connect to web3, wrap, and withdraw. Ideally, units of Eth and an <all> option would also be nice. Currently, you have to directly interact with the contract on Etherscan, and people have [lost a lot of money](https://www.reddit.com/r/ethereum/comments/sfz4kw/did_i_just_lose_half_a_million_dollars_by_sending/). WETH is the only way to buy most assets on Opensea for instance, and most NFT traders there (and I) would certainly use it regularly. Some services offer this but take too big a haircut off the top.
+- Build the first futarchy on chain (prediction markets for governance), like [MerkleDao](http://www.ralphmerkle.com/papers/DAOdemocracyDraft.pdf)'s plan. Add features like also betting reputation points proportional to money, where higher reputation leads to higher investment limits, which will help institutional players to be long-term aligned with the project instead of financial manipulators. This will also help elect legislators who consistently have high reputation, meaning they accurately predict long term impact of legislation on people.
+- Add a nice frontend to https://github.com/nulven/zk-message-board, and build a proof-of-concept anonymous group posting app powered by zero-knowledge proofs. Would likely quality for Gitcoin grant for additional funding.
+- Create an OSS, easy frontend for the [weth contract](https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2#code) with just three buttons: connect to web3, wrap, and withdraw. Ideally, units of Eth and an <all> option would also be nice. Currently, you have to directly interact with the contract on Etherscan, and people have [lost a lot of money](https://www.reddit.com/r/ethereum/comments/sfz4kw/did_i_just_lose_half_a_million_dollars_by_sending/). WETH is the only way to buy most assets on Opensea for instance, and most NFT traders there (and I) would certainly use it regularly. Some services offer this but take too big a haircut off the top.
    - Edit: Just discovered https://wrapeth.com/, existed for 2+ years. Regardless, still cool to have an open-source version!
 - [Not my ideas, but still excellent] The four ideas at the bottom of https://bitcoinmirror.org/ have not been created yet and are technically feasible for a somewhat beginner, and could be the first trustless applications of Bitcoin on Ethereum! They haven't been built yet because this was only possible a few months ago and isn't marketed very widely. Would likely quality for Gitcoin/Eth Uni grant for much more funding. WBTC uses a centralized minting system with a 10B$ market cap and can be replaced by this.
-- Run automated static analysis and formal verification tools on all existing and new smart contracts: I have a more [fleshed-out proposal here](https://docs.google.com/document/d/1D9extlCKq0qbroTjv6FD-JHstpAulRylVM0hpOuZsyM/edit). Can add bespoke checks like seeing if code calls unsafe oracles like [keep3rV2Feed.current](https://kyrianalex.substack.com/p/the-inverse-finance-hack?s=r).
-- ed25519 encryption in a ZK SNARK (using circom). Metamask's [encrypt](https://github.com/MetaMask/eth-sig-util/blob/main/src/encryption.ts#L94) function on chain would be new and save people from having to use MIMC as an encryption function.
+- Run automated static analysis and formal verification tools on all existing and new smart contracts: I have a more [fleshed-out proposal here](https://docs.google.com/document/d/1D9extlCKq0qbroTjv6FD-JHstpAulRylVM0hpOuZsyM/edit). Can add bespoke checks like seeing if code calls unsafe oracles like [keep3rV2Feed.current](https://kyrianalex.substack.com/p/the-inverse-finance-hack?s=r). Can also use more recent powerful tools like [Veridise](https://veridise.com/), which likely haven't been run very widely.
+- ed25519 encryption in a ZK SNARK (using circom). Metamask's [encrypt](https://github.com/MetaMask/eth-sig-util/blob/main/src/encryption.ts#L94) function on chain would be new, and save people from having to use MIMC as an encryption function.
 - RISC0 verifier in Solidity. Due to gas costs, the team building verifiable RISC execution has only verifiers for non-EVM chains. It should be easy to convert this verifier generator to use solidity syntax instead and run on an L2, letting you do stuff like verifiable Pytorch execution on chain. Code is even OSS as of Q2 2022.
 - DNS record cert proving in SNARK. Prove the consecutive signatures for root signatures, CA signatures, etc, to be able to verify that some specific string in a name record was signed by a valid chain of authorities. Would likely use sig-verify circuits in circom. 
-   - Edit: Realized ENS's DNS oracle already has this, but only like 35 websites in the Alexa 100K use DNSSEC, so it is fairly irrelevant
+   - Edit: Realized ENS's DNS oracle already has this, but only like 35 websites in the Alexa 100K use DNSSEC, so it is fairly irrelevant. We are too early.
 - A Vitalik-style blog post on accumulators. Explaining the difference between RSA accumulator, merkle trees, hashed prefix tries, etc along with time and space complexity for set inclusion and set exclusion, with and without ZK. Might also inspire a new idea for a ZK friendly accumulator (although Merkle trees are already quite efficient).
-- Put the [Mao card game](https://en.wikipedia.org/wiki/Mao_(card_game) ) on chain, with a rule like any new rule must be < 20 characters of code. This game would be perfect to demo both programmability of blockchains and provide a fun twist to one of my favorite card games. You can use ZK-SNARKed execution of commited-to code in order to prove consistent execution of your code, with something like Risc0 or a zkEVM. Can also be off-chain, since is only a fun SNARK demo.
-- Gas station network v2 mainnet frontend, even for simple ERC20 sends. Would allow people to send transactions to the chain without any eth in their wallet; there are no live mainnet frontends right now.
+   - Edit: Vitalik put up a similar one, [this post](https://ethresear.ch/t/arithmetic-hash-based-alternatives-to-kzg-for-proto-danksharding-eip-4844/13863) would be a great model for it.
+- Put the [Mao card game](https://en.wikipedia.org/wiki/Mao_(card_game) ) on chain, with a rule like any new rule must be < 20 characters of code. This game would be perfect to demo both programmability of blockchains and provide a fun twist to one of my favorite card games. You can use ZK-SNARKed execution of commited-to code in order to prove consistent execution of your code, with something like Risc0 or a zkEVM, and use a zk verifier as a "commitment" to the code. Can also be off-chain, since is only a fun SNARK demo.
+- Gas station network v2 mainnet frontend, even for simple ERC20 sends. Would allow people to send transactions to the chain without any eth in their wallet; there are no live mainnet frontends right now. This is being vaguely pushed for with account abstraction, but you can also run MEV-incentivized relayers to do this (see [stealthdrop](https://github.com/stealthdrop/stealthdrop) or [surrogeth](https://github.com/lsankar4033/surrogeth) without centralized relayers.
 - Integrate Plonky2/Nova as proving backends in circom, with Solidity verifiers
-   - Edit: In progress with Nalin
+   - Edit: [Circom-nova](https://github.com/nalinbhardwaj/Nova-Scotia) is in progress with Nalin, come help us lmao
 - A very simple browser extension that detects if a website that claims to be ZK is sending any information to a server, or is clientside only
 - Create a GitHub org for non-censored DeFi frontends, as suggested [here](https://twitter.com/smsunarto/status/1560897907405901824). Host them under an uncensorable domain as well.
-- A stablecoin for basket-of-goods price index, which adjusts the interest rates of its vaults to create this peg i.e. (us dollar / inflation). It maintains surplus in the Treasury by issuing gas options, allowing a simple on chain derivates framework to generate actual income in other cryptocurrencies allowing it to deviate from the dollar.
+- A stablecoin for basket-of-goods price index, which adjusts the interest rates of its vaults to create this peg i.e. (us dollar / inflation). It maintains surplus in the Treasury by issuing gas options, allowing a simple on chain derivates framework to generate actual income in other cryptocurrencies, allowing it to deviate from the dollar.
 - A developer-friendly ERC721 on testnets i.e. Goerli, that lets you send Eth to the contract and will auto-mint you back 100 dev NFTs to experiment with, so super easy to test with during hackathons
+- Anything being built at [Personae Labs](http://personaelabs.org/), [dm me](https://twitter.com/yush_g) for these :)
