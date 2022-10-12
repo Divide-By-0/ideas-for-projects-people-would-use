@@ -10,7 +10,7 @@ Feel free to use these for a hackathon, side project, or hacklodge project -- I'
 
 ## Funding
 
-If I particularly like a certain quality of implementation and you fully deploy the project publicly, I can award free hosting and small cash prizes ($200, $400 for crypto ideas). This is at my discretion so people don't game the system or feel cheated; the point is to build the project for learning and self-satisfaction, not the grant -- the money is mostly just so it can continue to exist :). Total bounties given counter: 3. 
+If I particularly like a certain quality of implementation and you fully deploy the project publicly, I can award free hosting and small cash prizes ($200, 2x matched to $400 by [@smsunarto](https://twitter.com/smsunarto) for crypto ideas). This is at my discretion so people don't game the system or feel cheated; the point is to build the project for learning and self-satisfaction, not the grant -- the money is mostly just so it can continue to exist :). Total bounties given counter: 3. 
 
 viaprize.com has generously agreed to guarantee some of the funding ($100) for 10 of these ideas -- feel free to check their website for which specific ones.
 
@@ -154,7 +154,7 @@ If you want to be added to the list of people that have completed a project, Req
 - An Amazon price per ounce/count calculation that works all the time, and the equivalent for Instacart, Walmart, etc
 
 <a name="Crypto"></a>
-### Crypto (Note that these are all matched 2x of mentorship and $ by [@smsunarto](https://twitter.com/smsunarto), $400 each)
+### Crypto ($400 each)
 - Truly random NFT drops. The problem is that you can predict randomness and mint the best NFTs by simulating the chain. Some solutions [exist](https://www.paradigm.xyz/2021/10/a-guide-to-designing-effective-nft-launches#phase-4-metadata-reveal). However, a better way to do this is, on mint, you generate a 24+ second (2+ block) VRF seeded by the previous blockhash. Minters pay gas upfront for anyone to send a second reveal transaction. MEV searchers calculate the VDF and send the result to the chain for that gas money + a small bonus, in return for updating the NFT values on chain first.
 - Build the first futarchy on chain (prediction markets for governance), like [MerkleDao](http://www.ralphmerkle.com/papers/DAOdemocracyDraft.pdf)'s plan. Add features like also betting reputation points proportional to money, where higher reputation leads to higher investment limits, which will help institutional players to be long-term aligned with the project instead of financial manipulators. This will also help elect legislators who consistently have high reputation, meaning they accurately predict long term impact of legislation on people.
 - Add a nice frontend to https://github.com/nulven/zk-message-board, and build a proof-of-concept anonymous group posting app powered by zero-knowledge proofs. Would likely quality for Gitcoin grant for additional funding.
