@@ -98,6 +98,7 @@ If you want to be added to the list of people that have completed a project, Req
 - Take a picture of a wine stand, and recommend wines by the best rating to price ratio.
 - A good online red-eye fixer. Surprisingly, the first few on Google all sucked.
 - Make app/Chrome extension/background integration to auto tag Google Photos images with ongoing calendar events, so I can search for the event and see the photos from that. Useful for class notes (if all your classes are on your calendar) and generally increasing the searchability of photos.
+- A way to share event photos to specific people. It should be possible to upload an album to i.e. Google Photos or Flickr of thousands of pics of the event, and attendees can input a picture of themselves and their friends, and it automatically runs facial recognition on every pic in the album and only returns pics that include people from the inputted picture.
 
 <a name="Video-Processing"></a>
 ### Video Processing
