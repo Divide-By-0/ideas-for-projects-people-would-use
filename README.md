@@ -111,6 +111,7 @@ If you want to be added to the list of people that have completed a project, Req
    - Note: This got built! See https://aimlabs.mit.edu/ > Stylish Videos!
 - Fill in people's videos when their cameras are off. By using the speech-to-face paper in a browser extension, fill in other's inactive google hangouts/zoom logos with low bitrate moving bitmojis, and send yours as that when your camera is off. Cool research done at 5.3 (https://arxiv.org/pdf/1905.09773.pdf).
 - Given a (lecture) video, edit it so that automatically speeds up during times where no actual lecture content is delivered (ex. an instructor talking about their dog), and slow down when content is dense (ex. slide full of equations that the lecturer is going through). Use both visual info (slides) and audio (what the lecturer is saying). Example use case: a student wants to watch a recorded lecture video in an optimal manner that maximizes learning in a shorter amount of time. 
+- Live transcribe any Chrome tabs audio by pushing it into OpenAI Whisper-type model, enabling transcriptions for all meetings including gather.town out of the box. Can have a start/stop button that auto-saves it to a Google Doc.
 
 <a name="Edtech"></a>
 ### Edtech/Research/School
