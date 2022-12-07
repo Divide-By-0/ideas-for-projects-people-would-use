@@ -10,7 +10,7 @@ Feel free to use these for a hackathon, side project, or hacklodge project -- I'
 
 ## Funding
 
-If I particularly like a certain quality of implementation and you fully deploy the project publicly, I can award free hosting and small cash prizes at $400 per idea ($600 per crypto idea). I personally put in $200 (2x matched by [Matchbox](https://www.matchboxdao.com/), crypto ideas additionally 2x matched by [@smsunarto](https://twitter.com/smsunarto)). This is at my discretion so people don't game the system or feel cheated; the point is to build the project for learning and self-satisfaction, not the grant -- the money is mostly just so it can continue to exist :). Reach out to [me](https://twitter.com/yush_g) if you're interested in helping sponsor bounties as well! Total bounties given counter: 3.
+If you fully deploy the project publicly, I award free hosting and small cash prizes at $400 per idea ($600 per crypto idea). I personally put in $200 (2x matched by [Matchbox](https://www.matchboxdao.com/), crypto ideas additionally 2x matched by [@smsunarto](https://twitter.com/smsunarto)). This is at my discretion so people don't game the system or feel cheated; the point is to build the project for learning and self-satisfaction, not the grant -- the money is mostly just so it can continue to exist :). I will likely fund any good-faith implementation. Reach out to [me](https://twitter.com/yush_g) if you're interested in helping sponsor bounties as well! Total bounties given counter: 3.
 
 ## Contribution & pull requests
 
