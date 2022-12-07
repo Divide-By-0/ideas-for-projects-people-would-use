@@ -6,13 +6,11 @@ These ideas, as far as I know, don't exist yet (or have done a poor job with SEO
 
 This list is around 100 highly curated ideas, and I hope to hit 150 by 2023. Stay tuned, as I have several hundred on my list (the majority of them are patently ridiculous and not a good use of anyone's time to read).
 
-Feel free to use these for a hackathon, side project, or hacklodge project -- I'd love to see them get built! If you're curious about an idea but don't know where to start, just reach out to me at aayushg@mit.edu; I'd be happy to give pointers on the frameworks I'd use, the high-level design, and/or the best way to learn how to build them. Ideas include apps, web apps, and chrome extensions. All I ask for is they are open source, credit is given to Aayush or Divide-By-0, and your repo + site link back to this list :)
+Feel free to use these for a hackathon, side project, or hacklodge project -- I'd love to see them get built! If you're curious about an idea but don't know where to start, just reach out to me at aayushg@mit.edu; I'd be happy to give pointers on the frameworks I'd use, the high-level design, and/or the best way to learn how to build them. Ideas include apps, web apps, and chrome extensions. All I ask for is they are open source, credit is given to Aayush or [yush_g](https://twitter.com/yush_g) or Divide-By-0, and your repo + site link back to this list :)
 
 ## Funding
 
-If I particularly like a certain quality of implementation and you fully deploy the project publicly, I can award free hosting and small cash prizes ($200, 2x matched to $400 by [@smsunarto](https://twitter.com/smsunarto) for crypto ideas). This is at my discretion so people don't game the system or feel cheated; the point is to build the project for learning and self-satisfaction, not the grant -- the money is mostly just so it can continue to exist :). Total bounties given counter: 3. 
-
-viaprize.com has generously agreed to guarantee some of the funding ($100) for 10 of these ideas -- feel free to check their website for which specific ones.
+If I particularly like a certain quality of implementation and you fully deploy the project publicly, I can award free hosting and small cash prizes at $400 per idea ($600 per crypto idea). I personally put in $200 (2x matched by [Matchbox](https://www.matchboxdao.com/), crypto ideas additionally 2x matched by [@smsunarto](https://twitter.com/smsunarto)). This is at my discretion so people don't game the system or feel cheated; the point is to build the project for learning and self-satisfaction, not the grant -- the money is mostly just so it can continue to exist :). Reach out to [me](https://twitter.com/yush_g) if you're interested in helping sponsor bounties as well! Total bounties given counter: 3.
 
 ## Contribution & pull requests
 
@@ -115,6 +113,7 @@ If you want to be added to the list of people that have completed a project, Req
 
 <a name="Edtech"></a>
 ### Edtech/Research/School
+- Timed comments for YouTube, like the [existing beta which doesn't seem likely to rollout soon](https://www.engadget.com/youtube-testing-timed-comments-114419554.html) but shown in a Soundcloud style. That is, a scraper gets all the comments, extracts timestamps, and like Soundcloud, displays previews that expand on hover in tiny popups at the timestamp the bottom of the video as you watch. If not fullscreeen, each comment thread at the timestamp can scroll by on the side in place of the next video suggestion, like an auto-scrolling Khan Academy comments board. Would likely be a Chrome extension. Ideally, could also show such comments automatically on any embedded YouTube video as well. If someone using the extension likes or responds, should just respond from their logged in YouTube account.
 - An extension where you could double click a citation # in a paper and it would automatically open the pdf from jstor or other 👀 sources.
 - Make an app that embeds paperswithcode.com implementations directly to test (not generally, but a select cool few ones).
 - Tunemeet for cohort-based classes: It's known that cohort-based learning is powerful. An extension students can get that drops a chat box in their window if they're watching the same video (class zoom recordings or OCW content to start) as another student at the same time. Can perhaps comment on specific timestamps in the video, or have a Khan Academy-style board for any video.
