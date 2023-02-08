@@ -4,7 +4,7 @@ Inspired by https://github.com/joereynolds/what-to-code.
 
 These ideas, as far as I know, don't exist yet (or have done a poor job with SEO on Google). These are also ideas I desperately wish I could have tried at least once, meaning many others probably have as well. It's difficult to stay motivated coding or on a side project when you don't know if people will use it, or if your end goal is solving a solved problem. This list aims to fix that.
 
-This list is around 100 highly curated ideas, and I hope to hit 150 by 2023. Stay tuned, as I have several hundred on my list (the majority of them are patently ridiculous and not a good use of anyone's time to read).
+This list is around 100 curated ideas, and I hope to hit 150 by the end of 2023. Stay tuned, as I have several hundred on my list (the majority of them are patently ridiculous and not a good use of anyone's time to read).
 
 Feel free to use these for a hackathon, side project, or hacklodge project -- I'd love to see them get built! If you're curious about an idea but don't know where to start, just reach out to me at aayushg@mit.edu; I'd be happy to give pointers on the frameworks I'd use, the high-level design, and/or the best way to learn how to build them. Ideas include apps, web apps, and chrome extensions. All I ask for is they are open source, credit is given to Aayush or [yush_g](https://twitter.com/yush_g) or Divide-By-0, and your repo + site link back to this list :)
 
@@ -73,7 +73,7 @@ If you want to be added to the list of people that have completed a project, Req
 ### Programming Tools
 - A lightweight create-react app for ML apps. This starter app would compile on first clone and run React, Tornado, and SQLAlchemy (easiest to do with Parcel). Would be nice to have a 'yarn deploy' or something that does a one-click deploy to GCP/AWS as well. Would be cool if the default frontend was a presetup email collector, usually the first stage of hype in a startup anyways.
    - Edit: I now think this should use React and [Modal](http://modal.com) instead.
-- A debugger to catch bugs like two functions being the same and different in inconsistent ways.
+- A debugger to catch bugs like two functions being the same and different in inconsistent ways, can use interfaces like ChatGPT automatically on your code.
 - Automatically track all the keyboard shortcuts/clicks you do within an editor, and suggest/generate keybindings and commands for your most inefficient workflows (an interactive way to practice forgotten yet useful vim shortcuts, for instance)
 - A greasemonkey/tampermonkey script to automatically in the background, backup all visited pages and their hyperlinks to Internet Archive. I used to have a naiive script, but a faster script would only do the hyperlink scanning and API calls after the full page loads.
 - A greasemonkey/tampermonkey script to, when detecting a page that says "404" and "Not Found" on it, display a link to go to that page in the Internet Archive.
@@ -152,12 +152,12 @@ If you want to be added to the list of people that have completed a project, Req
 - A bidding platform for radio ads, where corporations/clubs/people put their ads, and radio hosts play the highest paying ones and post the time and station, and location. Once the site auto-verifies it with audio matching from tune-in + shazam type system, it automatically transfers revenue from radio station to radio hosts (can be done easily via crypto).
   - I think college radio stations (like MIT WMBR) would really like this and probably use it!
 - A Twitter bot that tweets the opposite of what a Twitter thought leader influencer says and is therefore just as insightful.
-- Run analysis on which dance teams placed in what rank, to see the correlation with show order that they performed in, at shows like the Desi Dance Network.
+- Run analysis on which dance teams placed in what rank, to see the correlation between show order and rankings to measure bias, at shows like the Desi Dance Network.
 - An Amazon price per ounce/count calculation that works all the time, and the equivalent for Instacart, Walmart, etc
 
 <a name="Crypto"></a>
 ### Crypto ($400 each)
-- Truly random NFT drops. The problem is that you can predict randomness and mint the best NFTs by simulating the chain. Some solutions [exist](https://www.paradigm.xyz/2021/10/a-guide-to-designing-effective-nft-launches#phase-4-metadata-reveal). However, a better way to do this is, on mint, you generate a 24+ second (2+ block) VRF seeded by the previous blockhash. Minters pay gas upfront for anyone to send a second reveal transaction. MEV searchers calculate the VDF and send the result to the chain for that gas money + a small bonus, in return for updating the NFT values on chain first.
+- Truly random NFT drops. The problem is that you can predict randomness and mint the best NFTs by simulating the chain. Some solutions [exist](https://www.paradigm.xyz/2021/10/a-guide-to-designing-effective-nft-launches#phase-4-metadata-reveal). However, a better way to do this is, on mint, you generate a 24+ second (2+ block) VRF seeded by the previous blockhash. Minters pay gas upfront for anyone to send a second reveal transaction. MEV searchers calculate the VDF and send the result to the chain for that gas money + a small bonus, in return for updating the NFT values on chain first. More description at this hackmd: https://hackmd.io/xgR6mtWyQYC_SZYtZTdoDA
 - Build the first futarchy on chain (prediction markets for governance), like [MerkleDao](http://www.ralphmerkle.com/papers/DAOdemocracyDraft.pdf)'s plan. Add features like also betting reputation points proportional to money, where higher reputation leads to higher investment limits, which will help institutional players to be long-term aligned with the project instead of financial manipulators. This will also help elect legislators who consistently have high reputation, meaning they accurately predict long term impact of legislation on people.
 - Add a nice frontend to https://github.com/nulven/zk-message-board, and build a proof-of-concept anonymous group posting app powered by zero-knowledge proofs.
 - ~~Create an OSS, easy frontend for the [weth contract](https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2#code) with just three buttons: connect to web3, wrap, and withdraw.~~
