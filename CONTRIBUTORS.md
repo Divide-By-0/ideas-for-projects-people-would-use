@@ -41,3 +41,9 @@ Link: https://github.com/aidenmagrath/Windows-Auto-Unzipper
 Milo Cress, David Wu, Alice Chen, Vincent Huang
 Demo: [30 second Video](https://streamable.com/e/dow82b)
 Repo: [Github](https://github.com/zephyrys/stylish-flask-backend)
+
+## Automatically nightcore songs and post them as YouTube compilations
+
+Repo: [nightcoreify](https://github.com/thomashuss/nightcoreify)
+
+Deployed: [YouTube channel](https://youtube.com/c/nightcoreify)
