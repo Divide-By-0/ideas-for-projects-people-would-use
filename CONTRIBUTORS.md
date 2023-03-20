@@ -65,7 +65,6 @@
 **Completed by**: Bryan Chiang </br>
 **Demo Video**: [Demo](https://i.imgur.com/9VCWd7l.mp4)
 
-
 ### Dev NFTs on Goerli
 
 **Bounty Prompt:** A developer-friendly ERC721 on testnets i.e. Goerli, that lets you send Eth to the contract and will auto-mint you back 100 dev NFTs to experiment with, so super easy to test with during hackathons </br>
