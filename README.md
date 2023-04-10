@@ -175,7 +175,7 @@ If you want to be added to the list of people that have completed a project, req
 ### Family/Roommates
 
 - Remotely control your grandparents' computer/phone with one link click that you can send them. It should be one-time and only work for a few minutes, so hackers can't exploit it in the future. Chrome Remote Desktop requires Google sign-in from the same account in both places, which is harder to pull off for 2 different people.
-- Make an algorithm for a mounted camera that sends SMS notifications (perhaps if your roommate leaves dirty dishes?) based on this [similar one](https://medium.com/@ageitgey/snagging-parking-spaces-with-mask-r-cnn-and-python-955f2231c400) for parking spaces.
+- Make an algorithm for a mounted camera that sends SMS notifications if your roommate leaves dirty dishes, based on this [similar one](https://medium.com/@ageitgey/snagging-parking-spaces-with-mask-r-cnn-and-python-955f2231c400) for parking spaces.
 
 <a name="Politics"></a>
 
@@ -191,18 +191,15 @@ If you want to be added to the list of people that have completed a project, req
 
 ### Image Processing
 
-- Automatically make photos look good by aligning edge detection with the rule of thirds. Perhaps as a Chrome extension that runs when you hit crop on a Google Photos image link?
-- Take a picture of a wine stand, and recommend wines by the best rating to price ratio.
-- A good online red-eye fixer. Surprisingly, the first few on Google all sucked.
 - Make app/Chrome extension/background integration to auto tag Google Photos images with ongoing calendar events, so I can search for the event and see the photos from that. Useful for class notes (if all your classes are on your calendar) and generally increasing the searchability of photos.
-- A way to share event photos to specific people. It should be possible to upload an album to i.e. Google Photos or Flickr of thousands of pics of the event, and attendees can input a picture of themselves and their friends, and it automatically runs facial recognition on every pic in the album and only returns pics that include people from the inputted picture.
+- A way to share event photos to specific people. It should be possible to upload an album to i.e. Google Photos or Flickr of thousands of pics of the event, and attendees can input a picture of themselves and/or their friends, and it automatically runs facial recognition on every pic in the album and only returns pics that include people from the inputted picture. Alternatively, since Google Photos already does this, a script that scrapes through the album and sees which ones are tagged with you, and saves those to your library.
 
 <a name="Video-Processing"></a>
 
 ### Video Processing
 
 - Convert any youtube video to the trapezoid holographic projection (like [this](https://www.instructables.com/3D-Holograms-Using-Phone/)) by running depth perception AI on the video, and changing the depths that different pixels are at on different screens, so you see a depth modulated image on top of your screen, holographically, for any video!
-- Animation Generator: AI labels each frame in a video with the contents in a text (representation learning), then based on given labels, generates missing labels/coherent story, then generates an animation based on all those labels. Can deepfake style transfer all images to be the same style (idea inspired by Eden Bensaid).
+- Animation Generator: AI labels each frame in a video with the contents in a text (representation learning), then based on given labels, generates missing labels/coherent story, then generates an animation based on all those labels. Can deepfake style transfer all images to be the same style (like Gen-1).
 - A dashcam that alerts you if someone is giving you a parking ticket when you're away. Bonus points if it tells the cop that you'll be back in just a minute.
 - Auto Analyze Game Footage: A drone above a sports game keeps track of all the footage and then you infer the plays the opponent is making based on similarity of movement, so you can get the strategies of an arbitrary team. Can also do with phone cameras possibly.
 - A hidden camera on a lapel that lets you record all poker hands at a casino and then analyses them for you.
