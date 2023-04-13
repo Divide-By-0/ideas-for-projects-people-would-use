@@ -198,6 +198,7 @@ If you want to be added to the list of people that have completed a project, req
 
 ### Video Processing
 
+- **Blink Tracker for iOS/Android**: Count blinks and display on screen. Here is a [full spec for an iOS app](https://docs.google.com/document/d/1w6dA5UAvva4zIa9e-msC-8sv5pUHpkX-7uuwCeT-C3Q/edit?usp=sharing).
 - Convert any youtube video to the trapezoid holographic projection (like [this](https://www.instructables.com/3D-Holograms-Using-Phone/)) by running depth perception AI on the video, and changing the depths that different pixels are at on different screens, so you see a depth modulated image on top of your screen, holographically, for any video!
 - Animation Generator: AI labels each frame in a video with the contents in a text (representation learning), then based on given labels, generates missing labels/coherent story, then generates an animation based on all those labels. Can deepfake style transfer all images to be the same style (like Gen-1).
 - A dashcam that alerts you if someone is giving you a parking ticket when you're away. Bonus points if it tells the cop that you'll be back in just a minute.
