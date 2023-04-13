@@ -230,9 +230,8 @@ If you want to be added to the list of people that have completed a project, req
 ### Text Processing/NLP
 
 - **Goodreads Book Recommender via OpenSyllabus**: A site that takes in your Goodreads profile and uses the OpenSyllabus Galaxy book embeddings to build a recommender system for what you might like next.
-- A creative startup name finder powered by baby names. Find meanings for baby babes, and make a site where you can input keywords your startup is about, and it will print resulting baby names with meanings with the highest keyword overlap (or min distance in the word embedding space).
+- A creative startup name finder powered by baby names. Find meanings for baby babes, and make a site where you can input keywords your startup is about, and it will print resulting baby names with meanings with the highest keyword overlap (or min distance in the word embedding space). You can also have a keyword masher, where you input 2+ keywords, then try all reasonable pairwise ship names till you reach an untaken name .com/.ai/.io/other top TLD.
   - Inspired by https://www.joinleelo.com/blog/how-we-came-up-with-the-name-leelo
-- Another startup name generator - input 2+ keywords, then try all reasonable pairwise ship names till you reach an untaken name .com/.ai/.io/other top TLD
 - Convert all text in messenger apps to lowercase automatically (for speech to text or bad autocorrect).
 - Keyboard shortcut for automatically fixing spelling in Google Docs+.
 - A chrome extension that adds the per ounce/unit price to Instacart the same way Amazon does.
@@ -245,6 +244,7 @@ If you want to be added to the list of people that have completed a project, req
 ### Fun
 
 - Create a nice frontend for DeepSaber, a way to AI generate beatsaber maps for any youtube video. Currently, it's just a [colab notebook](https://colab.research.google.com/drive/11v-ztHOUXLXFHmH4QIuXGXtTvD-3r7oP#scrollTo=mocWjd1-oatL), but it's [a few short steps away](https://gist.github.com/Divide-By-0/0fd38b7b8b0102b21b4f11bf8dd7d707) from having a nice frontend. BeatSage is a similar AI mapper that's generally regarded as having an inferior algorithm, and they hit 100K uses in a few months.
+  - Edit: Done at [bsmapper.com](https://bsmapper.com) and [beatsaberai.com](https://beatsaberai.com). A new one is coming out soon as well that should blow these two out of the water.
 - A better smart time-based phone password lock. For instance, if the current time is AB:CD, the user can set their password as say, (A+B), (|C-D|), (A \* B % 10), (D), or a general user-coded function, so it changes every minute. Existing solutions only allow rudimentary functions.
 - Automatic haircut chooser -- input a picture, and based on aligning your face to a celebrity with similar facial features (via keypoint matching or AI facial recognition %), then overlay celebrity hair on top of yours to preview the style or directly show that celebrity's hair to your barber.
 - Automatically take a picture of your face and take cross ratios and edge detection/curve detection to determine the best sunglasses based on face shape. Training data can be celebrities with similar face shapes, and you can even have a whole startup ship and send you completely custom-sized sunglasses.
