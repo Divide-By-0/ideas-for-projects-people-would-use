@@ -1,49 +1,80 @@
-# Contributors
+# Finished Projects and Contributors
 
-## A program that takes your spotify playlist and converts it to another one of remixes of the same songs, to get some variety.
-**mixmello** - create remixed versions of your favourite playlists. Free and open source!
+### Mixmello: Remix Spotify Playlists
 
-Link: [mixmello.com](https://www.mixmello.com)
+**Bounty Prompt**: A program that takes your spotify playlist and converts it to another one of remixes of the same songs, to get some variety. Create remixed versions of your favourite playlists. Free and open source! </br>
+**Website Link:** [mixmello.com](https://www.mixmello.com) </br>
+**GitHub Repo:** [alexgurr/mixmello](https://github.com/alexgurr/mixmello)
 
-GitHub: [alexgurr](https://github.com/alexgurr/mixmello)
+### Auto-LaTeX Equations
 
-## The bruh button, but for damn daniel
+**Bounty Prompt:** A way to use LaTeX equations in Google Docs </br>
+**Completed by**: Aayush Gupta (me) </br>
+**Website:** https://autolatex.com </br>
+**Press:** [Nature](https://www.nature.com/articles/d41586-019-01796-1)
 
-Daniel Bessonov, Patrick Li
+### Spotify Playlist Cleanify
 
-Press: [Saratoga Falcon: Top 25 App on App Store Taken Down](https://www.saratogafalcon.org/content/students%E2%80%99-top-25-app-taken-down-after-%E2%80%98damn-daniel%E2%80%99-lawyers-threaten-legal-action)
+**Bounty Prompt:** A program that takes your spotify playlist and converts it to a clean version with the same songs and removes it if it can't find any. Used to be able to listen to my playlists in the car with my parents </br>
+**Completed by**: Arman Rafati</br>
+**Website:** https://www.cleanify.app/ </br>
+**Github Link:** https://github.com/code-arman/Cleanify
 
-## An app that tracks the distance you've scrolled on your phone and puts it on a leaderboard
+### Windows Automatic Unzipper
 
-Bryan Chiang
+**Bounty Prompt:** When something is downloaded, unzip it to its own folder then delete the original zip file </br>
+**Completed by**: Aiden Magrath</br>
+**Github Repo:** https://github.com/aidenmagrath/Windows-Auto-Unzipper
 
-Demo: [Demo](https://i.imgur.com/9VCWd7l.mp4)
+### Trippy Videos
 
-## A way to use LaTeX equations in Google Docs
+**Bounty Prompt:** Upsample each frame in a video independently with a GAN, creating an entirely style-transfered universe that moves from frame to frame in a slightly jarring and hypnotic way. </br>
+**Completed by**: Milo Cress, David Wu, Alice Chen, Vincent Huang </br>
+**Demo Video:** [30 second Video](https://streamable.com/e/dow82b) </br>
+**Github Repo:** [Github](https://github.com/zephyrys/stylish-flask-backend)
 
-Aayush Gupta (me)
+### Colorize Video
 
-Link: https://autolatex.com <br>
-Press: [Nature](https://www.nature.com/articles/d41586-019-01796-1)
+**Bounty Prompt:** An API endpoint for temporally consistent video colorization</br>
+**Completed by**: Syed Mustafa</br>
+**Deployed Demo:** [Replicate API Demo](https://replicate.com/cudanexus/debvc)</br>
 
-## A program that takes your spotify playlist and converts it to a clean version with the same songs and removes it if it can't find any. Used to be able to listen to my playlists in the car with my parents
+### Get Off Those Sites
 
-Arman Rafati
-Link: https://github.com/code-arman/Cleanify
+**Bounty Prompt:** A good Chrome extension to keep you off Facebook etc. Tracks how long you spend on degenerate sites, then when you go to Facebook etc, it says "On average, you think you'll spend 16 minutes, but you end up spending 31 minutes on this tab. How many minutes do you think you'll spend this time?" And at the end of that # of minutes, it makes the page black and white so you can continue to browse but it'll be slightly uncomfortable. </br>
+**Completed by** [GrimSteel](github.com/grimsteel) </br>
+**Demo Video:** TBD </br>
+**Github Repo:** [get-off-those-sites](https://github.com/grimsteel/get-off-those-sites/) </br>
 
-## Windows automatic unzipper. When something is downloaded, unzip it to its own folder then delete the original zip file
+### Spotify Match
 
-Aiden Magrath
-Link: https://github.com/aidenmagrath/Windows-Auto-Unzipper
+**Bounty Prompt**: A website that, when given a certain song or artist on Spotify, it finds friends who have listened to that artist/song (by # of occurrences in their public playlists). Useful to find concert buddies/people with similar music tastes. </br>
+**Completed By**: Colin Flueck </br>
+**Demo Video**: TBD </br>
+**Website Link**: [spotifymatch.com](https://spotifymatch.com)
 
-## Trippy Videos: Upsample each frame in a video independently with a GAN, creating an entirely style-transfered universe that moves from frame to frame in a slightly jarring and hypnotic way.
+
+
 
 Milo Cress, David Wu, Alice Chen, Vincent Huang
 Demo: [30 second Video](https://streamable.com/e/dow82b)
 Repo: [Github](https://github.com/zephyrys/stylish-flask-backend)
 
-## Automatically nightcore songs and post them as YouTube compilations
+### Automatically nightcore songs and post them as YouTube compilations
 
 Repo: [nightcoreify](https://github.com/thomashuss/nightcoreify)
 
 Deployed: [YouTube channel](https://youtube.com/c/nightcoreify)
+
+### Damn Daniel Button
+
+**Bounty Prompt**: The bruh button, but for damn daniel </br>
+**Completed by**: Daniel Bessonov, Patrick Li </br>
+**Press:** [Saratoga Falcon: Top 25 App on App Store Taken Down](https://www.saratogafalcon.org/content/students%E2%80%99-top-25-app-taken-down-after-%E2%80%98damn-daniel%E2%80%99-lawyers-threaten-legal-action)
+
+### Phone Scroll Distance Leaderboard
+
+**Bounty Prompt:** An app that tracks the distance you've scrolled on your phone and puts it on a leaderboard </br>
+**Completed by**: Bryan Chiang </br>
+**Demo Video**: [Demo](https://i.imgur.com/9VCWd7l.mp4)
+
