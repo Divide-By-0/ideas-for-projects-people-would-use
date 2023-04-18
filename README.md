@@ -261,7 +261,8 @@ If you want to be added to the list of people that have completed a project, req
   - I think college radio stations (like MIT WMBR) would really like this and probably use it!
 - A Twitter bot that tweets the opposite of what a Twitter thought leader influencer says and is therefore just as insightful.
 - Run analysis on which dance teams placed in what rank, to see the correlation between show order and rankings to measure bias, at shows like the Desi Dance Network.
-- An Amazon price per ounce/count calculation that works all the time, and the equivalent for Instacart, Walmart, etc
+- An Amazon price per ounce/count calculation that works all the time, and the equivalent for Instacart, Walmart, etc.
+- Draw a [bad luck circle](https://twitter.com/marsreviewer/status/1646608776747798565?t=UjK5wKUiA29kWEkDm99jSg&s=19) and sell t-shirts nearby that say you flip all bad luck for good luck, [inspired by this](https://twitter.com/Noahpinion/status/1648052997241577472). Pretty performance art-y.
 
 <a name="Crypto"></a>
 
