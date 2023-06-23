@@ -64,3 +64,10 @@
 **Bounty Prompt:** An app that tracks the distance you've scrolled on your phone and puts it on a leaderboard </br>
 **Completed by**: Bryan Chiang </br>
 **Demo Video**: [Demo](https://i.imgur.com/9VCWd7l.mp4)
+
+### Goodreads Recommender
+
+**Bounty Prompt:** Goodreads Book Recommender via OpenSyllabus: A site that takes in your Goodreads profile and uses the OpenSyllabus Galaxy book embeddings to build a recommender system for what you might like next. </br>
+**Completed by**: Samuel Moor-Smith </br>
+**Website Link**: [goodreads-recommender](https://goodreads-recommender.vercel.app/)
+**Repo Link**: [goodreads-recommender](https://github.com/SamuelMoor-Smith/goodreads-recommender)
