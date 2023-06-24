@@ -64,3 +64,11 @@
 **Bounty Prompt:** An app that tracks the distance you've scrolled on your phone and puts it on a leaderboard </br>
 **Completed by**: Bryan Chiang </br>
 **Demo Video**: [Demo](https://i.imgur.com/9VCWd7l.mp4)
+
+### Baby Names Generator
+
+ **Bounty Prompt:** A creative startup name finder powered by baby names. Find meanings for baby babes, and make a site where you can input keywords your startup is about, and it will print resulting baby names with meanings with the highest keyword overlap (or min distance in the word embedding space). You can also have a keyword masher, where you input 2+ keywords, then try all reasonable pairwise ship names till you reach an untaken name .com/.ai/.io/other top TLD.
+Inspired by https://www.joinleelo.com/blog/how-we-came-up-with-the-name-leelo </br>
+ **Completed by**: Samuel Moor-Smith </br>
+ **Website Link**: [baby-names-generator](https://baby-names-generator.vercel.app)
+ **Repo Link**: [baby-names-generator](https://github.com/SamuelMoor-Smith/baby-names-generator)
