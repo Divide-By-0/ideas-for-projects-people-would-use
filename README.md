@@ -235,6 +235,7 @@ If you want to be added to the list of people that have completed a project, req
 - **Goodreads Book Recommender via OpenSyllabus**: A site that takes in your Goodreads profile and uses the OpenSyllabus Galaxy book embeddings to build a recommender system for what you might like next.
 - A creative startup name finder powered by baby names. Find meanings for baby babes, and make a site where you can input keywords your startup is about, and it will print resulting baby names with meanings with the highest keyword overlap (or min distance in the word embedding space).
   - Inspired by https://www.joinleelo.com/blog/how-we-came-up-with-the-name-leelo
+  - This is [done](https://baby-names-generator.vercel.app)
 - Another startup name generator - input 2+ keywords, then try all reasonable pairwise ship names till you reach an untaken name .com/.ai/.io/other top TLD
 - Convert all text in messenger apps to lowercase automatically (for speech to text or bad autocorrect).
 - Keyboard shortcut for automatically fixing spelling in Google Docs+.
