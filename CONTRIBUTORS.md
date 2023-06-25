@@ -64,3 +64,9 @@
 **Bounty Prompt:** An app that tracks the distance you've scrolled on your phone and puts it on a leaderboard </br>
 **Completed by**: Bryan Chiang </br>
 **Demo Video**: [Demo](https://i.imgur.com/9VCWd7l.mp4)
+
+### Tuneder
+
+**Bounty Prompt**: A tinder for songs -- plays the most commented 10 seconds of a song on SoundCloud and adds it to a playlist if you like it. Inspired by Soundsieve (https://github.com/wilzh40/SoundSieve) which is unfortunately dead, and fab.fm which has a different song discovery method. </br>
+**Completed by**: Aditya Saravana </br>
+**Github Repo**: (https://github.com/adityasaravana/Tuneder)
