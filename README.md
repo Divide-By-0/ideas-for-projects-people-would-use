@@ -12,7 +12,7 @@ Feel free to use these for a hackathon, side project, or hacklodge project -- I'
 
 If you fully deploy the project publicly, I award free hosting and small cash prizes at $200 per idea ($400 per crypto idea). I personally put in $200 (crypto ideas additionally 2x matched by [@smsunarto](https://twitter.com/smsunarto)). This is at my discretion so people don't game the system or feel cheated; the point is to build the project for learning and self-satisfaction, not the grant -- the money is mostly just so it can continue to exist :). I will likely fund any good-faith implementation. Reach out to [me](https://twitter.com/yush_g) if you're interested in helping sponsor bounties as well!
 
-**Total projects built: 12.**
+**Total projects built: 13.**
 
 **<details><summary>Finished + Paid out Bounties</summary>**
 <p>
@@ -93,6 +93,13 @@ If you fully deploy the project publicly, I award free hosting and small cash pr
 **Completed by**: Aayush Gupta (me) </br>
 **Github Repo**: [keybr-with-stats](https://github.com/Divide-By-0/keybr-with-stats/)
 **Deployed Website**: https://keybr.onrender.com
+
+### Tuneder
+
+**Bounty Prompt**: A tinder for songs -- plays the most commented 10 seconds of a song on SoundCloud and adds it to a playlist if you like it. Inspired by Soundsieve (https://github.com/wilzh40/SoundSieve) which is unfortunately dead, and fab.fm which has a different song discovery method. </br>
+**Completed by**: Aditya Saravana </br>
+**Github Repo**: (https://github.com/adityasaravana/Tuneder)
+
 
 </p>
 </details>
