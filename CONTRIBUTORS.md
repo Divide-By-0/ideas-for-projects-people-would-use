@@ -53,6 +53,19 @@
 **Demo Video**: TBD </br>
 **Website Link**: [spotifymatch.com](https://spotifymatch.com)
 
+
+
+
+Milo Cress, David Wu, Alice Chen, Vincent Huang
+Demo: [30 second Video](https://streamable.com/e/dow82b)
+Repo: [Github](https://github.com/zephyrys/stylish-flask-backend)
+
+### Automatically nightcore songs and post them as YouTube compilations
+
+Repo: [nightcoreify](https://github.com/thomashuss/nightcoreify)
+
+Deployed: [YouTube channel](https://youtube.com/c/nightcoreify)
+
 ### Damn Daniel Button
 
 **Bounty Prompt**: The bruh button, but for damn daniel </br>
@@ -64,3 +77,4 @@
 **Bounty Prompt:** An app that tracks the distance you've scrolled on your phone and puts it on a leaderboard </br>
 **Completed by**: Bryan Chiang </br>
 **Demo Video**: [Demo](https://i.imgur.com/9VCWd7l.mp4)
+
