@@ -64,3 +64,9 @@
 **Bounty Prompt:** An app that tracks the distance you've scrolled on your phone and puts it on a leaderboard </br>
 **Completed by**: Bryan Chiang </br>
 **Demo Video**: [Demo](https://i.imgur.com/9VCWd7l.mp4)
+
+### Blink Tracker
+
+**Bounty Prompt:** An Android app which tracks how many times you blink per minute and notifies you if it's below defined threshold. </br>
+**Completed by** [Sergey V.](https://github.com/djkovrik) </br>
+**Github Repo:** [BlinkTracker](https://github.com/djkovrik/BlinkTracker) </br>
