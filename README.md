@@ -258,6 +258,7 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 ### Text Processing/NLP
 
 - **Goodreads Book Recommender via OpenSyllabus**: A site that takes in your Goodreads profile and uses the OpenSyllabus Galaxy book embeddings to build a recommender system for what you might like next.
+    - Edit: This is [done](https://goodreads-recommender.vercel.app/).
 - A creative startup name finder powered by baby names. Find meanings for baby babes, and make a site where you can input keywords your startup is about, and it will print resulting baby names with meanings with the highest keyword overlap (or min distance in the word embedding space). You can also have a keyword masher, where you input 2+ keywords, then try all reasonable pairwise ship names till you reach an untaken name .com/.ai/.io/other top TLD.
   - Inspired by https://www.joinleelo.com/blog/how-we-came-up-with-the-name-leelo
 - Convert all text in messenger apps to lowercase automatically (for speech to text or bad autocorrect).

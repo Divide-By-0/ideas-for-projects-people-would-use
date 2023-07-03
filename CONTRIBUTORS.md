@@ -65,6 +65,13 @@
 **Completed by**: Bryan Chiang </br>
 **Demo Video**: [Demo](https://i.imgur.com/9VCWd7l.mp4)
 
+### Goodreads Recommender
+
+**Bounty Prompt:** Goodreads Book Recommender via OpenSyllabus: A site that takes in your Goodreads profile and uses the OpenSyllabus Galaxy book embeddings to build a recommender system for what you might like next. </br>
+**Completed by**: Samuel Moor-Smith </br>
+**Website Link**: [goodreads-recommender](https://goodreads-recommender.vercel.app/)
+**Repo Link**: [goodreads-recommender](https://github.com/SamuelMoor-Smith/goodreads-recommender)
+
 ### Blink Tracker
 
 **Bounty Prompt:** An Android app which tracks how many times you blink per minute and notifies you if it's below defined threshold. </br>
