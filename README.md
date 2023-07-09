@@ -233,6 +233,7 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 ### Video Processing
 
 - **Blink Tracker for iOS/Android**: Count blinks and display on screen. Here is a [full spec for an iOS app](https://docs.google.com/document/d/1w6dA5UAvva4zIa9e-msC-8sv5pUHpkX-7uuwCeT-C3Q/edit?usp=sharing).
+  - DONE (Android): This is done by [Sergey V.](https://github.com/djkovrik/BlinkTracker), download from [Google Play](https://play.google.com/store/apps/details?id=com.sedsoftware.blinktracker)
 - **Combine Lecture Videos**: Given a set of videos (that may be slightly offset) from different angles, combine them into one video that cuts between the frames. This already exists for ai podcast processing software so shouldn't be too hard to adapt? Full [spec for CLI tool here](https://docs.google.com/document/d/1oInpmyf3xikM6TOMaz6Uqz5ZStdFyP7YqKX39RR9nMQ/edit).
   - In Progress: There is a 2x match bounty amount matched by [MIT Soul](https://mitsoul.org).
 - Convert any youtube video to the trapezoid holographic projection (like [this](https://www.instructables.com/3D-Holograms-Using-Phone/)) by running depth perception AI on the video, and changing the depths that different pixels are at on different screens, so you see a depth modulated image on top of your screen, holographically, for any video!

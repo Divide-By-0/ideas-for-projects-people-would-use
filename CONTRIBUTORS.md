@@ -77,3 +77,9 @@
 **Completed by**: Samuel Moor-Smith </br>
 **Website Link**: [goodreads-recommender](https://goodreads-recommender.vercel.app/)
 **Repo Link**: [goodreads-recommender](https://github.com/SamuelMoor-Smith/goodreads-recommender)
+
+### Blink Tracker
+
+**Bounty Prompt:** An Android app which tracks how many times you blink per minute and notifies you if it's below defined threshold. </br>
+**Completed by** [Sergey V.](https://github.com/djkovrik) </br>
+**Github Repo:** [BlinkTracker](https://github.com/djkovrik/BlinkTracker) </br>
