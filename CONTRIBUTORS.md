@@ -65,6 +65,12 @@
 **Completed by**: Bryan Chiang </br>
 **Demo Video**: [Demo](https://i.imgur.com/9VCWd7l.mp4)
 
+### Tuneder
+
+**Bounty Prompt**: A tinder for songs -- plays the most commented 10 seconds of a song on SoundCloud and adds it to a playlist if you like it. Inspired by Soundsieve (https://github.com/wilzh40/SoundSieve) which is unfortunately dead, and fab.fm which has a different song discovery method. </br>
+**Completed by**: Aditya Saravana </br>
+**Github Repo**: (https://github.com/adityasaravana/Tuneder)
+
 ### Goodreads Recommender
 
 **Bounty Prompt:** Goodreads Book Recommender via OpenSyllabus: A site that takes in your Goodreads profile and uses the OpenSyllabus Galaxy book embeddings to build a recommender system for what you might like next. </br>
