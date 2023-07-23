@@ -100,12 +100,12 @@ If you fully deploy the project publicly, I award free hosting and small cash pr
 **Completed by**: Aditya Saravana </br>
 **Github Repo**: (https://github.com/adityasaravana/Tuneder)
 
-### sc-explorer
+### SoundSwipe
 
 **Bounty Prompt**: A tinder for songs -- plays the most commented 10 seconds of a song on SoundCloud and adds it to a playlist if you like it. Inspired by Soundsieve (https://github.com/wilzh40/SoundSieve) which is unfortunately dead, and fab.fm which has a different song discovery method.</br>
 **Completed by**: Kevin Grosso ([k0dev](https://github.com/k0dev))</br>
 **Github Repo**: https://github.com/k0dev/sc-explorer</br>
-**Website Link**: [sc-explorer](http://sc-explorer.westeurope.cloudapp.azure.com/)
+**Website Link**: [SoundSwipe](http://soundswipe.org)
 </p>
 </details>
 </br>
