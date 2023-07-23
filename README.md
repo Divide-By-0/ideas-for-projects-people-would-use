@@ -197,12 +197,13 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 ### Programming Tools
 
 - Automatically track all the keyboard shortcuts/clicks you do within an editor, and suggest/generate keybindings and commands for your most inefficient workflows (an interactive way to practice forgotten yet useful vim shortcuts, for instance)
-- **Auto-Archiver**: A greasemonkey/tampermonkey script to automatically in the background, backup all visited pages and their hyperlinks to Internet Archive. I used to have a naiive script, but a faster script would only do the hyperlink scanning and API calls after the full page loads.
+- **Auto-Archiver**: A greasemonkey/tampermonkey script to automatically in the background, backup all visited pages and their hyperlinks to Internet Archive. 
+  - Edit: [ATRescue + Flare0n's script from 2014](https://gist.github.com/ATRescue/e40efa579e4461561697934c1c3be229) still works well. I [forked it](https://gist.github.com/Divide-By-0/313bf6ab375e4f3112adf41ef8c15d5f) to add a small delay after each link to avoid being ratelimited. The [version deployed to the Chrome store](https://chrome.google.com/webstore/detail/autosave-to-wayback-machi/defmcmdgnplidnoilmeleeglnmjkalnk) doesn't have enough customizability (i.e. if you want to, say, avoid all Google drive links or avoid ratelimits), so I recommend the Tampermonkey script instead. My 'User Excludes' list includes \*google.com\* and \*gmail.com\* but for some reason Google Chrome keeps thinking I'm getting hacked (on my calendar I think?) so evidently better filtering needs to be done here. Maybe instead of just blocking the original host, also block all links out from safe hosts? Anyways if anyone can correctly diagnose and fork this code to fix this Google banning issue, I'll still award a half bounty.
 - A lightweight create-react app for ML apps. This starter app would compile on first clone and run React and Python. Should have a 'yarn deploy' or something that does a one-click deploy to an API endpoint as well.
   - Edit: I now think this should use React and [Modal](http://modal.com) or [Replicate](https://replicate.com) instead.
 - **404 to Archive Redirecter**: A greasemonkey/tampermonkey script to, when detecting a page that says "404" or "Not Found" on it, automatically redirect to that page in the Internet Archive.
 - OSS Keybr Clone: Make an open source keybr clone with more statistics, like seperating lowercase/capital letters, and showing most missed keys and most missed pairs of keys.
-  - Edit: This is done at [https://keybr.onrender.com](https://keybr.onrender.com).
+  - DONE: This is done at [https://keybr.onrender.com](https://keybr.onrender.com).
 
 <a name="Family-Roommates"></a>
 
