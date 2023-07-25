@@ -83,3 +83,10 @@
 **Bounty Prompt:** An Android app which tracks how many times you blink per minute and notifies you if it's below defined threshold. </br>
 **Completed by** [Sergey V.](https://github.com/djkovrik) </br>
 **Github Repo:** [BlinkTracker](https://github.com/djkovrik/BlinkTracker) </br>
+
+### bpm-playlist
+**Bounty Prompt**: An app that chooses songs of a specific BPM from all your Spotify liked and playlisted songs, for workouts<br>
+**Completed by**: Kevin Grosso (k0dev) <br>
+**Github Repo**: https://github.com/k0dev/bpm-playlist/
+**Deployed Website**: https://bpmplaylist.westeurope.cloudapp.azure.com/
+

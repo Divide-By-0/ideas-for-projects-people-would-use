@@ -100,6 +100,11 @@ If you fully deploy the project publicly, I award free hosting and small cash pr
 **Completed by**: Aditya Saravana </br>
 **Github Repo**: (https://github.com/adityasaravana/Tuneder)
 
+### bpm-playlist
+**Bounty Prompt**: An app that chooses songs of a specific BPM from all your Spotify liked and playlisted songs, for workouts<br>
+**Completed by**: Kevin Grosso (k0dev) <br>
+**Github Repo**: https://github.com/k0dev/bpm-playlist/
+**Deployed Website**: https://bpmplaylist.westeurope.cloudapp.azure.com/
 
 </p>
 </details>
@@ -175,6 +180,7 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 - Website that takes a video or movie, Shazam's all the songs or looks up soundtracks if they're public, and converts it to a Spotify playlist automatically. This might already be commonplace for mainstream movies, but doesn't exist for uncommon ones.
 - Little dancer: Use echo nest labs and FFT to sync a bunch of clips to a specific BPM or sequence of beats. Using some beat detector (likely also FFT), have a mini cheerleader or dancing figure synced to the beat in the bottom corner of your laptop. Can be based off of [stable diffusion dancing](https://metaphysic.ai/creating-authentic-human-motion-synthesis-via-diffusion/) to enable custom dancing.
 - An app that chooses songs of a specific BPM from all your Spotify liked and playlisted songs, for workouts
+    - DONE: By [Kevin Grosso](https://github.com/k0dev/bpm-playlist/)
 - An app that plays hype beats or just a simple beat behind a podcast, so when you run you can listen and stay on pace
 - A better rap lyrics generator than basic [MCMC/RNN methods](https://www.reddit.com/r/hiphopheads/comments/acwky9/original_python_program_that_writes/); use GPT-Neo to generate reasonable distributions over the next words, then re-weight GPT-3 probabilities over next words by hard-coded poetic heuristics, such as the amount of internal rhyming to same syllable count on the previous line, alliteration, etc.
 
