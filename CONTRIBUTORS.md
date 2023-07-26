@@ -71,3 +71,22 @@
 **Demo Video:** TBD </br>
 **Github Repo:** [nft-faucet](https://github.com/SamuelMoor-Smith/nft-faucet) </br>
 **Website Link**: [nft-faucet-three.vercel.app](https://nft-faucet-three.vercel.app/) </br>
+
+### Tuneder
+
+**Bounty Prompt**: A tinder for songs -- plays the most commented 10 seconds of a song on SoundCloud and adds it to a playlist if you like it. Inspired by Soundsieve (https://github.com/wilzh40/SoundSieve) which is unfortunately dead, and fab.fm which has a different song discovery method. </br>
+**Completed by**: Aditya Saravana </br>
+**Github Repo**: (https://github.com/adityasaravana/Tuneder)
+
+### Goodreads Recommender
+
+**Bounty Prompt:** Goodreads Book Recommender via OpenSyllabus: A site that takes in your Goodreads profile and uses the OpenSyllabus Galaxy book embeddings to build a recommender system for what you might like next. </br>
+**Completed by**: Samuel Moor-Smith </br>
+**Website Link**: [goodreads-recommender](https://goodreads-recommender.vercel.app/)
+**Repo Link**: [goodreads-recommender](https://github.com/SamuelMoor-Smith/goodreads-recommender)
+
+### Blink Tracker
+
+**Bounty Prompt:** An Android app which tracks how many times you blink per minute and notifies you if it's below defined threshold. </br>
+**Completed by** [Sergey V.](https://github.com/djkovrik) </br>
+**Github Repo:** [BlinkTracker](https://github.com/djkovrik/BlinkTracker) </br>
