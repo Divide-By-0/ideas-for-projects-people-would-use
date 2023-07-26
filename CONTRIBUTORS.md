@@ -67,8 +67,27 @@
 
 ### Baby Names Generator
 
- **Bounty Prompt:** A creative startup name finder powered by baby names. Find meanings for baby babes, and make a site where you can input keywords your startup is about, and it will print resulting baby names with meanings with the highest keyword overlap (or min distance in the word embedding space). You can also have a keyword masher, where you input 2+ keywords, then try all reasonable pairwise ship names till you reach an untaken name .com/.ai/.io/other top TLD.
+**Bounty Prompt:** A creative startup name finder powered by baby names. Find meanings for baby babes, and make a site where you can input keywords your startup is about, and it will print resulting baby names with meanings with the highest keyword overlap (or min distance in the word embedding space). You can also have a keyword masher, where you input 2+ keywords, then try all reasonable pairwise ship names till you reach an untaken name .com/.ai/.io/other top TLD.
 Inspired by https://www.joinleelo.com/blog/how-we-came-up-with-the-name-leelo </br>
- **Completed by**: Samuel Moor-Smith </br>
- **Website Link**: [baby-names-generator](https://baby-names-generator.vercel.app)
- **Repo Link**: [baby-names-generator](https://github.com/SamuelMoor-Smith/baby-names-generator)
+**Completed by**: Samuel Moor-Smith </br>
+**Website Link**: [baby-names-generator](https://baby-names-generator.vercel.app)
+**Repo Link**: [baby-names-generator](https://github.com/SamuelMoor-Smith/baby-names-generator)
+ 
+### Tuneder
+
+**Bounty Prompt**: A tinder for songs -- plays the most commented 10 seconds of a song on SoundCloud and adds it to a playlist if you like it. Inspired by Soundsieve (https://github.com/wilzh40/SoundSieve) which is unfortunately dead, and fab.fm which has a different song discovery method. </br>
+**Completed by**: Aditya Saravana </br>
+**Github Repo**: (https://github.com/adityasaravana/Tuneder)
+
+### Goodreads Recommender
+
+**Bounty Prompt:** Goodreads Book Recommender via OpenSyllabus: A site that takes in your Goodreads profile and uses the OpenSyllabus Galaxy book embeddings to build a recommender system for what you might like next. </br>
+**Completed by**: Samuel Moor-Smith </br>
+**Website Link**: [goodreads-recommender](https://goodreads-recommender.vercel.app/)
+**Repo Link**: [goodreads-recommender](https://github.com/SamuelMoor-Smith/goodreads-recommender)
+
+### Blink Tracker
+
+**Bounty Prompt:** An Android app which tracks how many times you blink per minute and notifies you if it's below defined threshold. </br>
+**Completed by** [Sergey V.](https://github.com/djkovrik) </br>
+**Github Repo:** [BlinkTracker](https://github.com/djkovrik/BlinkTracker) </br>
