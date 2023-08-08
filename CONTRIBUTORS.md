@@ -83,3 +83,10 @@
 **Bounty Prompt:** An Android app which tracks how many times you blink per minute and notifies you if it's below defined threshold. </br>
 **Completed by** [Sergey V.](https://github.com/djkovrik) </br>
 **Github Repo:** [BlinkTracker](https://github.com/djkovrik/BlinkTracker) </br>
+
+### SoundSwipe
+
+**Bounty Prompt**: A tinder for songs -- plays the most commented 10 seconds of a song on SoundCloud and adds it to a playlist if you like it. Inspired by Soundsieve (https://github.com/wilzh40/SoundSieve) which is unfortunately dead, and fab.fm which has a different song discovery method.</br>
+**Completed by**: Kevin Grosso ([k0dev](https://github.com/k0dev))</br>
+**Github Repo**: https://github.com/k0dev/sc-explorer</br>
+**Website Link**: [SoundSwipe](http://soundswipe.org)</br>
