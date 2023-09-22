@@ -65,6 +65,13 @@
 **Completed by**: Bryan Chiang </br>
 **Demo Video**: [Demo](https://i.imgur.com/9VCWd7l.mp4)
 
+### Dev NFTs on Goerli
+
+**Bounty Prompt:** A developer-friendly ERC721 on testnets i.e. Goerli, that lets you send Eth to the contract and will auto-mint you back 100 dev NFTs to experiment with, so super easy to test with during hackathons </br>
+**Demo Video:** TBD </br>
+**Github Repo:** [nft-faucet](https://github.com/SamuelMoor-Smith/nft-faucet) </br>
+**Website Link**: [nft-faucet-three.vercel.app](https://nft-faucet-three.vercel.app/) </br>
+
 ### Tuneder
 
 **Bounty Prompt**: A tinder for songs -- plays the most commented 10 seconds of a song on SoundCloud and adds it to a playlist if you like it. Inspired by Soundsieve (https://github.com/wilzh40/SoundSieve) which is unfortunately dead, and fab.fm which has a different song discovery method. </br>
