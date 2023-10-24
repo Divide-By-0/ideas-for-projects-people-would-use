@@ -12,7 +12,7 @@ Feel free to use these for a hackathon, side project, or hacklodge project -- I'
 
 If you fully deploy the project publicly, I award free hosting and small cash prizes at $200 per idea ($400 per crypto idea). I personally put in $200 (crypto ideas additionally 2x matched by [@smsunarto](https://twitter.com/smsunarto)). This is at my discretion so people don't game the system or feel cheated; the point is to build the project for learning and self-satisfaction, not the grant -- the money is mostly just so it can continue to exist :). I will likely fund any good-faith implementation. Reach out to [me](https://twitter.com/yush_g) if you're interested in helping sponsor bounties as well!
 
-**Total projects built: 13.**
+**Total projects built: 14.**
 
 **<details><summary>Finished + Paid out Bounties</summary>**
 <p>
@@ -125,15 +125,15 @@ If you want to be added to the list of people that have completed a project, req
 **<details><summary>Why make them open source and ad-free?</summary>**
 
 <p>
-I think open source is very, very powerful. I'd also love to add features to it if I want something, and I'm sure I'm not alone. Your app can be maintained and improved by the community that most cares about it without effort on your part, and you can just put a note in the README that anyone is free to share it not for profit, but anyone who monetizes, needs to check in with you first. 
+I think open source is very, very powerful. I'd also love to add features to apps that I use if I want them, and I'm sure I'm not alone. Your app can be maintained and improved by the community that most cares about it (with minimal effort on your part!). If you're worried about someone else making money off of your work, you can just put a note in the README that anyone is free to share it not for profit, but anyone who monetizes, needs to check in with you first (and hopefully partner with them!).
 
-Open source companies with canonical deployments are still often successful, and it makes little difference to the end user -- 99.99 percent of end users are not technical enough to even deploy a Github app. Gitlab, Android, Linux, Firefox, Flutter, React, Python, Rust, Docker, AWS, Box, Darabricks, Kubernetes, etc -- there's a massive list of open source projects that are wildly successful, and many of them have some "canonical deployment" which is monetized. 
+Open source companies with canonical deployments are still often successful, and it makes little difference to the end user -- 99.99 percent of end users are not technical enough to even deploy a Github app. Gitlab, Android, Linux, Firefox, Flutter, React, Python, Rust, Docker, AWS, Box, Darabricks, Kubernetes, etc -- there's a massive list of open source projects that are wildly successful, and many of them have some "canonical deployment" which is monetized. People will pay a lot just for a hosted service of existing open source software. 
 
-I wasn't always pro-open source. I thought, aren't you giving up your technical moat by open sourcing? But the financial upside to closed source compared to open source is very little, and the developer friendliness of open source is high enough that if there's any shot for the app to get big, that's the best shot. If someone publishes a competing app without your consent, expose them on Twitter and report them to the app store. Companies recruit through open source too, so if you're a student, it's a great way to get recruited.
+I wasn't always pro-open source. I thought, aren't you giving up your technical moat by open sourcing? But the financial upside to closed source compared to open source is very little, and the developer friendliness of open source is high enough that if there's any shot for the app to get big, that's the best shot. If someone publishes a competing app without your consent, expose them on Twitter (you can partner with them which is win-win, or report them to the app store which in a sense is lose-lose but an option). Companies recruit through open source too, so if you're a student, it's a great way to show off your skills.
 
-I promise none of these will be a billion dollar app (or frankly even a thousand dollar app), and is just an early step in a long list of many future great things you will do. I highly recommend you invest in maximum social capital right now, and convert it to technical capital later. If you have a desire for monetizable projects, I'm happy to send over more ideas for those!
+I promise none of these will be a billion dollar app (or frankly even a thousand dollar app), and is just an early step in a long list of many future great things you will do. I highly recommend you invest in maximum social capital right now, and convert it to technical capital later. If you have a desire for monetizable projects, I'm happy to send over more ideas for those! Open source is also a great way to make sure you structure your repository well, especially secret management.
 
-Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth your time; for most of these apps, the amount you expect to make off of ads will probably be less than the bounty amount I pay you upfront. Overall, I strongly advise against closed source and ads -- not for me, but for the success of the app, and for you to have the satisfaction of creating software used by the maximum number of people :)
+Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth your time; for most of these apps, the amount you expect to make off of ads will probably be less than the bounty amount I pay you upfront. Overall, I strongly advise against closed source and ads -- not just because of me, but for the success of the app, and for you to have the satisfaction of creating software used by the maximum number of people :)
 
 </p>
 </details>
