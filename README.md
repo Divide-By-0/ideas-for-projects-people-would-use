@@ -6,7 +6,7 @@ These ideas, as far as I know, don't exist yet (or have done a poor job with SEO
 
 This list is around 100 curated ideas, and I hope to hit 150 by the end of 2023. Stay tuned, as I have several hundred on my list (the majority of them are patently ridiculous and not a good use of anyone's time to read).
 
-Feel free to use these for a hackathon, side project, or hacklodge project -- I'd love to see them get built! If you're curious about an idea but don't know where to start, just reach out to me at aayushg@mit.edu; I'd be happy to give pointers on the frameworks I'd use, the high-level design, and/or the best way to learn how to build them. Ideas include apps, web apps, and chrome extensions. All I ask for is they are open source, credit is given to Aayush or [yush_g](https://twitter.com/yush_g) or [Divide-By-0](https://github.com/Divide-By-0/), and your repo + site link back to this list :)
+Feel free to use these for a hackathon, side project, or hacklodge project -- I'd love to see them get built! If you're curious about an idea but don't know where to start, just reach out to me at aayushg@mit.edu; I'd be happy to give pointers on the frameworks I'd use, the high-level design, and/or the best way to learn how to build them. Ideas include apps, web apps, and chrome extensions. All I ask for is they are open source, credit is given to Aayush or [yush_g](https://twitter.com/yush_g) or [Divide-By-0](https://github.com/Divide-By-0/), and your repo + site link back to this list (the shortlink is https://aayushg.com/ideas) :)
 
 ## Funding
 
@@ -73,14 +73,12 @@ If you fully deploy the project publicly, I award free hosting and small cash pr
 
 **Bounty Prompt:** A good Chrome extension to keep you off Facebook etc. Tracks how long you spend on degenerate sites, then when you go to Facebook etc, it says "On average, you think you'll spend 16 minutes, but you end up spending 31 minutes on this tab. How many minutes do you think you'll spend this time?" And at the end of that # of minutes, it makes the page black and white so you can continue to browse but it'll be slightly uncomfortable. </br>
 **Completed by** [GrimSteel](github.com/grimsteel) </br>
-**Demo Video:** TBD </br>
 **Github Repo:** [get-off-those-sites](https://github.com/grimsteel/get-off-those-sites/) </br>
 
 ### Spotify Match
 
 **Bounty Prompt**: A website that, when given a certain song or artist on Spotify, it finds friends who have listened to that artist/song (by # of occurrences in their public playlists). Useful to find concert buddies/people with similar music tastes. </br>
 **Completed By**: Colin Flueck </br>
-**Demo Video**: TBD </br>
 **Website Link**: [spotifymatch.com](https://spotifymatch.com)
 
 ### Safe Tornado Cash
@@ -99,7 +97,7 @@ If you fully deploy the project publicly, I award free hosting and small cash pr
 
 **Bounty Prompt**: A tinder for songs -- plays the most commented 10 seconds of a song on Apple Music and adds it to a playlist if you like it. Inspired by Soundsieve (https://github.com/wilzh40/SoundSieve) which is unfortunately dead, and fab.fm which has a different song discovery method. Released as an iOS app. </br>
 **Completed by**: Aditya Saravana </br>
-**Github Repo**: (https://github.com/adityasaravana/Tuneder)
+**Github Repo**: [github.com/adityasaravana/Tuneder](https://github.com/adityasaravana/Tuneder)
 
 ### SoundSwipe
 
@@ -107,6 +105,13 @@ If you fully deploy the project publicly, I award free hosting and small cash pr
 **Completed by**: Kevin Grosso ([k0dev](https://github.com/k0dev))</br>
 **Github Repo**: https://github.com/k0dev/sc-explorer</br>
 **Website Link**: [SoundSwipe](http://soundswipe.org)
+
+### AI Video Colorization APIs
+
+**Bounty Prompt**: Make it really easy (replicate.com deployed, with a nice interface and API) to run the latest colorization and OCR AI models, at near-cost.</br>
+**Completed by**: [Cudanexus](https://github.com/cudanexus) </br>
+**Demo**: [debvc](https://replicate.com/cudanexus/debvc) and [tcvc](https://replicate.com/cudanexus/tcvc) were state-of-the-art, but perform poorly in practice. Facebook Nougat (academic OCR AI where [huggingface demo](https://huggingface.co/facebook/nougat-base) doesn't work) and BiSTNet (which won NTIRE2023's video colorization challenge) are in progress.
+
 </p>
 </details>
 </br>
@@ -254,6 +259,8 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 - Fill in people's videos when their cameras are off. By using the speech-to-face paper in a browser extension, fill in other's inactive google hangouts/zoom logos with low bitrate moving bitmojis, and send yours as that when your camera is off. Cool research done at 5.3 (https://arxiv.org/pdf/1905.09773.pdf).
 - Given a (lecture) video, edit it so that automatically speeds up during times where no actual lecture content is delivered (ex. an instructor talking about their dog), and slow down when content is dense (ex. slide full of equations that the lecturer is going through). Use both visual info (slides) and audio (what the lecturer is saying). Example use case: a student wants to watch a recorded lecture video in an optimal manner that maximizes learning in a shorter amount of time.
 - Live transcribe any Chrome tabs audio by pushing it into OpenAI Whisper-type model, enabling transcriptions for all meetings including gather.town out of the box. Can have a start/stop button that auto-saves it to a Google Doc.
+- Make it really easy (replicate.com deployed, with a nice interface and API) to run the latest colorization and OCR AI models, at near-cost.
+  - DONE: Cudanexus put up [debvc](https://replicate.com/cudanexus/debvc) and [tcvc](https://replicate.com/cudanexus/tcvc), which are both pretty bad in practice. Facebook Nougat (academic OCR AI where [huggingface demo](https://huggingface.co/facebook/nougat-base) doesn't work) and BiSTNet (which won NTIRE2023's video colorization challenge) are in progress.
 
 <a name="Edtech"></a>
 
