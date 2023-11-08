@@ -90,3 +90,10 @@
 **Completed by**: Kevin Grosso ([k0dev](https://github.com/k0dev))</br>
 **Github Repo**: https://github.com/k0dev/sc-explorer</br>
 **Website Link**: [SoundSwipe](http://soundswipe.org)</br>
+
+### Pitchpin
+
+**Bounty Prompt**: An audio recorder where you can tap to add a flag at any time -- you can attach a note if you want, but the purpose is that later you can quickly skip to that time and know something important is there. </br>
+**Completed by**: Aditya Saravana </br>
+**Github Repo**: [github.com/adityasaravana/Pitchpin](https://github.com/adityasaravana/Pitchpin)<br>
+**Website Link**: <a href="https://adityasaravana.github.io/pitchpin-site/">Pitchpin</a>
