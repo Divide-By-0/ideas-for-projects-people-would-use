@@ -186,7 +186,7 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 - Automatically nightcore songs and post them as YouTube compilations
 - An audio recorder where you can tap to add a flag at any time -- you can attach a note if you want, but the purpose is that later you can quickly skip to that time and know something important is there.
   - Can do this for a timer app/song player also, not just an audio recorder.
-  - DONE: By [Aditya Saravana]("https://github.com/adityasaravana/Pitchpin")
+  - DONE: By <a href="https://github.com/adityasaravana/Pitchpin">Aditya Saravana</a>
 - Kaggle for music production -- the site provides samples and teaches the general structure to layer them, then has a periodic competition to layer them to create the best beat [Note: Kenny Beats runs a similar competition but without the lessons].
 - Connect your Spotify and visualize Spotify data insights as pretty plots. Existing apps show tables or lists, but it's a small jump to display eye-candy plots instead, and will help with virality.
 - A plugin that just takes a piano melody and adds corresponding drums and reverb and a beat and a chorus and everything just off those notes (like the [harmony7](https://mitadmissions.org/blogs/entry/we-made-a-website/) MIT web.lab app).
