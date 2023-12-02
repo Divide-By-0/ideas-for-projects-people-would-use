@@ -261,6 +261,7 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 - Live transcribe any Chrome tabs audio by pushing it into OpenAI Whisper-type model, enabling transcriptions for all meetings including gather.town out of the box. Can have a start/stop button that auto-saves it to a Google Doc.
 - Make it really easy (replicate.com deployed, with a nice interface and API) to run the latest colorization and OCR AI models, at near-cost.
   - DONE: Cudanexus put up [debvc](https://replicate.com/cudanexus/debvc) and [tcvc](https://replicate.com/cudanexus/tcvc), which are both pretty bad in practice. Facebook Nougat (academic OCR AI where [huggingface demo](https://huggingface.co/facebook/nougat-base) doesn't work) and BiSTNet (which won NTIRE2023's video colorization challenge) are in progress.
+- **Anime Undimmer**: During action scenes, animes will often dim scenes. Given a set of timestamps, create an automatic website or ffmpeg script that can take a video and undim those specific sections. Note that it's just a semiopaque black filter, so in practice, it seems just adjusting brightness, gamma, contrast, and saturation should be sufficient to undo it. The dimming parameters are different for each scene depending on the amount of motion, so it would have to somehow dynamically adapt.
 
 <a name="Edtech"></a>
 
