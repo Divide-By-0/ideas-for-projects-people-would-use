@@ -12,7 +12,7 @@ Feel free to use these for a hackathon, side project, or hacklodge project -- I'
 
 If you fully deploy the project publicly, I award free hosting and small cash prizes at $200 per idea ($400 per crypto idea). I personally put in $200 (crypto ideas additionally 2x matched by [@smsunarto](https://twitter.com/smsunarto)). This is at my discretion so people don't game the system or feel cheated; the point is to build the project for learning and self-satisfaction, not the grant -- the money is mostly just so it can continue to exist :). I will likely fund any good-faith implementation. Reach out to [me](https://twitter.com/yush_g) if you're interested in helping sponsor bounties as well!
 
-**Total projects built: 14.**
+**Total projects built: 16.**
 
 **<details><summary>Finished + Paid out Bounties</summary>**
 <p>
@@ -112,6 +112,13 @@ If you fully deploy the project publicly, I award free hosting and small cash pr
 **Completed by**: [Cudanexus](https://github.com/cudanexus) </br>
 **Demo**: [debvc](https://replicate.com/cudanexus/debvc) and [tcvc](https://replicate.com/cudanexus/tcvc) were state-of-the-art, but perform poorly in practice. Facebook Nougat (academic OCR AI where [huggingface demo](https://huggingface.co/facebook/nougat-base) doesn't work) and BiSTNet (which won NTIRE2023's video colorization challenge) are in progress.
 
+### Pitchpin
+
+**Bounty Prompt**: An audio recorder where you can tap to add a flag at any time -- you can attach a note if you want, but the purpose is that later you can quickly skip to that time and know something important is there. </br>
+**Completed by**: Aditya Saravana </br>
+**Github Repo**: [github.com/adityasaravana/Pitchpin](https://github.com/adityasaravana/Pitchpin)
+**Website Link**: <a href="https://adityasaravana.github.io/pitchpin-site/">Pitchpin</a>
+
 </p>
 </details>
 </br>
@@ -180,6 +187,7 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 - Automatically nightcore songs and post them as YouTube compilations
 - An audio recorder where you can tap to add a flag at any time -- you can attach a note if you want, but the purpose is that later you can quickly skip to that time and know something important is there.
   - Can do this for a timer app/song player also, not just an audio recorder.
+  - DONE: By <a href="https://github.com/adityasaravana/Pitchpin">Aditya Saravana</a>
 - Kaggle for music production -- the site provides samples and teaches the general structure to layer them, then has a periodic competition to layer them to create the best beat [Note: Kenny Beats runs a similar competition but without the lessons].
 - Connect your Spotify and visualize Spotify data insights as pretty plots. Existing apps show tables or lists, but it's a small jump to display eye-candy plots instead, and will help with virality.
 - A plugin that just takes a piano melody and adds corresponding drums and reverb and a beat and a chorus and everything just off those notes (like the [harmony7](https://mitadmissions.org/blogs/entry/we-made-a-website/) MIT web.lab app).
