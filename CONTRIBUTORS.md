@@ -105,3 +105,10 @@ Inspired by https://www.joinleelo.com/blog/how-we-came-up-with-the-name-leelo </
 **Completed by**: Aditya Saravana </br>
 **Github Repo**: [github.com/adityasaravana/Pitchpin](https://github.com/adityasaravana/Pitchpin)<br>
 **Website Link**: <a href="https://adityasaravana.github.io/pitchpin-site/">Pitchpin</a>
+
+### 404PageRevival
+
+**Bounty Prompt**: **404 to Archive Redirecter**: A greasemonkey/tampermonkey script to, when detecting a page that says "404" or "Not Found" on it, automatically redirect to that page in the Internet Archive. </br>
+**Completed by**: Daniel Duong </br>
+**Github Repo**: [DanzHD/404PageRevival](https://github.com/DanzHD/404PageRevival?tab=readme-ov-file) </br>
+**Website Link**: [404PageRevival](https://greasyfork.org/en/scripts/484103-404pagerevival)
