@@ -303,15 +303,15 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 ### Text Processing/NLP
 
 - **Goodreads Book Recommender via OpenSyllabus**: A site that takes in your Goodreads profile and uses the OpenSyllabus Galaxy book embeddings to build a recommender system for what you might like next.
-    - Edit: This is [done](https://goodreads-recommender.vercel.app/).
+    - DONE: This is [done](https://goodreads-recommender.vercel.app/) with a nice to use GPT-4 wrapper!
 - A creative startup name finder powered by baby names. Find meanings for baby babes, and make a site where you can input keywords your startup is about, and it will print resulting baby names with meanings with the highest keyword overlap (or min distance in the word embedding space). You can also have a keyword masher, where you input 2+ keywords, then try all reasonable pairwise ship names till you reach an untaken name .com/.ai/.io/other top TLD.
   - Inspired by https://www.joinleelo.com/blog/how-we-came-up-with-the-name-leelo
-  - This is [done](https://baby-names-generator.vercel.app)
-- Convert all text in messenger apps to lowercase automatically (for speech to text or bad autocorrect).
-- Keyboard shortcut for automatically fixing spelling in Google Docs+.
-- A chrome extension that adds the per ounce/unit price to Instacart the same way Amazon does.
+  - DONE: This is [done](https://baby-names-generator.vercel.app)
+- Convert all text in messenger apps to lowercase automatically (ideally on mobile for speech to text or bad autocorrect).
+- **Chat to Journal**: Go through all my messenger history via my Facebook download or WhatsApp backup, and use an LLM to go through and see which texts were about my day that day (and not responses to the other person), use the timestamps the message was sent, and bootstrap a journal for me.
+- **Unit Prices on Instacart**: A Chrome Extension that adds the per ounce/unit price to Instacart the same way Amazon does.
 - **Fix Forgot to Reply To Message**: App that finds old messenger chats or emails you left on read or unread, or unfinished threads, so you can respond to them. Requires probably mapping the last few texts to a score of how likely it was to be the end of a conversation.
-- Talk to a 'painting' and have it talk back, like Harry Potter paintings. Speech-to-text on your voice, gpt-3-type-model for conversation, tokkingheads/other deepfakes to have a face emulate the response. This has been [attempted](https://github.com/Halcyox/XRAgents), but not yet real-time end to end on arbitrary humans, and nowhere close with animation on cartoons.
+- Talk to a 'painting' and have it talk back, like Harry Potter paintings. Speech-to-text on your voice, gpt-3-type-model for conversation, tokkingheads/other deepfakes to have a face emulate the response. This has been [attempted](https://github.com/Halcyox/XRAgents) and there are [some open source demos](https://replicate.com/cudanexus/makeittalk), but it's not yet real-time end to end on arbitrary humans, and nowhere close on quality with animation on cartoons (anime is close).
 - Create a simple scraper that searches Google for [specific bot websites](https://twitter.com/gregegansf/status/1363978958841155585) and reports/blocks them. This is more a way to get to talk to/help Greg Egan, than it is a real problem.
 
 <a name="Fun"></a>
