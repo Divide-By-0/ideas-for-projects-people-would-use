@@ -1,5 +1,9 @@
 # Finished Projects and Contributors
 
+### 404RedirectionToWayback
+**Bounty Prompt**: A greasemonkey/tampermonkey script to, when detecting a page that says "404" or "Not Found" on it, automatically redirect to that page in the Internet Archive. </br>
+**GitHub Repo:** [itsmeadarsh2008/404RedirectionToWayback](https://github.com/itsmeadarsh2008/404RedirectionToWayback)
+
 ### Mixmello: Remix Spotify Playlists
 
 **Bounty Prompt**: A program that takes your spotify playlist and converts it to another one of remixes of the same songs, to get some variety. Create remixed versions of your favourite playlists. Free and open source! </br>
