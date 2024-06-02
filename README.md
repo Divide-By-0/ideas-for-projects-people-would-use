@@ -153,7 +153,7 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 - [Music](#Music)
 - [Health](#Health)
 - [Programming Tools](#Coding)
-- [Family/Roommates](#Family-Roommates)
+- [Family/Roommates/Friends](#Family-Roommates-Friends)
 - [Politics](#Politics)
 - [Image Processing](#Image-Processing)
 - [Video Processing](#Video-Processing)
@@ -226,12 +226,13 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 - OSS Keybr Clone: Make an open source keybr clone with more statistics, like seperating lowercase/capital letters, and showing most missed keys and most missed pairs of keys.
   - DONE: This is done at [https://keybr.onrender.com](https://keybr.onrender.com).
 
-<a name="Family-Roommates"></a>
+<a name="Family-Roommates-Friends"></a>
 
-### Family/Roommates
+### Family/Roommates/Friends
 
 - Remotely control your grandparents' computer/phone with one link click that you can send them. It should be one-time and only work for a few minutes, so hackers can't exploit it in the future. Chrome Remote Desktop requires Google sign-in from the same account in both places, which is harder to pull off for 2 different people.
 - Make an algorithm for a mounted camera that sends SMS notifications if your roommate leaves dirty dishes, based on this [similar one](https://medium.com/@ageitgey/snagging-parking-spaces-with-mask-r-cnn-and-python-955f2231c400) for parking spaces.
+- Calendly Combiner: A simple app in which you paste a bunch of different calendly or google calendar share links, and it generates a new calendly with only the overlapping times or even autofills a lettucemeet.
 
 <a name="Politics"></a>
 
