@@ -161,6 +161,7 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 - [Edtech/Research](#Edtech)
 - [Text Processing/NLP](#Text-Processing)
 - [Fun](#Fun)
+- [Hardware](#Hardware)
 - [Crypto](#Crypto)
   <a name="all-software"></a>
 
@@ -338,6 +339,13 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 - Run analysis on which dance teams placed in what rank, to see the correlation between show order and rankings to measure bias, at shows like the Desi Dance Network.
 - An Amazon price per ounce/count calculation that works all the time, and the equivalent for Instacart, Walmart, etc.
 - Draw a [bad luck circle](https://twitter.com/marsreviewer/status/1646608776747798565?t=UjK5wKUiA29kWEkDm99jSg&s=19) and sell t-shirts nearby that say you flip all bad luck for good luck, [inspired by this](https://twitter.com/Noahpinion/status/1648052997241577472). Pretty performance art-y.
+
+<a name="Hardware"></a>
+
+### Hardware
+
+- **USB-C Ring**: Build a ring with a USB C charger in it sideways to be able to power it.
+- **Hand Crank Ring**: Build a ring that has a tiny knob on it, with the form factor of a watch, but the pwoer generation of a hand crank.
 
 <a name="Crypto"></a>
 
