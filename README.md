@@ -17,6 +17,11 @@ If you fully deploy the project publicly, I award free hosting and small cash pr
 **<details><summary>Finished + Paid out Bounties</summary>**
 <p>
 
+### 404RedirectionToWayback
+**Bounty Prompt**: A greasemonkey/tampermonkey script to, when detecting a page that says "404" or "Not Found" on it, automatically redirect to that page in the Internet Archive. </br>
+**Completed By**: Adarsh Gourab Mahalik
+**GitHub Repo:** [itsmeadarsh2008/404RedirectionToWayback](https://github.com/itsmeadarsh2008/404RedirectionToWayback)
+
 ### Mixmello: Remix Spotify Playlists
 
 **Bounty Prompt**: A program that takes your spotify playlist and converts it to another one of remixes of the same songs, to get some variety. Create remixed versions of your favourite playlists. Free and open source! </br>
@@ -224,6 +229,7 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 - A lightweight create-react app for ML apps. This starter app would compile on first clone and run React and Python. Should have a 'yarn deploy' or something that does a one-click deploy to an API endpoint as well.
   - Edit: I now think this should use React and [Modal](http://modal.com) or [Replicate](https://replicate.com) instead.
 - **404 to Archive Redirecter**: A greasemonkey/tampermonkey script to, when detecting a page that says "404" or "Not Found" on it, automatically redirect to that page in the Internet Archive.
+  - DONE: See [itsmeadarsh2008/404RedirectionToWayback](https://github.com/itsmeadarsh2008/404RedirectionToWayback) Made by Adarsh Gourab Mahalik
 - OSS Keybr Clone: Make an open source keybr clone with more statistics, like seperating lowercase/capital letters, and showing most missed keys and most missed pairs of keys.
   - DONE: This is done at [https://keybr.onrender.com](https://keybr.onrender.com).
 
