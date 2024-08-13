@@ -105,3 +105,14 @@ Inspired by https://www.joinleelo.com/blog/how-we-came-up-with-the-name-leelo </
 **Completed by**: Aditya Saravana </br>
 **Github Repo**: [github.com/adityasaravana/Pitchpin](https://github.com/adityasaravana/Pitchpin)<br>
 **Website Link**: <a href="https://adityasaravana.github.io/pitchpin-site/">Pitchpin</a>
+
+### LockZKP
+
+**Bounty Prompt:** A PoC smart lock contract to mutually authenticate the owner, the
+smartlock and the guest. This project is unique in the sense that it uses a
+challenge-response protocol along with Owner and Guest proofs to make it
+decentralized while allowing for the smartlock to be offline and not having to run a
+blockchain node or client. </br>
+**Completed by** [RohanJacin](https://github.com/rohanjacin) </br>
+**Demo Video:** [PoC](https://drive.google.com/file/d/1xOIctzFMxGwSUTTuY8qSWJCDLykJg3bS/view?usp=drive_link) </br>
+**Github Repo:** [lockcontractZKP](https://github.com/rohanjacin/lockcontractZKP) </br>
