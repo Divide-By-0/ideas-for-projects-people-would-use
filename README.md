@@ -219,12 +219,13 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 ### Programming Tools
 
 - Automatically track all the keyboard shortcuts/clicks you do within an editor, and suggest/generate keybindings and commands for your most inefficient workflows (an interactive way to practice forgotten yet useful vim shortcuts, for instance)
+- **Github Dead Link Fixer**: A website that lets you put in a Github repo, and it'll automatically make PR fixing all the dead links via replacing them with archive.org links like [this Github bot](https://github.com/tmcw/notfoundbot).
 - **Auto-Archiver**: A greasemonkey/tampermonkey script to automatically in the background, backup all visited pages and their hyperlinks to Internet Archive. 
   - Edit: [ATRescue + Flare0n's script from 2014](https://gist.github.com/ATRescue/e40efa579e4461561697934c1c3be229) still works well. I [forked it](https://gist.github.com/Divide-By-0/313bf6ab375e4f3112adf41ef8c15d5f) to add a small delay after each link to avoid being ratelimited. The [version deployed to the Chrome store](https://chrome.google.com/webstore/detail/autosave-to-wayback-machi/defmcmdgnplidnoilmeleeglnmjkalnk) doesn't have enough customizability (i.e. if you want to, say, avoid all Google drive links or avoid ratelimits), so I recommend the Tampermonkey script instead. My 'User Excludes' list includes \*google.com\* and \*gmail.com\* but for some reason Google Chrome keeps thinking I'm getting hacked (on my calendar I think?) so evidently better filtering needs to be done here. Maybe instead of just blocking the original host, also block all links out from safe hosts? Anyways if anyone can correctly diagnose and fork this code to fix this Google banning issue, I'll still award a half bounty.
 - A lightweight create-react app for ML apps. This starter app would compile on first clone and run React and Python. Should have a 'yarn deploy' or something that does a one-click deploy to an API endpoint as well.
   - Edit: I now think this should use React and [Modal](http://modal.com) or [Replicate](https://replicate.com) instead.
 - **404 to Archive Redirecter**: A greasemonkey/tampermonkey script to, when detecting a page that says "404" or "Not Found" on it, automatically redirect to that page in the Internet Archive.
-- OSS Keybr Clone: Make an open source keybr clone with more statistics, like seperating lowercase/capital letters, and showing most missed keys and most missed pairs of keys.
+- **OSS Keybr Clone**: Make an open source keybr clone with more statistics, like seperating lowercase/capital letters, and showing most missed keys and most missed pairs of keys.
   - DONE: This is done at [https://keybr.onrender.com](https://keybr.onrender.com).
 
 <a name="Family-Roommates-Friends"></a>
@@ -232,8 +233,8 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 ### Family/Roommates/Friends
 
 - Remotely control your grandparents' computer/phone with one link click that you can send them. It should be one-time and only work for a few minutes, so hackers can't exploit it in the future. Chrome Remote Desktop requires Google sign-in from the same account in both places, which is harder to pull off for 2 different people.
-- Make an algorithm for a mounted camera that sends SMS notifications if your roommate leaves dirty dishes, based on this [similar one](https://medium.com/@ageitgey/snagging-parking-spaces-with-mask-r-cnn-and-python-955f2231c400) for parking spaces.
-- Calendly Combiner: A simple app in which you paste a bunch of different calendly or google calendar share links, and it generates a new calendly with only the overlapping times or even autofills a lettucemeet.
+- **Dirty Dish Monitor**: Make an algorithm for a mounted camera that sends SMS notifications if your roommate leaves dirty dishes, based on this [similar one](https://medium.com/@ageitgey/snagging-parking-spaces-with-mask-r-cnn-and-python-955f2231c400) for parking spaces.
+- **Calendly Combiner**: A simple app in which you paste a bunch of different calendly or google calendar share links, and it generates a new calendly with only the overlapping times, or even autofills a lettucemeet.
 
 <a name="Politics"></a>
 
