@@ -12,56 +12,22 @@ Feel free to use these for a hackathon, side project, or hacklodge project -- I'
 
 If you fully deploy the project publicly, I award free hosting and small cash prizes at $200 per idea ($400 per crypto idea). I personally put in $200 (crypto ideas additionally 2x matched by [@smsunarto](https://twitter.com/smsunarto)). This is at my discretion so people don't game the system or feel cheated; the point is to build the project for learning and self-satisfaction, not the grant -- the money is mostly just so it can continue to exist :). I will likely fund any good-faith implementation. Reach out to [me](https://twitter.com/yush_g) if you're interested in helping sponsor bounties as well!
 
-**Total projects built: 16.**
+**Total projects built: 17.**
 
 **<details><summary>Finished + Paid out Bounties</summary>**
 <p>
+
+### Functional Encryption-based Witness Encrypted Tinder
+**Bounty Prompt**: - Witness Encypted Tinder: Implement Protocol Labs’ [new construction](https://drive.google.com/file/d/1GEfm77BfKRz1Xzby89era8KOgalqn00L/view) or [this non-succinct one](https://eprint.iacr.org/2021/1423.pdf), and then build a proof of concept Tinder where everyone selects 5 people they want to match with, and are only matched if people select each other. First, everyone commits to, say, 5 people they are most interested in. Those 5 people should get only notified if they also commit to that person as one of their chosen 5 as well. So, after everyone commits, those commitments are used in the FC-WE scheme that everyone then runs, to publish a message only to their 5 folks only if they also had valid commitments (i.e. with them in it, while keeping it anonymous, which may not be possible with groth16). Finally, in the reveal stage, everyone attempts to read every message and can only end up reading the ones that work for them. You can do this with a pairwise Socialist Millionaire or Yao’s Garbled Circuits, but this requires more back and forth stages.</br>
+**Witness Encryption Tinder Site Github Repo Link**: [novus677/witness-encrypt-tinder](https://github.com/novus677/witness-encrypt-tinder)</br>
+**Browser-Friendly Witness Encryption Library Link**: [novus677/witness-encryption-functional-commitment](https://github.com/novus677/witness-encryption-functional-commitment/) forked from [vicsn/witness-encryption-functional-commitment](https://github.com/vicsn/witness-encryption-functional-commitment)
+
 
 ### Mixmello: Remix Spotify Playlists
 
 **Bounty Prompt**: A program that takes your spotify playlist and converts it to another one of remixes of the same songs, to get some variety. Create remixed versions of your favourite playlists. Free and open source! </br>
 **Website Link:** [mixmello.com](https://www.mixmello.com) </br>
 **GitHub Repo:** [alexgurr/mixmello](https://github.com/alexgurr/mixmello)
-
-### Damn Daniel Button
-
-**Bounty Prompt**: The bruh button, but for damn daniel </br>
-**Completed by**: Daniel Bessonov, Patrick Li </br>
-**Press:** [Saratoga Falcon: Top 25 App on App Store Taken Down](https://www.saratogafalcon.org/content/students%E2%80%99-top-25-app-taken-down-after-%E2%80%98damn-daniel%E2%80%99-lawyers-threaten-legal-action)
-
-### Phone Scroll Distance Leaderboard
-
-**Bounty Prompt:** An app that tracks the distance you've scrolled on your phone and puts it on a leaderboard </br>
-**Completed by**: Bryan Chiang </br>
-**Demo Video**: [Demo](https://i.imgur.com/9VCWd7l.mp4)
-
-### Auto-LaTeX Equations
-
-**Bounty Prompt:** A way to use LaTeX equations in Google Docs </br>
-**Completed by**: Aayush Gupta (me) </br>
-**Website:** https://autolatex.com </br>
-**Press:** [Nature](https://www.nature.com/articles/d41586-019-01796-1)
-
-### Spotify Playlist Cleanify
-
-**Bounty Prompt:** A program that takes your spotify playlist and converts it to a clean version with the same songs and removes it if it can't find any. Used to be able to listen to my playlists in the car with my parents </br>
-**Completed by**: Arman Rafati</br>
-**Website:** https://www.cleanify.app/ </br>
-**Github Link:** https://github.com/code-arman/Cleanify
-
-### Windows Automatic Unzipper
-
-**Bounty Prompt:** When something is downloaded, unzip it to its own folder then delete the original zip file </br>
-**Completed by**: Aiden Magrath</br>
-**Github Repo:** https://github.com/aidenmagrath/Windows-Auto-Unzipper
-**Website Link:** https://autounzipper.com/
-
-### Trippy Videos
-
-**Bounty Prompt:** Upsample each frame in a video independently with a GAN, creating an entirely style-transfered universe that moves from frame to frame in a slightly jarring and hypnotic way. </br>
-**Completed by**: Milo Cress, David Wu, Alice Chen, Vincent Huang </br>
-**Demo Video:** [30 second Video](https://streamable.com/e/dow82b) </br>
-**Github Repo:** [Github](https://github.com/zephyrys/stylish-flask-backend)
 
 ### Colorize Video
 
@@ -118,6 +84,47 @@ If you fully deploy the project publicly, I award free hosting and small cash pr
 **Completed by**: Aditya Saravana </br>
 **Github Repo**: [github.com/adityasaravana/Pitchpin](https://github.com/adityasaravana/Pitchpin)
 **Website Link**: <a href="https://adityasaravana.github.io/pitchpin-site/">Pitchpin</a>
+
+
+### Damn Daniel Button
+
+**Bounty Prompt**: The bruh button, but for damn daniel </br>
+**Completed by**: Daniel Bessonov, Patrick Li </br>
+**Press:** [Saratoga Falcon: Top 25 App on App Store Taken Down](https://www.saratogafalcon.org/content/students%E2%80%99-top-25-app-taken-down-after-%E2%80%98damn-daniel%E2%80%99-lawyers-threaten-legal-action)
+
+### Phone Scroll Distance Leaderboard
+
+**Bounty Prompt:** An app that tracks the distance you've scrolled on your phone and puts it on a leaderboard </br>
+**Completed by**: Bryan Chiang </br>
+**Demo Video**: [Demo](https://i.imgur.com/9VCWd7l.mp4)
+
+### Auto-LaTeX Equations
+
+**Bounty Prompt:** A way to use LaTeX equations in Google Docs </br>
+**Completed by**: Aayush Gupta (me) </br>
+**Website:** https://autolatex.com </br>
+**Press:** [Nature](https://www.nature.com/articles/d41586-019-01796-1)
+
+### Spotify Playlist Cleanify
+
+**Bounty Prompt:** A program that takes your spotify playlist and converts it to a clean version with the same songs and removes it if it can't find any. Used to be able to listen to my playlists in the car with my parents </br>
+**Completed by**: Arman Rafati</br>
+**Website:** https://www.cleanify.app/ </br>
+**Github Link:** https://github.com/code-arman/Cleanify
+
+### Windows Automatic Unzipper
+
+**Bounty Prompt:** When something is downloaded, unzip it to its own folder then delete the original zip file </br>
+**Completed by**: Aiden Magrath</br>
+**Github Repo:** https://github.com/aidenmagrath/Windows-Auto-Unzipper
+**Website Link:** https://autounzipper.com/
+
+### Trippy Videos
+
+**Bounty Prompt:** Upsample each frame in a video independently with a GAN, creating an entirely style-transfered universe that moves from frame to frame in a slightly jarring and hypnotic way. </br>
+**Completed by**: Milo Cress, David Wu, Alice Chen, Vincent Huang </br>
+**Demo Video:** [30 second Video](https://streamable.com/e/dow82b) </br>
+**Github Repo:** [Github](https://github.com/zephyrys/stylish-flask-backend)
 
 </p>
 </details>
@@ -395,6 +402,7 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 - **XOR Optimizer**: Rewrite general arithmetic circuits or computational programs to maximize the number of XORs used, compared to other gates. This would allow us to create garbled circuits with maximal efficiency because [XORs are free](http://www.cs.toronto.edu/~vlad/papers/XOR_ICALP08.pdf). See a beginners [intro to garbled circuits](https://crypto.stanford.edu/cs355/18sp/lec6.pdf) here.
 - **ZK Soft KYC**: A circuit on the simpler end, with a proof-of-membership to Gitcoin Alpha Passport. When you send a donation on Gitcoin, you prove you own an account (i.e. via a signature match into a merkle tree heyanon style) to prove a matching % (or soft KYC-ability), without revealing who you are. You can use an Axiom state root of the on chain Gitcoin passport to ensure up-to-dateness with the chain. Note that this trusts Gitcoin to verify your matching in a centralized manner.
 - **Witness Encypted Tinder**: Implement Protocol Labs’ [new construction](https://drive.google.com/file/d/1GEfm77BfKRz1Xzby89era8KOgalqn00L/view) or [this non-succinct one](https://eprint.iacr.org/2021/1423.pdf), and then build a proof of concept Tinder where everyone selects 5 people they want to match with, and are only matched if people select each other. First, everyone commits to, say, 5 people they are most interested in. Those 5 people should get only notified if they also commit to that person as one of their chosen 5 as well. So, after everyone commits, those commitments are used in the FC-WE scheme that everyone then runs, to publish a message only to their 5 folks only if they also had valid commitments (i.e. with them in it, while keeping it anonymous, which may not be possible with groth16). Finally, in the reveal stage, everyone attempts to read every message and can only end up reading the ones that work for them. You can do this with a pairwise Socialist Millionaire or Yao’s Garbled Circuits, but this requires more back and forth stages.
+   - **DONE**: This is finished by Nathan at [this site repo](https://github.com/novus677/witness-encrypt-tinder) and [this witness encryption library fork](https://github.com/novus677/witness-encryption-functional-commitment/).
 - **On Chain Proof Aggregator**: To get L1-level censorship resistance and data availability of ZK circuits is expensive, but there is a way to make this cheaper at the cost of a delay. Imagine building a contract called DelayedBatchGroth16Verify. Let's say, for instance, that I am withdrawing from Torando Cash. Then, I have two phases. One, I send my proof + public parameters to the DelayedBatchGroth16Verify contract along with a small amount of eth (say, calldata cost of that many parameters + a tip). That contract, say ~12 hours, collects all the proofs sent to it. It then uses Snarkpack or analogous (via additivity of KZG commitments) to verify all of the proofs at once. Note that calculations are in Gt so it will not be gas efficient.  However, anyone can batch verify and send as soon as the size of the tips in the contract exceeds the cost of a single KZG verification. Once such a verify passes, it stores say hash(proof, public) in a "passed proofs" mapping. Thus, once someone has verified for me cheaper than a single verify, I can send a second transaction to tornado cash that just checks that the proof + public parameters have been part of a past batch verification (for instance, by hashing all of them and checking that it is a valid mapping key mapping to a 1), and then continues with the rest of the logic. While long-term we expect to not need this due to exceedingly cheapening L2 costs, it will be useful for the next 2 years while we do not have robust ZK L2-to-L2 bridges or audited ZK rollups.
 - ~~ed25519 encryption in a ZK SNARK (using circom). Metamask's [encrypt](https://github.com/MetaMask/eth-sig-util/blob/main/src/encryption.ts#L94) function on chain would be new, and save people from having to use MIMC as an encryption function.~~
   - Edit: This is [done](https://ethresear.ch/t/verify-ed25519-signatures-cheaply-on-eth-using-zk-snarks/13139).
