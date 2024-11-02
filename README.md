@@ -355,6 +355,7 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 
 - **USB-C Ring**: Build a ring with a USB C charger in it sideways to be able to power it.
 - **Hand Crank Ring**: Build a ring that has a tiny knob on it, with the form factor of a watch, but the pwoer generation of a hand crank.
+- **Transparent Solar Startups**: This is more a general field that is underrepresented in startups, but I think more startups should be trying to bring [transparent solar tech](https://msutoday.msu.edu/news/2017/transparent-solar-technology-represents-wave-of-the-future) to market via scaling window solar panel manufacturing.
 
 <a name="Crypto"></a>
 
