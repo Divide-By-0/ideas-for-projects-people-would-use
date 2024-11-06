@@ -72,7 +72,7 @@ Inspired by https://www.joinleelo.com/blog/how-we-came-up-with-the-name-leelo </
 **Completed by**: Samuel Moor-Smith </br>
 **Website Link**: [baby-names-generator](https://baby-names-generator.vercel.app)
 **Repo Link**: [baby-names-generator](https://github.com/SamuelMoor-Smith/baby-names-generator)
- 
+
 ### Tuneder
 
 **Bounty Prompt**: A tinder for songs -- plays the most commented 10 seconds of a song on SoundCloud and adds it to a playlist if you like it. Inspired by Soundsieve (https://github.com/wilzh40/SoundSieve) which is unfortunately dead, and fab.fm which has a different song discovery method. </br>
@@ -105,3 +105,10 @@ Inspired by https://www.joinleelo.com/blog/how-we-came-up-with-the-name-leelo </
 **Completed by**: Aditya Saravana </br>
 **Github Repo**: [github.com/adityasaravana/Pitchpin](https://github.com/adityasaravana/Pitchpin)<br>
 **Website Link**: <a href="https://adityasaravana.github.io/pitchpin-site/">Pitchpin</a>
+
+### Chat to Journal
+
+**Bounty Prompt**: Go through all my messenger history via my Facebook download or WhatsApp backup, and use an LLM to go through and see which texts were about my day that day (and not responses to the other person), use the timestamps the message was sent, and bootstrap a journal for me.</br>
+**Completed by**: [Ahmed Keshka](https://github.com/ak292) </br>
+**Github Repo**: https://github.com/ak292/chat-to-journal </br>
+**Website Link**: [Chat to Journal](https://chat-to-journal.onrender.com/)</br>
