@@ -105,3 +105,8 @@ Inspired by https://www.joinleelo.com/blog/how-we-came-up-with-the-name-leelo </
 **Completed by**: Aditya Saravana </br>
 **Github Repo**: [github.com/adityasaravana/Pitchpin](https://github.com/adityasaravana/Pitchpin)<br>
 **Website Link**: <a href="https://adityasaravana.github.io/pitchpin-site/">Pitchpin</a>
+
+### HarmonySync
+**Bounty Prompt**: An app that chooses songs of a specific BPM from all your Spotify liked and playlisted songs, for workouts. </br>
+**Completed by**: Andrew Tai </br>
+**Github Repo**: [Andrew Tai](https://github.com/SHIN0003/HarmonySync)<br>
