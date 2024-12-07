@@ -146,7 +146,7 @@ Open source companies with canonical deployments are still often successful, and
 
 I wasn't always pro-open source. I thought, aren't you giving up your technical moat by open sourcing? But the financial upside to closed source compared to open source is very little, and the developer friendliness of open source is high enough that if there's any shot for the app to get big, that's the best shot. If someone publishes a competing app without your consent, expose them on Twitter (you can partner with them which is win-win, or report them to the app store which in a sense is lose-lose but an option). Companies recruit through open source too, so if you're a student, it's a great way to show off your skills.
 
-I promise none of these will be a billion dollar app (or frankly even a thousand dollar app), and is just an early step in a long list of many future great things you will do. I highly recommend you invest in maximum social capital right now, and convert it to technical capital later. If you have a desire for monetizable projects, I'm happy to send over more ideas for those! Open source is also a great way to make sure you structure your repository well, especially secret management.
+I promise none of these will be a billion dollar app (or frankly even a thousand dollar app), and is just an early step in a long list of many future great things you will do. I highly recommend you invest in maximum social capital right now (i.e. a cool Twitter post about your project, developers seeing and forking your code), and convert it to technical capital later. If you have a desire for monetizable projects, I'm happy to send over more ideas for those! Open source is also a great way to make sure you structure your repository well, especially secret management.
 
 Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth your time; for most of these apps, the amount you expect to make off of ads will probably be less than the bounty amount I pay you upfront. Overall, I strongly advise against closed source and ads -- not just because of me, but for the success of the app, and for you to have the satisfaction of creating software used by the maximum number of people :)
 
@@ -168,7 +168,7 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 - [Audio Processing](#audio)
 - [Edtech/Research](#Edtech)
 - [Text Processing/NLP](#Text-Processing)
-- [Fun](#Fun)
+- [Fun/Tools](#Fun)
 - [Hardware](#Hardware)
 - [Crypto](#Crypto)
   <a name="all-software"></a>
@@ -230,8 +230,8 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 - **Github Dead Link Fixer**: A website that lets you put in a Github repo, and it'll automatically make PR fixing all the dead links via replacing them with archive.org links like [this Github bot](https://github.com/tmcw/notfoundbot).
 - **Auto-Archiver**: A greasemonkey/tampermonkey script to automatically in the background, backup all visited pages and their hyperlinks to Internet Archive. 
   - Edit: [ATRescue + Flare0n's script from 2014](https://gist.github.com/ATRescue/e40efa579e4461561697934c1c3be229) still works well. I [forked it](https://gist.github.com/Divide-By-0/313bf6ab375e4f3112adf41ef8c15d5f) to add a small delay after each link to avoid being ratelimited. The [version deployed to the Chrome store](https://chrome.google.com/webstore/detail/autosave-to-wayback-machi/defmcmdgnplidnoilmeleeglnmjkalnk) doesn't have enough customizability (i.e. if you want to, say, avoid all Google drive links or avoid ratelimits), so I recommend the Tampermonkey script instead. My 'User Excludes' list includes \*google.com\* and \*gmail.com\* but for some reason Google Chrome keeps thinking I'm getting hacked (on my calendar I think?) so evidently better filtering needs to be done here. Maybe instead of just blocking the original host, also block all links out from safe hosts? Anyways if anyone can correctly diagnose and fork this code to fix this Google banning issue, I'll still award a half bounty.
-- A lightweight create-react app for ML apps. This starter app would compile on first clone and run React and Python. Should have a 'yarn deploy' or something that does a one-click deploy to an API endpoint as well.
-  - Edit: I now think this should use React and [Modal](http://modal.com) or [Replicate](https://replicate.com) instead.
+- A lightweight create-next-app for ML apps. This starter app would compile on first clone and run React and Python. Should have a 'yarn deploy' or something that does a one-click deploy to an API endpoint as well.
+  - Edit: I now think this should use Create-T3-App and [Modal](http://modal.com) or [Replicate](https://replicate.com) instead.
 - **404 to Archive Redirecter**: A greasemonkey/tampermonkey script to, when detecting a page that says "404" or "Not Found" on it, automatically redirect to that page in the Internet Archive.
 - **OSS Keybr Clone**: Make an open source keybr clone with more statistics, like seperating lowercase/capital letters, and showing most missed keys and most missed pairs of keys.
   - DONE: This is done at [https://keybr.onrender.com](https://keybr.onrender.com).
@@ -295,7 +295,7 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 ### Edtech/Research/School
 
 - ***Timed comments for YouTube**: Like the [existing beta which doesn't seem likely to rollout soon](https://www.engadget.com/youtube-testing-timed-comments-114419554.html) but shown in a Soundcloud style. That is, a scraper gets all the comments, extracts timestamps, and like Soundcloud, displays previews that expand on hover in tiny popups at the timestamp the bottom of the video as you watch. If not fullscreeen, each comment thread at the timestamp can scroll by on the side in place of the next video suggestion, like an auto-scrolling Khan Academy comments board. Would likely be a Chrome extension. Ideally, could also show such comments automatically on any embedded YouTube video as well. If someone using the extension likes or responds, should just respond from their logged in YouTube account.
-  - DONE: This already exists! [Tempus](https://chrome.google.com/webstore/detail/tempus/bpdhbpeecmmglmkjfmigehaebpndmceh) is a Chrome Extension that does exactly this.
+  - DONE: This already exists! [Tempus](https://chrome.google.com/webstore/detail/tempus/bpdhbpeecmmglmkjfmigehaebpndmceh) is a Chrome Extension that does exactly this. Because it already existed, I paid for some development on it to fix bugs and add features, instead of a traditional bounty.
 - **Combine Lecture Videos**: (copied from video processing section) -- given a set of videos (that may be slightly offset) from different angles, combine them into one video that cuts between the frames. This already exists for ai podcast processing software so shouldn't be too hard to adapt? Full [spec for CLI tool here](https://docs.google.com/document/d/1oInpmyf3xikM6TOMaz6Uqz5ZStdFyP7YqKX39RR9nMQ/edit).
   - In Progress: There is a 2x match bounty amount matched by [MIT Soul](https://mitsoul.org).
 - An extension where you could double click a citation # in a paper and it would automatically open the pdf from jstor or other 👀 sources.
@@ -329,6 +329,7 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 
 ### Fun
 
+- **Crowdsourced Wifi**: A simple app where for each 10 wifi passwords you upload, can access any one other wifi password near you. It crowdsources wifi networks via a very simple PC or phone upload, and lets people pay to bypass the upload requirement. You can add additional decentralization via only authenticating uploads if the Apple App attest signature of the data sharing request to your phone passes on chain. I heard wifimap and instabridge tried this, but are now overrun by ads.
 - Create a nice frontend for DeepSaber, a way to AI generate beatsaber maps for any youtube video. Currently, it's just a [colab notebook](https://colab.research.google.com/drive/11v-ztHOUXLXFHmH4QIuXGXtTvD-3r7oP#scrollTo=mocWjd1-oatL), but it's [a few short steps away](https://gist.github.com/Divide-By-0/0fd38b7b8b0102b21b4f11bf8dd7d707) from having a nice frontend. BeatSage is a similar AI mapper that's generally regarded as having an inferior algorithm, and they hit 100K uses in a few months.
   - Edit: Done at [bsmapper.com](https://bsmapper.com) and [beatsaberai.com](https://beatsaberai.com). A new one is coming out soon as well that should blow these two out of the water.
 - A better smart time-based phone password lock. For instance, if the current time is AB:CD, the user can set their password as say, (A+B), (|C-D|), (A \* B % 10), (D), or a general user-coded function, so it changes every minute. Existing solutions only allow rudimentary functions.
@@ -354,7 +355,7 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 ### Hardware
 
 - **USB-C Ring**: Build a ring with a USB C charger in it sideways to be able to power it.
-- **Hand Crank Ring**: Build a ring that has a tiny knob on it, with the form factor of a watch, but the pwoer generation of a hand crank.
+- **Hand Crank Ring**: Build a ring that has a tiny knob on it, with the form factor of a watch, but the pwoer generation of a hand crank. You can then use power-over-skin to power other mini wearables.
 - **Transparent Solar Startups**: This is more a general field that is underrepresented in startups, but I think more startups should be trying to bring [transparent solar tech](https://msutoday.msu.edu/news/2017/transparent-solar-technology-represents-wave-of-the-future) to market via scaling window solar panel manufacturing.
 
 <a name="Crypto"></a>
