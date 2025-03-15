@@ -331,6 +331,7 @@ Ads bring in surprisingly low revenue -- I hope that the bounty makes it worth y
 
 ### Fun
 
+- **Accurate Twitter Count**: An extension that tracks engagement over past posts and samples followers and makes a better guess at the number of non-bot followers someone has on Twitter.
 - **Crowdsourced Wifi**: A simple app where for each 10 wifi passwords you upload, can access any one other wifi password near you. It crowdsources wifi networks via a very simple PC or phone upload, and lets people pay to bypass the upload requirement. You can add additional decentralization via only authenticating uploads if the Apple App attest signature of the data sharing request to your phone passes on chain. I heard wifimap and instabridge tried this, but are now overrun by ads.
 - Create a nice frontend for DeepSaber, a way to AI generate beatsaber maps for any youtube video. Currently, it's just a [colab notebook](https://colab.research.google.com/drive/11v-ztHOUXLXFHmH4QIuXGXtTvD-3r7oP#scrollTo=mocWjd1-oatL), but it's [a few short steps away](https://gist.github.com/Divide-By-0/0fd38b7b8b0102b21b4f11bf8dd7d707) from having a nice frontend. BeatSage is a similar AI mapper that's generally regarded as having an inferior algorithm, and they hit 100K uses in a few months.
   - Edit: Done at [bsmapper.com](https://bsmapper.com) and [beatsaberai.com](https://beatsaberai.com). A new one is coming out soon as well that should blow these two out of the water.
