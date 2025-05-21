@@ -10,7 +10,7 @@ Feel free to use these for a hackathon, side project, or hacklodge project -- I'
 
 ## Funding
 
-If you fully deploy the project publicly, I award free hosting and small cash prizes at $200 per idea ($400 per crypto idea). I personally put in $200 (crypto ideas additionally 2x matched by [@smsunarto](https://twitter.com/smsunarto)). This is at my discretion so people don't game the system or feel cheated; the point is to build the project for learning and self-satisfaction, not the grant -- the money is mostly just so it can continue to exist :). I will likely fund any good-faith implementation. Reach out to [me](https://twitter.com/yush_g) if you're interested in helping sponsor bounties as well!
+If you fully deploy the project publicly, I award free hosting and small cash prizes at $40 per idea ($80 per crypto idea). The crypto ideas are 2x matched by [@smsunarto](https://twitter.com/smsunarto). This is at my discretion so people don't game the system or feel cheated; the point is to build the project for learning and self-satisfaction, not the grant -- the money is mostly just so you can pay for a domain and forget about it, so it can continue to exist :). I will likely fund any good-faith implementation. Reach out to [me](https://twitter.com/yush_g) if you're interested in helping sponsor bounties as well!
 
 **Total projects built: 17.**
 
