@@ -428,3 +428,12 @@ Overall, I strongly advise against closed source and ads -- not just because of 
   - Edit: Just discovered https://wrapeth.com/, existed for 2+ years, and is open source. This bounty is no longer offered!
 - ~~Add a nice frontend to https://github.com/nulven/zk-message-board, and build a proof-of-concept anonymous group posting app powered by zero-knowledge proofs.~~
   - Edit: Done by https://heyanon.xyz.
+- **LockZKP**: A PoC smart lock contract to mutually authenticate the owner, the
+smartlock and the guest. This project is unique in the sense that it uses a
+challenge-response protocol along with Owner and Guest proofs to make it
+decentralized while allowing for the smartlock to be offline and not having to run a
+blockchain node or client. The smart contract with guest/owner registration, guest room bidding, guest auth, owner auth and lock auth. The backend nodejs challenge-response protocol uses Kobiltz’s encoding over elliptic curve points.
+The owner proving happens in the cicrom/groth16 proving system. Integrates
+[semaphore-protocol](https://github.com/semaphore-protocol/semaphore) for family members or friends to cryptographically prove identity to skip the auction phase of the authentication process. Also integrated [Waku p2p protocol](https://github.com/waku-org/js-waku) to establish a private communication channel between the Owner and Guest post authentication. The final step of shared key establishment between the Guest and the Lock by having the Guest Pair his/her phone by tapping it to the Lock (NFC communication for security). As a bonus the Lock also generates a 8 digit PIN
+(HOTP) for the Guest as a backup manual key.
+- DONE: This is done at [LockZKP](https://github.com/rohanjacin/lockcontractZKP).
