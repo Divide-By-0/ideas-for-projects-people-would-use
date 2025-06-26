@@ -105,3 +105,10 @@ Inspired by https://www.joinleelo.com/blog/how-we-came-up-with-the-name-leelo </
 **Completed by**: Aditya Saravana </br>
 **Github Repo**: [github.com/adityasaravana/Pitchpin](https://github.com/adityasaravana/Pitchpin)<br>
 **Website Link**: <a href="https://adityasaravana.github.io/pitchpin-site/">Pitchpin</a>
+
+### Instacart Unit Price
+
+**Bounty Prompt**: A Chrome Extension that adds the per ounce/unit price to Instacart the same way Amazon does. </br>
+**Completed by**: Bhavin S Gupta </br>
+**Website Link**: [Instacart Unit Price](https://chromewebstore.google.com/detail/instacart-unit-price/eoooeedgjbbaaijdhaffbedmambfemof)<br>
+**Github Repo**: [Instacart-Unit-Price-Chrome-Extension](https://github.com/bvin02/Instacart-Unit-Price-Chrome-Extension)<br>
