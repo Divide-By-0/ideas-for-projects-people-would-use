@@ -231,6 +231,7 @@ Overall, I strongly advise against closed source and ads -- not just because of 
 
 ### Programming Tools
 
+- **LLM App Editor**: Often, people have feedback on the apps or websites that they use. With LLMs, it should be possible to decompile any Android app or website sufficiently to be able to fix the proposed bug or insert the proposed feature via a text interface and environment with good enough simulation and understanding of if the bug could be fixed or the feature could be added. Seems doable as the next iteration of Devin/Cursor-like flows.
 - Automatically track all the keyboard shortcuts/clicks you do within an editor, and suggest/generate keybindings and commands for your most inefficient workflows (an interactive way to practice forgotten yet useful vim shortcuts, for instance)
 - **Github Dead Link Fixer**: A website that lets you put in a Github repo, and it'll automatically make PR fixing all the dead links via replacing them with archive.org links like [this Github bot](https://github.com/tmcw/notfoundbot).
 - **Auto-Archiver**: A greasemonkey/tampermonkey script to automatically in the background, backup all visited pages and their hyperlinks to Internet Archive. 
