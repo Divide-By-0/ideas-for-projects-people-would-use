@@ -105,3 +105,10 @@ Inspired by https://www.joinleelo.com/blog/how-we-came-up-with-the-name-leelo </
 **Completed by**: Aditya Saravana </br>
 **Github Repo**: [github.com/adityasaravana/Pitchpin](https://github.com/adityasaravana/Pitchpin)<br>
 **Website Link**: <a href="https://adityasaravana.github.io/pitchpin-site/">Pitchpin</a>
+
+### Dead Link Fixer
+
+**Bounty Prompt**: A website that lets you put in a Github repo, and it'll automatically make PR fixing all the dead links via replacing them with archive.org links </br>
+**Completed by**: Mathias Hamza Mirza ([MathiasHM](https://github.com/MathiasHM))</br>
+**Github Repo**: [https://github.com/MathiasHM/deadlink-fixer](https://github.com/MathiasHM/deadlink-fixer)<br>
+**Website Link**: <a href="https://mathiashm.github.io/deadlink-fixer/">Dead Link Fixer</a>
