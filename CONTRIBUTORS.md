@@ -1,5 +1,11 @@
 # Finished Projects and Contributors
 
+### Songs Classifier: Organize your music by how it moves you
+
+**Bounty Prompt**: Remix new playlists from your existing playlist(s) and liked songs by sorting them by BPM.  </br>
+**Website Link:** [Songs Classifier](https://songs-classifier.netlify.app/) </br>
+**GitHub Repo:** [kevinmahrous/songs-classifier](https://github.com/kevinmahrous/songs-classifier)
+
 ### Mixmello: Remix Spotify Playlists
 
 **Bounty Prompt**: A program that takes your spotify playlist and converts it to another one of remixes of the same songs, to get some variety. Create remixed versions of your favourite playlists. Free and open source! </br>
