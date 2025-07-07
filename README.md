@@ -337,6 +337,7 @@ Overall, I strongly advise against closed source and ads -- not just because of 
 
 ### Fun/Tools
 
+- **Mass Add Escape Rooms**: Use an AI agent to add all missing escape rooms from Google onto Morty.
 - **iPhone Photo Detector**: A badge you can wear on your chest that detects if someone's pointing an iPhone camera at you -- since infrared dots from the iPhone depth dot system can be detected, then maybe the device just beeps. This works since the last few generations have a LIDAR-style solution that emits infrared light at a precise wavelength (they use it to determine depth), but you can just detect that!
 - **Accurate Twitter Count**: An extension that tracks engagement over past posts and samples followers and makes a better guess at the number of non-bot followers someone has on Twitter.
 - **Crowdsourced Wifi**: A simple app where for each 10 wifi passwords you upload, can access any one other wifi password near you. It crowdsources wifi networks via a very simple PC or phone upload, and lets people pay to bypass the upload requirement. You can add additional decentralization via only authenticating uploads if the Apple App attest signature of the data sharing request to your phone passes on chain. I heard wifimap and instabridge tried this, but are now overrun by ads.
