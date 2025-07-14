@@ -127,6 +127,13 @@ If you fully deploy the project publicly, I award free hosting and small cash pr
 **Demo Video:** [30 second Video](https://streamable.com/e/dow82b) </br>
 **Github Repo:** [Github](https://github.com/zephyrys/stylish-flask-backend)
 
+### Dead Link Fixer
+
+**Bounty Prompt:** A website that lets you put in a Github repo, and it'll automatically make PR fixing all the dead links via replacing them with archive.org links </br>
+**Completed by:** Mathias Hamza Mirza</br>
+**Github Repo:** https://github.com/MathiasHM/deadlink-fixer
+**Website Link:** https://mathiashm.github.io/deadlink-fixer/
+
 </p>
 </details>
 </br>
@@ -234,6 +241,7 @@ Overall, I strongly advise against closed source and ads -- not just because of 
 - **LLM App Editor**: Often, people have feedback on the apps or websites that they use. With LLMs, it should be possible to decompile any Android app or website sufficiently to be able to fix the proposed bug or insert the proposed feature via a text interface and environment with good enough simulation and understanding of if the bug could be fixed or the feature could be added. Seems doable as the next iteration of Devin/Cursor-like flows.
 - Automatically track all the keyboard shortcuts/clicks you do within an editor, and suggest/generate keybindings and commands for your most inefficient workflows (an interactive way to practice forgotten yet useful vim shortcuts, for instance)
 - **Github Dead Link Fixer**: A website that lets you put in a Github repo, and it'll automatically make PR fixing all the dead links via replacing them with archive.org links like [this Github bot](https://github.com/tmcw/notfoundbot).
+  - DONE: By <a href="https://github.com/MathiasHM/deadlink-fixer">Mathias Hamza Mirza</a>
 - **Auto-Archiver**: A greasemonkey/tampermonkey script to automatically in the background, backup all visited pages and their hyperlinks to Internet Archive. 
   - Edit: [ATRescue + Flare0n's script from 2014](https://gist.github.com/ATRescue/e40efa579e4461561697934c1c3be229) still works well. I [forked it](https://gist.github.com/Divide-By-0/313bf6ab375e4f3112adf41ef8c15d5f) to add a small delay after each link to avoid being ratelimited. The [version deployed to the Chrome store](https://chrome.google.com/webstore/detail/autosave-to-wayback-machi/defmcmdgnplidnoilmeleeglnmjkalnk) doesn't have enough customizability (i.e. if you want to, say, avoid all Google drive links or avoid ratelimits), so I recommend the Tampermonkey script instead. My 'User Excludes' list includes \*google.com\* and \*gmail.com\* but for some reason Google Chrome keeps thinking I'm getting hacked (on my calendar I think?) so evidently better filtering needs to be done here. Maybe instead of just blocking the original host, also block all links out from safe hosts? Anyways if anyone can correctly diagnose and fork this code to fix this Google banning issue, I'll still award a half bounty.
 - A lightweight create-next-app for ML apps. This starter app would compile on first clone and run React and Python. Should have a 'yarn deploy' or something that does a one-click deploy to an API endpoint as well.
