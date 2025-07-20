@@ -226,7 +226,7 @@ Overall, I strongly advise against closed source and ads -- not just because of 
   - DONE (close enough): This is basically what [examine.com](https://examine.com) does, and I'm satisfied with their holistic large-scale study rating system.
 - **Dishes likely to have Allergens**: Search portal where you put in a dish and it says what percent of online recipes of that dish have nuts, maybe by country too. Done by scraping recipes by the country of origin to determine what to avoid when allergic people eat that cuisine and create an intuition about what allergens and what restaurant dishes to avoid for a certain culture.
 - **Instacart/Amazon Notifier for Food Allergies**: A chrome extension that goes through an Instacart/Amazon Fresh cart and finds them on an ingredient website and scrapes the ingredients, and flags foods with user-specified bad ingredients: whether it's nut allergies, seed oil aversion, or high fructose corn syrup. Various nutrition authors would certainly help market this, especially on Twitter.
-
+- DONE: By <a href="https://github.com/kevinmahrous/">Kevin Mahrous</a> at <a href="https://github.com/kevinmahrous/eatisure">Eatisure</a>!
 <a name="Coding"></a>
 
 ### Programming Tools
