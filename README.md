@@ -210,6 +210,7 @@ Overall, I strongly advise against closed source and ads -- not just because of 
 - **Movie to Playlist Converter**: Website that takes a video or movie, Shazam's all the songs or looks up soundtracks if they're public, and converts it to a Spotify playlist automatically. This might already be commonplace for mainstream movies, but doesn't exist for uncommon ones.
 - **Little Dancer:** Use echo nest labs and FFT to sync a bunch of clips to a specific BPM or sequence of beats. Using some beat detector (likely also FFT), have a mini cheerleader or dancing figure synced to the beat in the bottom corner of your laptop. Can be based off of [stable diffusion dancing](https://metaphysic.ai/creating-authentic-human-motion-synthesis-via-diffusion/) to enable custom dancing.
 - An app that chooses songs of a specific BPM from all your Spotify liked and playlisted songs, for workouts
+  - DONE: By <a href="https://github.com/kevinmahrous/">Kevin Mahrous</a> at <a href="https://songs-classifier.netlify.app/">Songs Classifier</a>!
 - An app that plays hype beats or just a simple beat behind a podcast, so when you run you can listen and stay on pace
 - A better rap lyrics generator than basic [MCMC/RNN methods](https://www.reddit.com/r/hiphopheads/comments/acwky9/original_python_program_that_writes/); use GPT-Neo/Llama/Mistral (any good OSS LLM) to generate reasonable distributions over the next words, then reweight the distribution of probabilities over next words by hard-coded poetic heuristics, such as the amount of internal rhyming to same syllable count on the previous line, alliteration, etc.
 
@@ -226,7 +227,7 @@ Overall, I strongly advise against closed source and ads -- not just because of 
   - DONE (close enough): This is basically what [examine.com](https://examine.com) does, and I'm satisfied with their holistic large-scale study rating system.
 - **Dishes likely to have Allergens**: Search portal where you put in a dish and it says what percent of online recipes of that dish have nuts, maybe by country too. Done by scraping recipes by the country of origin to determine what to avoid when allergic people eat that cuisine and create an intuition about what allergens and what restaurant dishes to avoid for a certain culture.
 - **Instacart/Amazon Notifier for Food Allergies**: A chrome extension that goes through an Instacart/Amazon Fresh cart and finds them on an ingredient website and scrapes the ingredients, and flags foods with user-specified bad ingredients: whether it's nut allergies, seed oil aversion, or high fructose corn syrup. Various nutrition authors would certainly help market this, especially on Twitter.
-
+- DONE: By <a href="https://github.com/kevinmahrous/">Kevin Mahrous</a> at <a href="https://github.com/kevinmahrous/eatisure">Eatisure</a>!
 <a name="Coding"></a>
 
 ### Programming Tools
