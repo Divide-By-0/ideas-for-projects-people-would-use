@@ -239,6 +239,7 @@ Overall, I strongly advise against closed source and ads -- not just because of 
 - A lightweight create-next-app for ML apps. This starter app would compile on first clone and run React and Python. Should have a 'yarn deploy' or something that does a one-click deploy to an API endpoint as well.
   - Edit: I now think this should use Create-T3-App and [Modal](http://modal.com) or [Replicate](https://replicate.com) instead.
 - **404 to Archive Redirecter**: A greasemonkey/tampermonkey script to, when detecting a page that says "404" or "Not Found" on it, automatically redirect to that page in the Internet Archive.
+- DONE: By <a href="https://github.com/kordischp/404-to-archive">Patryk Kordisch</a>
 - **OSS Keybr Clone**: Make an open source keybr clone with more statistics, like seperating lowercase/capital letters, and showing most missed keys and most missed pairs of keys.
   - DONE: This is done at [https://keybr.onrender.com](https://keybr.onrender.com).
 
