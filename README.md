@@ -12,10 +12,15 @@ Feel free to use these for a hackathon, side project, or hacklodge project -- I'
 
 If you fully deploy the project publicly, I award free hosting and small cash prizes at $25 per idea. This is at my discretion so people don't game the system or feel cheated; the point is to build the project for learning and self-satisfaction, not the grant -- the money is mostly just so you can pay for a domain and forget about it, so it can continue to exist :). I will likely fund any good-faith implementation. Reach out to [me](https://twitter.com/yush_g) if you're interested in helping sponsor bounties as well!
 
-**Total projects built: 17.**
+**Total projects built: 18.**
 
 **<details><summary>Finished + Paid out Bounties</summary>**
 <p>
+
+- **Dishes likely to have Allergens**
+- **Bounty Prompt**: -Search portal where you put in a dish and it says what percent of online recipes of that dish have nuts, maybe by country too. Done by scraping recipes by the country of origin to determine what to avoid when allergic people eat that cuisine and create an intuition about what allergens and what restaurant dishes to avoid for a certain culture.
+- Deployed Site: https://dishallgy.com/
+- Github: https://github.com/PrasadSaha1/DishAllgy
 
 ### Functional Encryption-based Witness Encrypted Tinder
 **Bounty Prompt**: - Witness Encypted Tinder: Implement Protocol Labs’ [new construction](https://drive.google.com/file/d/1GEfm77BfKRz1Xzby89era8KOgalqn00L/view) or [this non-succinct one](https://eprint.iacr.org/2021/1423.pdf), and then build a proof of concept Tinder where everyone selects 5 people they want to match with, and are only matched if people select each other. First, everyone commits to, say, 5 people they are most interested in. Those 5 people should get only notified if they also commit to that person as one of their chosen 5 as well. So, after everyone commits, those commitments are used in the FC-WE scheme that everyone then runs, to publish a message only to their 5 folks only if they also had valid commitments (i.e. with them in it, while keeping it anonymous, which may not be possible with groth16). Finally, in the reveal stage, everyone attempts to read every message and can only end up reading the ones that work for them. You can do this with a pairwise Socialist Millionaire or Yao’s Garbled Circuits, but this requires more back and forth stages.</br>
@@ -224,7 +229,6 @@ Overall, I strongly advise against closed source and ads -- not just because of 
 - A collection of all large-scale health studies for foods, ranked on a single number line of toxicity with error bars. Can scrape correlation/p values and error bars directly from papers.
   - Resulting graphic should look like this: https://cdn.vox-cdn.com/uploads/chorus_asset/file/3523382/Medical_studies-05.0.png
   - DONE (close enough): This is basically what [examine.com](https://examine.com) does, and I'm satisfied with their holistic large-scale study rating system.
-- **Dishes likely to have Allergens**: Search portal where you put in a dish and it says what percent of online recipes of that dish have nuts, maybe by country too. Done by scraping recipes by the country of origin to determine what to avoid when allergic people eat that cuisine and create an intuition about what allergens and what restaurant dishes to avoid for a certain culture.
 - **Instacart/Amazon Notifier for Food Allergies**: A chrome extension that goes through an Instacart/Amazon Fresh cart and finds them on an ingredient website and scrapes the ingredients, and flags foods with user-specified bad ingredients: whether it's nut allergies, seed oil aversion, or high fructose corn syrup. Various nutrition authors would certainly help market this, especially on Twitter.
 
 <a name="Coding"></a>
