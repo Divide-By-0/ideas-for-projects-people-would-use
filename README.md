@@ -10,11 +10,11 @@ Feel free to use these for a hackathon, side project, or hacklodge project -- I'
 
 **Total projects built: 17.**
 
-**<details><summary>Finished Projects</summary>**
+**<details><summary>Finished + Paid out Bounties</summary>**
 <p>
 
 ### Functional Encryption-based Witness Encrypted Tinder
-**Project Idea**: - Witness Encypted Tinder: Implement Protocol Labs’ [new construction](https://drive.google.com/file/d/1GEfm77BfKRz1Xzby89era8KOgalqn00L/view) or [this non-succinct one](https://eprint.iacr.org/2021/1423.pdf), and then build a proof of concept Tinder where everyone selects 5 people they want to match with, and are only matched if people select each other. First, everyone commits to, say, 5 people they are most interested in. Those 5 people should get only notified if they also commit to that person as one of their chosen 5 as well. So, after everyone commits, those commitments are used in the FC-WE scheme that everyone then runs, to publish a message only to their 5 folks only if they also had valid commitments (i.e. with them in it, while keeping it anonymous, which may not be possible with groth16). Finally, in the reveal stage, everyone attempts to read every message and can only end up reading the ones that work for them. You can do this with a pairwise Socialist Millionaire or Yao’s Garbled Circuits, but this requires more back and forth stages.</br>
+**Bounty Prompt**: - Witness Encypted Tinder: Implement Protocol Labs’ [new construction](https://drive.google.com/file/d/1GEfm77BfKRz1Xzby89era8KOgalqn00L/view) or [this non-succinct one](https://eprint.iacr.org/2021/1423.pdf), and then build a proof of concept Tinder where everyone selects 5 people they want to match with, and are only matched if people select each other. First, everyone commits to, say, 5 people they are most interested in. Those 5 people should get only notified if they also commit to that person as one of their chosen 5 as well. So, after everyone commits, those commitments are used in the FC-WE scheme that everyone then runs, to publish a message only to their 5 folks only if they also had valid commitments (i.e. with them in it, while keeping it anonymous, which may not be possible with groth16). Finally, in the reveal stage, everyone attempts to read every message and can only end up reading the ones that work for them. You can do this with a pairwise Socialist Millionaire or Yao’s Garbled Circuits, but this requires more back and forth stages.</br>
 **Deployed Site**: [Oblivious Tinder](https://oblivious-site.onrender.com/login)
 **Witness Encryption Tinder Site Github Repo Link**: [novus677/witness-encrypt-tinder](https://github.com/novus677/witness-encrypt-tinder)</br>
 **Browser-Friendly Witness Encryption Library Link**: [novus677/witness-encryption-functional-commitment](https://github.com/novus677/witness-encryption-functional-commitment/) forked from [vicsn/witness-encryption-functional-commitment](https://github.com/vicsn/witness-encryption-functional-commitment)
@@ -22,62 +22,62 @@ Feel free to use these for a hackathon, side project, or hacklodge project -- I'
 
 ### Mixmello: Remix Spotify Playlists
 
-**Project Idea**: A program that takes your spotify playlist and converts it to another one of remixes of the same songs, to get some variety. Create remixed versions of your favourite playlists. Free and open source! </br>
+**Bounty Prompt**: A program that takes your spotify playlist and converts it to another one of remixes of the same songs, to get some variety. Create remixed versions of your favourite playlists. Free and open source! </br>
 **Website Link:** [mixmello.com](https://www.mixmello.com) </br>
 **GitHub Repo:** [alexgurr/mixmello](https://github.com/alexgurr/mixmello)
 
 ### Colorize Video
 
-**Project Idea:** An API endpoint for temporally consistent video colorization</br>
+**Bounty Prompt:** An API endpoint for temporally consistent video colorization</br>
 **Completed by**: Syed Mustafa</br>
 **Deployed Demo:** [Replicate API Demo](https://replicate.com/cudanexus/debvc)</br>
 
 ### Get Off Those Sites
 
-**Project Idea:** A good Chrome extension to keep you off Facebook etc. Tracks how long you spend on degenerate sites, then when you go to Facebook etc, it says "On average, you think you'll spend 16 minutes, but you end up spending 31 minutes on this tab. How many minutes do you think you'll spend this time?" And at the end of that # of minutes, it makes the page black and white so you can continue to browse but it'll be slightly uncomfortable. </br>
+**Bounty Prompt:** A good Chrome extension to keep you off Facebook etc. Tracks how long you spend on degenerate sites, then when you go to Facebook etc, it says "On average, you think you'll spend 16 minutes, but you end up spending 31 minutes on this tab. How many minutes do you think you'll spend this time?" And at the end of that # of minutes, it makes the page black and white so you can continue to browse but it'll be slightly uncomfortable. </br>
 **Completed by** [GrimSteel](github.com/grimsteel) </br>
 **Github Repo:** [get-off-those-sites](https://github.com/grimsteel/get-off-those-sites/) </br>
 
 ### Spotify Match
 
-**Project Idea**: A website that, when given a certain song or artist on Spotify, it finds friends who have listened to that artist/song (by # of occurrences in their public playlists). Useful to find concert buddies/people with similar music tastes. </br>
+**Bounty Prompt**: A website that, when given a certain song or artist on Spotify, it finds friends who have listened to that artist/song (by # of occurrences in their public playlists). Useful to find concert buddies/people with similar music tastes. </br>
 **Completed By**: Colin Flueck </br>
 **Website Link**: [spotifymatch.com](https://spotifymatch.com)
 
 ### Safe Tornado Cash
 
-**Project Idea**: Safe tornado cash, where users can use it but hackers/North Korea can't. To be able to use tornado.cash, you have to wait a significant number of blocks between deposits and withdraws. You know the leaves being added to the Merkle tree, and can trace which are linked to stolen deposits. You can create a second blocklist of "banned leaves", which allows you to block withdraws of nullifier leaves, meaning hackers can deposit but not withdraw. </br>
+**Bounty Prompt**: Safe tornado cash, where users can use it but hackers/North Korea can't. To be able to use tornado.cash, you have to wait a significant number of blocks between deposits and withdraws. You know the leaves being added to the Merkle tree, and can trace which are linked to stolen deposits. You can create a second blocklist of "banned leaves", which allows you to block withdraws of nullifier leaves, meaning hackers can deposit but not withdraw. </br>
 **Github Repo**: [tornado-core-blacklist](https://github.com/hananbeer/tornado-core-blacklist)
 
 ### Open-source Keybr Clone with More Statistics
 
-**Project Idea**: Make an open source keybr clone with more statistics, like seperating lowercase/capital letters, and showing most missed keys and most missed pairs of keys. </br>
+**Bounty Prompt**: Make an open source keybr clone with more statistics, like seperating lowercase/capital letters, and showing most missed keys and most missed pairs of keys. </br>
 **Completed by**: Aayush Gupta (me) </br>
 **Github Repo**: [keybr-with-stats](https://github.com/Divide-By-0/keybr-with-stats/)
 **Deployed Website**: https://keybr.onrender.com
 
 ### Tuneder
 
-**Project Idea**: A tinder for songs -- plays the most commented 10 seconds of a song on Apple Music and adds it to a playlist if you like it. Inspired by Soundsieve (https://github.com/wilzh40/SoundSieve) which is unfortunately dead, and fab.fm which has a different song discovery method. Released as an iOS app. </br>
+**Bounty Prompt**: A tinder for songs -- plays the most commented 10 seconds of a song on Apple Music and adds it to a playlist if you like it. Inspired by Soundsieve (https://github.com/wilzh40/SoundSieve) which is unfortunately dead, and fab.fm which has a different song discovery method. Released as an iOS app. </br>
 **Completed by**: Aditya Saravana </br>
 **Github Repo**: [github.com/adityasaravana/Tuneder](https://github.com/adityasaravana/Tuneder)
 
 ### SoundSwipe
 
-**Project Idea**: A tinder for songs -- plays the most commented 10 seconds of a song on SoundCloud and adds it to a playlist if you like it. Inspired by Soundsieve (https://github.com/wilzh40/SoundSieve) which is unfortunately dead, and fab.fm which has a different song discovery method. Released as a web app. </br>
+**Bounty Prompt**: A tinder for songs -- plays the most commented 10 seconds of a song on SoundCloud and adds it to a playlist if you like it. Inspired by Soundsieve (https://github.com/wilzh40/SoundSieve) which is unfortunately dead, and fab.fm which has a different song discovery method. Released as a web app. </br>
 **Completed by**: Kevin Grosso ([k0dev](https://github.com/k0dev))</br>
 **Github Repo**: https://github.com/k0dev/sc-explorer</br>
 **Website Link**: [SoundSwipe](http://soundswipe.org)
 
 ### AI Video Colorization APIs
 
-**Project Idea**: Make it really easy (replicate.com deployed, with a nice interface and API) to run the latest colorization and OCR AI models, at near-cost.</br>
+**Bounty Prompt**: Make it really easy (replicate.com deployed, with a nice interface and API) to run the latest colorization and OCR AI models, at near-cost.</br>
 **Completed by**: [Cudanexus](https://github.com/cudanexus) </br>
 **Demo**: [debvc](https://replicate.com/cudanexus/debvc) and [tcvc](https://replicate.com/cudanexus/tcvc) were state-of-the-art, but perform poorly in practice. Facebook Nougat (academic OCR AI where [huggingface demo](https://huggingface.co/facebook/nougat-base) doesn't work) and BiSTNet (which won NTIRE2023's video colorization challenge) are in progress.
 
 ### Pitchpin
 
-**Project Idea**: An audio recorder where you can tap to add a flag at any time -- you can attach a note if you want, but the purpose is that later you can quickly skip to that time and know something important is there. </br>
+**Bounty Prompt**: An audio recorder where you can tap to add a flag at any time -- you can attach a note if you want, but the purpose is that later you can quickly skip to that time and know something important is there. </br>
 **Completed by**: Aditya Saravana </br>
 **Github Repo**: [github.com/adityasaravana/Pitchpin](https://github.com/adityasaravana/Pitchpin)
 **Website Link**: <a href="https://adityasaravana.github.io/pitchpin-site/">Pitchpin</a>
@@ -85,40 +85,40 @@ Feel free to use these for a hackathon, side project, or hacklodge project -- I'
 
 ### Damn Daniel Button
 
-**Project Idea**: The bruh button, but for damn daniel </br>
+**Bounty Prompt**: The bruh button, but for damn daniel </br>
 **Completed by**: Daniel Bessonov, Patrick Li </br>
 **Press:** [Saratoga Falcon: Top 25 App on App Store Taken Down](https://www.saratogafalcon.org/content/students%E2%80%99-top-25-app-taken-down-after-%E2%80%98damn-daniel%E2%80%99-lawyers-threaten-legal-action)
 
 ### Phone Scroll Distance Leaderboard
 
-**Project Idea:** An app that tracks the distance you've scrolled on your phone and puts it on a leaderboard </br>
+**Bounty Prompt:** An app that tracks the distance you've scrolled on your phone and puts it on a leaderboard </br>
 **Completed by**: Bryan Chiang </br>
 **Demo Video**: [Demo](https://i.imgur.com/9VCWd7l.mp4)
 
 ### Auto-LaTeX Equations
 
-**Project Idea:** A way to use LaTeX equations in Google Docs </br>
+**Bounty Prompt:** A way to use LaTeX equations in Google Docs </br>
 **Completed by**: Aayush Gupta (me) </br>
 **Website:** https://autolatex.com </br>
 **Press:** [Nature](https://www.nature.com/articles/d41586-019-01796-1)
 
 ### Spotify Playlist Cleanify
 
-**Project Idea:** A program that takes your spotify playlist and converts it to a clean version with the same songs and removes it if it can't find any. Used to be able to listen to my playlists in the car with my parents </br>
+**Bounty Prompt:** A program that takes your spotify playlist and converts it to a clean version with the same songs and removes it if it can't find any. Used to be able to listen to my playlists in the car with my parents </br>
 **Completed by**: Arman Rafati</br>
 **Website:** https://www.cleanify.app/ </br>
 **Github Link:** https://github.com/code-arman/Cleanify
 
 ### Windows Automatic Unzipper
 
-**Project Idea:** When something is downloaded, unzip it to its own folder then delete the original zip file </br>
+**Bounty Prompt:** When something is downloaded, unzip it to its own folder then delete the original zip file </br>
 **Completed by**: Aiden Magrath</br>
 **Github Repo:** https://github.com/aidenmagrath/Windows-Auto-Unzipper
 **Website Link:** https://autounzipper.com/
 
 ### Trippy Videos
 
-**Project Idea:** Upsample each frame in a video independently with a GAN, creating an entirely style-transfered universe that moves from frame to frame in a slightly jarring and hypnotic way. </br>
+**Bounty Prompt:** Upsample each frame in a video independently with a GAN, creating an entirely style-transfered universe that moves from frame to frame in a slightly jarring and hypnotic way. </br>
 **Completed by**: Milo Cress, David Wu, Alice Chen, Vincent Huang </br>
 **Demo Video:** [30 second Video](https://streamable.com/e/dow82b) </br>
 **Github Repo:** [Github](https://github.com/zephyrys/stylish-flask-backend)
@@ -215,7 +215,7 @@ Overall, I strongly advise against closed source and ads -- not just because of 
 
 - **8 Hours of Sleep App**: Sleep tracker app that detects when you fall asleep. It then turns off your sleep podcast/asmr and makes sure you get as close to 8 hours as possible and wakes you up in a light sleep state. Note that existing sleep cycle apps force a wake-up time, but time-to-sleep is often so inconsistent that chances are you won't be getting 8 hours.
 - **Lucid dreaming app**: Pairs with Oura ring or Sleep Cycle-type apps, to play a lucid symbol sound when you are in REM sleep to try to induce lucid dreaming, inspired by Lucid Experiment. It will also have you practice snapping to awareness when the sound is played for 5 minutes as you fall asleep every day.
-  - Edit: Turns out Sleep by Android sort of does this; I actually lucid dreamt the first time I tried it. Oura doesn't have a real-time API that can be called during sleep unfortunately. This is good enough for me.
+  - Edit: Turns out Sleep by Android sort of does this; I actually lucid dreamt the first time I tried it. Oura doesn't have a real-time API that can be called during sleep unfortunately. This is good enough for me, so going to deactivate this idea's bounty.
 - **Patient radiology in your own hands**: An app that lets you take your physician's radiology image (or auto-align a sneaky picture of it), generate the hotspots of bilaterally asymmetric places or ML-determined anomalies, then the patient can ask the radiologist to double check those spots and comment on what it is. Inspired since radiologists' eyes often pause at the place where people have tumors, according to some studies -- noticably AI is significantly better than humans yet not widely deployed.
 - A collection of all large-scale health studies for foods, ranked on a single number line of toxicity with error bars. Can scrape correlation/p values and error bars directly from papers.
   - Resulting graphic should look like this: https://cdn.vox-cdn.com/uploads/chorus_asset/file/3523382/Medical_studies-05.0.png
@@ -298,7 +298,7 @@ Overall, I strongly advise against closed source and ads -- not just because of 
 ### Edtech/Research/School
 
 - ***Timed comments for YouTube**: Like the [existing beta which doesn't seem likely to rollout soon](https://www.engadget.com/youtube-testing-timed-comments-114419554.html) but shown in a Soundcloud style. That is, a scraper gets all the comments, extracts timestamps, and like Soundcloud, displays previews that expand on hover in tiny popups at the timestamp the bottom of the video as you watch. If not fullscreeen, each comment thread at the timestamp can scroll by on the side in place of the next video suggestion, like an auto-scrolling Khan Academy comments board. Would likely be a Chrome extension. Ideally, could also show such comments automatically on any embedded YouTube video as well. If someone using the extension likes or responds, should just respond from their logged in YouTube account.
-  - DONE: This already exists! [Tempus](https://chrome.google.com/webstore/detail/tempus/bpdhbpeecmmglmkjfmigehaebpndmceh) is a Chrome Extension that does exactly this.
+  - DONE: This already exists! [Tempus](https://chrome.google.com/webstore/detail/tempus/bpdhbpeecmmglmkjfmigehaebpndmceh) is a Chrome Extension that does exactly this. Because it already existed, I paid for some development on it to fix bugs and add features, instead of a traditional bounty.
 - **Combine Lecture Videos**: (copied from video processing section) -- given a set of videos (that may be slightly offset) from different angles, combine them into one video that cuts between the frames. This already exists for ai podcast processing software so shouldn't be too hard to adapt? Full [spec for CLI tool here](https://docs.google.com/document/d/1oInpmyf3xikM6TOMaz6Uqz5ZStdFyP7YqKX39RR9nMQ/edit).
 - An extension where you could double click a citation # in a paper and it would automatically open the pdf from jstor or other 👀 sources.
 - A project to make top papers on paperswithcode.com into interactive APIs on [Replicate](https://replicate.com) that anyone can play with.
@@ -403,7 +403,7 @@ Overall, I strongly advise against closed source and ads -- not just because of 
 - **ZK Email Applications**: Using our SDK linked to from https://prove.email, build any one of the applications listed on [our organization readme](https://github.com/zkemail/.github/blob/main/profile/README.md#help-out)! Most useful for getting off-chain data on chain, or sending assets to people off-chain in a trustless manner via email.
 - **Optimal NFT Auctions**: Build a full NFT marketplace that uses optimal auction theory instead of first price auctions, like Opensea etc do right now. You should use our [on chain blind Vickrey auction contracts](https://github.com/Philogy/create2-vickrey-contracts), which you can understand via our [blog post](https://blog.aayushg.com/posts/vickrey).
 - **Safe Tornado Cash**: Where users can use it, and prove non-membership in blocked lists of addresses. Such a list could be i.e. money linked to hacks/North Korea or something. Currently, to be able to use tornado.cash, you have to wait a significant number of blocks between deposits and withdraws. You know the leaves being added to the Merkle tree, and can trace which are linked to stolen deposits. You can create a second blocklist of "banned leaves", which allows you to block withdraws of nullifier leaves, meaning hackers can deposit but not withdraw.
-  - Partially DONE: This was [built](https://github.com/hananbeer/tornado-core-blacklist)! Ameen built a similar centralized version of such a list, but he controls who is on that list. A version with any number of permissionless lists that users can choose to prove or not prove inclusion in, and anyone can make a new list, is a better way to do this.
+  - Partially DONE: This was [built](https://github.com/hananbeer/tornado-core-blacklist) and a bounty was awarded! Ameen built a similar centralized version of such a list, but he controls who is on that list. A version with any number of permissionless lists that users can choose to prove or not prove inclusion in, and anyone can make a new list, is a better way to do this.
   - Note that this can be made more general. Any entity (the government, rektfinance.eth, or you) can create a curated list of "bad addresses". Any withdrawer can prove non-inclusion in any set of lists they think others would care about when they withdraw (via proof of inclusions in the complement).
 - **Better Gitcoin Comments**: Make a PR to [Gitcoin](https://github.com/gitcoinco) to order comment section by comments first, then all contributions. Also recalculate the matching amount shown on the frontend to be adjusted to project future donations based on the average distribution, so that the matching amount is more accurate.
 - Patch ethers.js to add a function that calculates the transaction hash, without having to send the transaction. keccak256 on the signed transaction doesn't work, and there is no built in function to do so even though it is possible and one can write their own helper function (see the [description here](https://github.com/Divide-By-0/ideas-for-projects-people-would-use/issues/12)).
@@ -419,6 +419,6 @@ Overall, I strongly advise against closed source and ads -- not just because of 
 - ~~Integrate Nova as a proving backend in circom, with Solidity verifiers~~
   - Edit: [Circom-nova](https://github.com/nalinbhardwaj/Nova-Scotia) is done.
 - ~~Create an OSS, easy frontend for the [weth contract](https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2#code) with just three buttons: connect to web3, wrap, and withdraw.~~
-  - Edit: Just discovered https://wrapeth.com/, existed for 2+ years, and is open source.
+  - Edit: Just discovered https://wrapeth.com/, existed for 2+ years, and is open source. This bounty is no longer offered!
 - ~~Add a nice frontend to https://github.com/nulven/zk-message-board, and build a proof-of-concept anonymous group posting app powered by zero-knowledge proofs.~~
   - Edit: Done by https://heyanon.xyz.
