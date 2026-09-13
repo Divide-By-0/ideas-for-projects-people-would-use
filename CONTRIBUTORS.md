@@ -1,4 +1,9 @@
 # Finished Projects and Contributors
+### Eatisure: Checks Amazon items for banned ingredients
+
+**Bounty Prompt**: A browser extension that checks for specific ingredients on Amazon's cart page.  </br>
+**Website Link:** None </br>
+**GitHub Repo:** [kevinmahrous/eatisure](https://github.com/kevinmahrous/eatisure)
 
 ### Mixmello: Remix Spotify Playlists
 
