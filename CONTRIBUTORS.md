@@ -105,3 +105,10 @@ Inspired by https://www.joinleelo.com/blog/how-we-came-up-with-the-name-leelo </
 **Completed by**: Aditya Saravana </br>
 **Github Repo**: [github.com/adityasaravana/Pitchpin](https://github.com/adityasaravana/Pitchpin)<br>
 **Website Link**: <a href="https://adityasaravana.github.io/pitchpin-site/">Pitchpin</a>
+
+### 404 to Archive Redirector
+
+**Bounty Prompt**: A greasemonkey/tampermonkey script to, when detecting a page that says "404" or "Not Found" on it, automatically redirect to that page in the Internet Archive. </br>
+**Completed by**: Aadarsh Gajula </br>
+**Github Repo**: [404 to Archive Redirector](https://github.com/aadarshgajula/404-to-archive-redirector)<br>
+
