@@ -1,4 +1,15 @@
 # Finished Projects and Contributors
+### Eatisure: Checks Amazon items for banned ingredients
+
+**Bounty Prompt**: A browser extension that checks for specific ingredients on Amazon's cart page.  </br>
+**Website Link:** None </br>
+**GitHub Repo:** [kevinmahrous/eatisure](https://github.com/kevinmahrous/eatisure)
+
+### Songs Classifier: Organize your music by how it moves you
+
+**Bounty Prompt**: Remix new playlists from your existing playlist(s) and liked songs by sorting them by BPM.  </br>
+**Website Link:** [Songs Classifier](https://songs-classifier.netlify.app/) </br>
+**GitHub Repo:** [kevinmahrous/songs-classifier](https://github.com/kevinmahrous/songs-classifier)
 
 ### Mixmello: Remix Spotify Playlists
 
