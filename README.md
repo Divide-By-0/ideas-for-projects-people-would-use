@@ -360,7 +360,7 @@ Overall, I strongly advise against closed source and ads -- not just because of 
 ### Hardware
 
 - **USB-C Ring**: Build a ring with a USB C charger in it sideways to be able to power it.
-- **Hand Crank Ring**: Build a ring that has a tiny knob on it, with the form factor of a watch, but the pwoer generation of a hand crank. You can then use power-over-skin to power other mini wearables.
+- **Hand Crank Ring**: Build a ring that has a tiny knob on it, with the form factor of a watch, but the power generation of a hand crank. You can then use power-over-skin to power other mini wearables.
 - **Transparent Solar Startups**: This is more a general field that is underrepresented in startups, but I think more startups should be trying to bring [transparent solar tech](https://msutoday.msu.edu/news/2017/transparent-solar-technology-represents-wave-of-the-future) to market via scaling window solar panel manufacturing.
 
 <a name="Crypto"></a>
