@@ -105,3 +105,8 @@ Inspired by https://www.joinleelo.com/blog/how-we-came-up-with-the-name-leelo </
 **Completed by**: Aditya Saravana </br>
 **Github Repo**: [github.com/adityasaravana/Pitchpin](https://github.com/adityasaravana/Pitchpin)<br>
 **Website Link**: <a href="https://adityasaravana.github.io/pitchpin-site/">Pitchpin</a>
+
+### Calendly Combiner
+**Bounty Prompt**: A  web app that accepts multiple public Calendly share links and finds overlapping available time slots across them. </br>
+**Completed by**: Zain Akber Malik ([zainmalek786](https://github.com/zainmalek786))</br>
+**Github Repo**: [github.com/zainmalek786/CalendlyCombiner](https://github.com/zainmalek786/CalendlyCombiner.git)<br>
